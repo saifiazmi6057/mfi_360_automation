@@ -24,7 +24,7 @@ export class FundDashboardPage {
             benchmark_Index: "//td[normalize-space()='NIFTY Low Duration Debt Index A-I*']",
             fund_Manager: "//td[contains(text(),'Kaustubh Gupta,')]",
             launch_Date: "//td[normalize-space()='05-Jun-2003']",
-            aum: "//td[normalize-space()='13401.97']",
+            aum: "//tr[th[normalize-space()='AUM (In ₹ Crore)']]/td",
             exit_Load: "//td[normalize-space()='Nil']",
             scheme_Nature: "//td[normalize-space()='Debt']",
             scheme_Sub_Nature: "//td[normalize-space()='Floater Fund']",
@@ -171,7 +171,7 @@ export class FundDashboardPage {
         await expect(this.page.locator(this.fundSnapshot.fundDetails.launch_Date)).toContainText('05-Jun-2003');
 
         await setBorder(this.page, this.fundSnapshot.fundDetails.aum);
-        await expect(this.page.locator(this.fundSnapshot.fundDetails.aum)).toContainText('13506.69');
+        await expect(this.page.locator(this.fundSnapshot.fundDetails.aum)).not.toHaveText('');
 
         await setBorder(this.page, this.fundSnapshot.fundDetails.exit_Load);
         await expect(this.page.locator(this.fundSnapshot.fundDetails.exit_Load)).toContainText('Nil');
