@@ -99,7 +99,7 @@ test("Verify 'Fixed perodic' with single composite index, other criteria '52 Wee
 
 test("Verify P2P report with single index and customize index combination and other criteria multiple with check rank and min max ", async () => {
     const index = "BSE 100";
-    const customize_index = "Custom index personal";
+    const customize_index = "Custom Index Generic";
     await indexPerformanceAnalysis.open();
 
     await page.waitForLoadState();
@@ -127,7 +127,7 @@ test("Verify P2P report with single index and customize index combination and ot
 })
 
 test("Verify Rolling report with single composite index and customize index combination and other criteria multiple with check rank and min max", async () => {
-    const customize_index = "Custom index personal";
+    const customize_index = "Custom Index Generic";
     const composite_index = "Composite index personal";
     await indexPerformanceAnalysis.open();
 
@@ -160,7 +160,7 @@ test("Verify Rolling report with single composite index and customize index comb
 })
 
 test("Verify Fixed Perodic report with single composite index and customize index combination and other criteria multiple with check show min max", async () => {
-    const customize_index = "Custom index personal";
+    const customize_index = "Custom Index Generic";
     const composite_index = "Composite index personal";
     await indexPerformanceAnalysis.open();
 

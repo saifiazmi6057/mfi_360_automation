@@ -69,7 +69,7 @@ test("Verify that the user can access and interact with return tab , Statistical
 
 
     for (const report of reportTypes) {
-        await reportbuilder.reportTypeSection.selectDateRange(report.startDate, report.endDate);
+        await reportbuilder.selectDateRange(report.startDate, report.endDate);
         await reportbuilder.reportTypeSection.selectPeriodForRolling(report.period, report.periodType)
         await reportbuilder.reportTypeSection.selectFrequency(report.frequency, report.frequencyType)
     }
@@ -194,7 +194,7 @@ test("Verify that the user can access and interact with Other Criteria section",
 
 
     for (const report of reportTypes) {
-        await reportbuilder.reportTypeSection.selectDateRange(report.startDate, report.endDate);
+        await reportbuilder.selectDateRange(report.startDate, report.endDate);
         await reportbuilder.reportTypeSection.selectPeriodForRolling(report.period, report.periodType)
         await reportbuilder.reportTypeSection.selectFrequency(report.frequency, report.frequencyType)
     }

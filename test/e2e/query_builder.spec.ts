@@ -1,18 +1,24 @@
 import { Page, test } from '@playwright/test';
 import { Login } from '@pages/login-page';
 import { Querybuilder } from '@pages/query_builder.page';
-import { resetwebsiteState } from 'utils/Reset';
 
-let page: Page;
-let querybuilder: Querybuilder;
-test.beforeAll(async ({ browser }, testInfo) => {
-    test.setTimeout(60000);
+
+
+test.describe('Asset Allocation Tests', () => {
+  let page: Page;
+  let querybuilder: Querybuilder;
+
+  test.beforeEach(async ({ browser }, testInfo) => {
     page = await browser.newPage();
     const login = new Login(page, testInfo);
     await login.login();
-
     querybuilder = new Querybuilder(page);
-});
+  });
+
+  test.afterEach(async () => {
+    await page.close(); // ✅ Ensures clean state for next test
+  });
+
 
 //Test-1
 // Verify that the user can access and interact with the Asset Allocation section
@@ -48,6 +54,8 @@ test("Verify that the user can access and interact with the Asset Allocation sec
     await querybuilder.selectOutputAttributes("Asset Allocation", aaAttrOptionsOutput);
     await querybuilder.clickSearchBtn();
     await querybuilder.validateOutputHeaders(aaAttrOptionsOutput);
+    // i need to close the page after each test because when we run multiple test case at one time it gives alternate test case failed
+
 
 });
 
@@ -719,6 +727,7 @@ test("Verify that the user can access and interact with   Yield To Maturity ", a
     await querybuilder.clickSearchBtn();
     await querybuilder.validateOutputHeaders(ytmAttrOptionsOutput);
 
+})
 });
 
 
