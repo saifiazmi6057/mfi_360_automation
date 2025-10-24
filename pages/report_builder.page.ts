@@ -141,6 +141,53 @@ export class Reportbuilder extends BasePage {
         await this.page.waitForSelector(this.Scheme_Benchmark_Suitable_Index);
     }
 
+
+    async selectDateRange(start: string, end: string) {
+    try {
+        if (this.page.isClosed()) {
+            console.warn("Page is already closed. Cannot proceed with date selection.");
+            return;
+        }
+
+        const dateRangePicker = this.page.locator('[name="FromToDateRange"]');
+        const visiblePicker = dateRangePicker.filter({ visible: true });
+
+        if (await visiblePicker.count() === 0) {
+            console.warn("Date range picker not visible.");
+            return;
+        }
+
+        await visiblePicker.nth(0).click();
+
+        const startDatePicker = this.page.locator("[name='daterangepicker_start']");
+        const visibleStartDate = startDatePicker.filter({ visible: true });
+
+        if (await visibleStartDate.count() === 0) {
+            console.warn("Start date input not visible.");
+            return;
+        }
+
+        const startInput = visibleStartDate.nth(0);
+        await startInput.fill(start);
+        await startInput.press('Enter');
+
+        const endDatePicker = this.page.locator('[name="daterangepicker_end"]');
+        const visibleEndDate = endDatePicker.filter({ visible: true });
+
+        if (await visibleEndDate.count() === 0) {
+            console.warn("End date input not visible.");
+            return;
+        }
+
+        const endInput = visibleEndDate.nth(0);
+        await endInput.fill(end);
+        await endInput.press('Enter');
+
+    } catch (error) {
+        console.error("Error in selectDateRange:", error);
+    }
+}
+
     
 
 
