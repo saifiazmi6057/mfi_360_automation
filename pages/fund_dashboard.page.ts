@@ -383,6 +383,8 @@ export class FundDashboardPage {
 
     async validateothersTab() {
         await this.page.click(this.othersTab);
+        await setBorder(this.page, this.othersTab);
+        await expect(this.page.locator(this.othersTab)).toBeVisible();
     }
 
     async validateMinimumLumpsumInvestmentAmount() {

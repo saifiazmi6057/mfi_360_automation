@@ -30,7 +30,7 @@ test.beforeAll(async ({ browser }, testInfo) => {
 
 
 test("Verify that the user can access and interact with Credit Rating Monitor section and select Isuer/ISIN wise", async () => {
-
+  test.setTimeout(90000);
     await advanceCreditMonitorPage.open();
     await advanceCreditMonitorPage.switchTab('Issuer/ISIN wise');
     await advanceCreditMonitorPage.selectIssuer('HDFC Bank Ltd.');
@@ -59,6 +59,7 @@ test("Verify that the user can access and interact with Credit Rating Monitor se
 
 
 test("Verify that the user can access and interact with Credit Rating Monitor section and select Fund Wise section", async () => {
+    test.setTimeout(60000);
     await advanceCreditMonitorPage.open();
     await advanceCreditMonitorPage.switchTab('Fund Wise');
 

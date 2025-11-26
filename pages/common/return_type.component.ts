@@ -36,6 +36,7 @@ export class ReportReturnType {
     }
 
     async selectPeriodsForP2P(periods: string[]) {
+        
         const periodDropdown = this.page.locator(this.period_dropdown);
         const searchField = this.page.locator(this.period_search_field);
 
@@ -196,6 +197,7 @@ export class ReportReturnType {
         const endInput = visibleEndDate.nth(0);
         await endInput.fill(end);
         await endInput.press('Enter');
+         await this.page.mouse.click(0, 0);
     }
     
     async addReporType() {
@@ -210,5 +212,15 @@ export class ReportReturnType {
         const dropdown = this.page.locator(selector);
         await dropdown.selectOption(type);
     }    
-}
 
+    
+async selectPeriodByLabel(label: string) {
+  const checkbox = this.page.locator(`//label[contains(text(), "${label}")]/preceding-sibling::input[@type="checkbox"]`);
+  if (await checkbox.isVisible()) {
+    await checkbox.check();
+  } else {
+    console.warn(`Period "${label}" not found or not visible`);
+  }
+
+}
+}

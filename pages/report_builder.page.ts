@@ -6,6 +6,8 @@ import { ReportType } from '@type/report-type';
 import { Index } from "@pages/common/Index.component";
 import { OtherCriteria } from "@pages/common/other_criteria.component";
 import { MFIPage } from './common/rating.component';
+import { getPeriodsFromSheet } from '@utils/excel-reader';
+import path = require('path/win32');
 
 
 export class Reportbuilder extends BasePage {
@@ -188,7 +190,14 @@ export class Reportbuilder extends BasePage {
     }
 }
 
+async periodSelectionFromExcel(fileName: string, sheetName: string) {
+    const userDataFile = path.join(__dirname, `../../data/${fileName}`);
+    const periods = getPeriodsFromSheet(userDataFile, sheetName);
+    for (const period of periods) {
+        await this.reportTypeSection.selectPeriodByLabel(period);
+    }
     
 
 
+}
 }

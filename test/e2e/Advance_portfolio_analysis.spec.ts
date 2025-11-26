@@ -41,9 +41,6 @@ test("Verify user can configure all filters and generate a report successfully f
 
     
     await advancedportfolioanalysis.switchTab("Detailed Portfolio");
-
-    // Configure filters
-    //await advancedportfolioanalysis.waitForTimeout(1000);
     await advancedportfolioanalysis.selectFrequency('Monthly');
     await advancedportfolioanalysis.selectPeriods(["Jun 2025","Feb 2025"]);
     await advancedportfolioanalysis.selectNature('Equity');
@@ -63,7 +60,7 @@ test("Verify user can configure all filters and generate a report successfully f
 
 
 
-//Test -3
+//Test -2
 // 1. Navigate to the "New Entry/Exit" tab.
 // 2. Select a scheme from the Scheme Selection panel (HDFC Arbitrage Fund - Dir - Growth,HDFC Retirement Savings Fund - Equity Plan - Reg - Growth).
 // 3. Choose Portfolio Month (e.g., July 2025).
@@ -109,10 +106,6 @@ test("Verify that the Quants tab displays correct metrics for selected scheme ac
     await advancedportfolioanalysis.switchTab("Quants");
     await advancedportfolioanalysis.selectPortfolioMonthDropdown(["Jun 2025","Feb 2025"]);
     await advancedportfolioanalysis.selectPortfolioFrequency('monthly');
-    //await advancedportfolioanalysis.selectNormalisedOption("As Disclosed by AMC");
-   // await advancedportfolioanalysis.checkMetrics(["Average Maturity", "Modified Duration", "Duration", "Macaulay Duration"]);
-    //await advancedportfolioanalysis.verifyMaturityProfileRanges(["0–30", "31–91"]);
-    //await advancedportfolioanalysis.verifyDebtHoldingRange("0–30 days");
     await advancedportfolioanalysis.clickShowReport();
 });
 
@@ -176,12 +169,6 @@ test("Verify that the Search tab generates report based on selected company, sec
     await advancedportfolioanalysis.schemeSelection.searchScheme("HDFC Arbitrage Fund - Dir - Growth");
     await advancedportfolioanalysis.schemeSelection.selectScheme("HDFC Arbitrage Fund - Dir - Growth");
     await advancedportfolioanalysis.switchTab("Search");
-    //await advancedportfolioanalysis.selectParameter("% of Net Assets");
-    //await advancedportfolioanalysis.selectPortfolioNature("Equity");
-    //await advancedportfolioanalysis.selectEquityComponent("All");
-    //await advancedportfolioanalysis.selectSector("MFI");
-    //await advancedportfolioanalysis.toggleShowDebtSecurities(true);
-    //await advancedportfolioanalysis.selectMarketCap("SEBI");
     await advancedportfolioanalysis.portfoliomonthselect(["Jun 2025"]);
     await advancedportfolioanalysis.searchAndAddCompany("HDFC Bank Ltd.");
     await advancedportfolioanalysis.clickShowReport();
@@ -261,7 +248,7 @@ test("Verify that Risk O Meter & PRC report is generated correctly for selected 
 test("Verify that stress testing and liquidity analysis report is generated correctly for selected scheme and portfolio parameters", async() => {
     await advancedportfolioanalysis.open();
     await advancedportfolioanalysis.schemeSelection.searchScheme("HDFC Mid Cap Fund - Growth");
-    await advancedportfolioanalysis.schemeSelection.selectScheme("HDFC Mid Cap Fund - Growth");
+    await advancedportfolioanalysis.schemeSelection.selectScheme("xHDFC Mid Cap Fund - Growth");
     await advancedportfolioanalysis.switchTab("Stress Testing & Liquidity Analysis");
     await advancedportfolioanalysis.selectPortfolioType("Scheme Wise")
     await advancedportfolioanalysis.SelectPortfolioPeriod(["Jun 2025"]);

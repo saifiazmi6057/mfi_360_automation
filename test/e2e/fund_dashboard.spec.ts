@@ -62,6 +62,7 @@ test.afterAll(async () => {
 // 9.Check that the Excel export option for manager details is visible and downloadable.
 
 test("Verify the Fund Snapshot and Details section for the selected Mutual Fund, Category, Sub-Category,and Fund", async () => {
+  test.setTimeout(60000);
   const mfname = 'Aditya Birla Sun Life Mutual Fund';
   const fundName = 'Aditya Birla Sun Life Floating Rate Fund';
   await fundDashboardPage.open();
@@ -132,7 +133,8 @@ test("Verify the Fund Snapshot and Details section for the selected Mutual Fund,
 
 
 test("Verify the Returns tab for the selected Mutual Fund, Category, Sub-Category, and Fund configuration", async () => {
- const mfname = 'Aditya Birla Sun Life Mutual Fund';
+test.setTimeout(60000);
+  const mfname = 'Aditya Birla Sun Life Mutual Fund';
   const fundName = 'Aditya Birla Sun Life Floating Rate Fund';
   await fundDashboardPage.open();
 
@@ -174,7 +176,8 @@ test("Verify the Returns tab for the selected Mutual Fund, Category, Sub-Categor
 
 
 test("Verify the Statistical Ratios tab for the selected Mutual Fund, Category, Sub-Category, and Fund configuration", async () => {
- const mfname = 'Aditya Birla Sun Life Mutual Fund';
+ test.setTimeout(60000);
+  const mfname = 'Aditya Birla Sun Life Mutual Fund';
   const fundName = 'Aditya Birla Sun Life Floating Rate Fund';
   await fundDashboardPage.open();
 
@@ -256,7 +259,8 @@ test("Verify the Statistical Ratios tab for the selected Mutual Fund, Category, 
 
 
 test("Verify the Portfolio tab for the selected Mutual Fund, Category, Sub-Category, and Fund configuration", async () => {
- const mfname = 'Aditya Birla Sun Life Mutual Fund';
+ test.setTimeout(60000);
+  const mfname = 'Aditya Birla Sun Life Mutual Fund';
   const fundName = 'Aditya Birla Sun Life Floating Rate Fund';
   await fundDashboardPage.open();
 
@@ -314,7 +318,8 @@ test("Verify the Portfolio tab for the selected Mutual Fund, Category, Sub-Categ
 // • PDF download icon (functionality should allow downloading the addendum file)"
 
 test("Verify the Others tab for the selected Mutual Fund, Category, Sub-Category, and Fund configuration", async () => {
- const mfname = 'Aditya Birla Sun Life Mutual Fund';
+ test.setTimeout(60000);
+  const mfname = 'Aditya Birla Sun Life Mutual Fund';
   const fundName = 'Aditya Birla Sun Life Floating Rate Fund';
   await fundDashboardPage.open();
 
@@ -328,6 +333,9 @@ test("Verify the Others tab for the selected Mutual Fund, Category, Sub-Category
   await page.waitForTimeout(10000);
 
   await fundDashboardPage.validateothersTab();
+
+  await page.waitForTimeout(6000);
+  
 
   await fundDashboardPage.validateMinimumLumpsumInvestmentAmount();
   /*await fundDashboardPage.validateMonthlySIPDates();

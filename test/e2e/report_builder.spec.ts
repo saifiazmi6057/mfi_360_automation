@@ -5,6 +5,8 @@ import { ReportReturnType } from '@pages/common/return_type.component';
 import { ReportType } from '@type/report-type';
 import { AdvanceReturnAnalysisPage } from '@pages/advance_return_analysis.page';
 import { MFIPage } from '@pages/common/rating.component';
+import * as path from 'path';
+import { getPeriodsFromSheet } from '../../utils/excel-reader';
 
 
 
@@ -177,6 +179,7 @@ test("Verify that the user can access and interact with Statistical Ratios ", as
 //     - No of Scrips  
 // 13. Click on the **Build Report** button.
 
+const userDataFile = path.join(__dirname,'../../data/Performance-08 Oct 25.xlsx');
 
 test("Verify that the user can access and interact with Other Criteria section", async () => {
     const reportTypes = [
@@ -221,6 +224,8 @@ test("Verify that the user can access and interact with Other Criteria section",
 
 
 });
+
+
 
 
 

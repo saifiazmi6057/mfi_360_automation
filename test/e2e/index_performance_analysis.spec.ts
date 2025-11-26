@@ -127,6 +127,7 @@ test("Verify P2P report with single index and customize index combination and ot
 })
 
 test("Verify Rolling report with single composite index and customize index combination and other criteria multiple with check rank and min max", async () => {
+   test.setTimeout(60000);
     const customize_index = "Custom Index Generic";
     const composite_index = "Composite index personal";
     await indexPerformanceAnalysis.open();

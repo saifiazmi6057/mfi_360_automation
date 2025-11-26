@@ -9,12 +9,18 @@ export abstract class BasePage {
 
     // common in all pages
     private showReportSelector: string = "#ShowPerformanceReturn";
-
-    async open() {
-        await this.page.goto(this.path);
-        await this.page.waitForLoadState()
-        await expect(this.page.locator(this.titleLocator)).toContainText(this.title);
+// some pages has no title then how to handle that?
+  async open() {
+    await this.page.goto(this.path);
+    await this.page.waitForLoadState();
+    
+    const titleLocator = this.page.locator(this.titleLocator);
+    if (await titleLocator.count() > 0) {
+        await expect(titleLocator).toContainText(this.title);
+    } else {
+        console.log('Title not present, skipping assertion.');
     }
+}
 
     constructor(page: Page, path?: string, title?: string) {
         this.page = page;

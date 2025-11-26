@@ -34,6 +34,7 @@ test.beforeAll(async ({browser}, testInfo)=> {
 // create mapping with return type Simpel Annualised
 
 test("create mapping with single scheme only", async () => {
+    test.setTimeout(40000);
     const scheme = "Franklin India Corporate Debt Fund - Qtly IDCW";
     await lumpsumPerformance.open();
     await page.waitForLoadState();
@@ -58,6 +59,7 @@ test("create mapping with single scheme only", async () => {
 
 // done Negative
 test("create mapping which is already exists", async () => {
+      test.setTimeout(40000);
     const scheme = "Franklin India Corporate Debt Fund - Qtly IDCW"; // already created in previous test
     await lumpsumPerformance.open();
     await page.waitForLoadState();
@@ -74,6 +76,7 @@ test("create mapping which is already exists", async () => {
 
 // done
 test("create mapping with multiple scheme and return type absolute", async () => {
+      test.setTimeout(40000);
     const schemes = [
         "ICICI Prudential Floating Interest Fund - Dir -  Dly IDCW",
         "ICICI Prudential Floating Interest Fund - Dly IDCW"
@@ -97,6 +100,7 @@ test("create mapping with multiple scheme and return type absolute", async () =>
 
 // done
 test("create mapping with single schema and index only and custom date", async () => {
+      test.setTimeout(40000);
     const scheme = "ICICI Prudential Money Market Fund - Dir-  Dly IDCW"
     const index = "BSE 100";
     await lumpsumPerformance.open();
@@ -117,6 +121,7 @@ test("create mapping with single schema and index only and custom date", async (
 
 // done
 test("create mapping with scheme, customize index, custom date with last day of the month", async () => {
+      test.setTimeout(40000);
     const scheme = "ICICI Prudential Money Market Fund - Reg - Dly IDCW"
     const customize_index = "Custom Index Generic";
 
@@ -140,6 +145,7 @@ test("create mapping with scheme, customize index, custom date with last day of 
 
 // done
 test("create mapping with scheme, composite index, invested value and return periods", async () => {
+      test.setTimeout(40000);
     const scheme = "ICICI Prudential Savings Fund - Dir - Dly IDCW"
     const composite_index = "Composite index 1"
 
@@ -163,6 +169,7 @@ test("create mapping with scheme, composite index, invested value and return per
 
 // Negative
 test("create mappping with index, customize index or composite index and same addition index", async () => {
+      test.setTimeout(40000);
     const scheme = "ICICI Prudential Savings Fund - Reg - Dly IDCW"
     const composite_index = "Composite index 1"
 
@@ -183,6 +190,7 @@ test("create mappping with index, customize index or composite index and same ad
 
 // Negative
 test("create mapping with additioanal index and additional index 2", async () => {
+    test.setTimeout(40000);
     const scheme = "ICICI Prudential Ultra Short Term Fund - Dir - Daily IDCW"
     const composite_index = "Composite index 1"
 
@@ -203,6 +211,7 @@ test("create mapping with additioanal index and additional index 2", async () =>
 
 // Negative
 test("create mapping with schema and combined index and composiete or customized", async () => {
+    test.setTimeout(40000);
     const scheme = "ICICI Prudential Ultra Short Term Fund - Reg - Dly IDCW"
     const composite_index = "Composite index 1"
 

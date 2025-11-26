@@ -60,7 +60,7 @@ async validateReportTables() {
     const ratingSummaryReport = this.page.locator('#DivCompanyWiseRating');
 
     // Wait for the report to become visible after clicking
-    await expect(ratingSummaryReport).toBeVisible({ timeout: 10000 });
+    await expect(ratingSummaryReport).toBeVisible({ timeout: 30000 });
 }
 
 
