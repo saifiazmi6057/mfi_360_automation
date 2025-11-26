@@ -1,0 +1,4 @@
+Total funds found: 1
+Selected fund 1
+Clicked Delete button
+Confirmed deletion

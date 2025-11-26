@@ -1,0 +1,14 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(YTM)
+Expected Attribute Name Portfolio Month(YTM)
+Selected Output Column is: Portfolio Month(YTM)
+Selected Output Column is: Scheme Short Name
+Selected Output Column is: YTM
+Clicked on Search Button
+Output Header Name:  Portfolio Month(YTM)
+Selected Header Name:  Portfolio Month(YTM)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name
+Output Header Name:  YTM
+Selected Header Name:  YTM

@@ -1,0 +1,17 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Date
+Expected Attribute Name Date
+Selected Output Column is: Fund Name
+Selected Output Column is: Quarterly Average AUM
+Selected Output Column is: Date
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Fund Name
+Selected Header Name:  Fund Name
+Output Header Name:  Quarterly Average AUM
+Selected Header Name:  Quarterly Average AUM
+Output Header Name:  Date
+Selected Header Name:  Date
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

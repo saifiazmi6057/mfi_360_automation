@@ -1,36 +1,36 @@
 import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
+  globalSetup: require.resolve('./global-setup.ts/setup.ts'),
   testDir: './test',
   fullyParallel: true,
   forbidOnly: !!process.env.CI,
   retries: process.env.CI ? 2 : 0,
-  //workers: process.env.CI ? 1 : undefined,
   workers: 1,
   snapshotDir: "images",
 
   reporter: [
     ['list'],
-    ['html', { open: 'never', host: '0.0.0.0', port: 9223 }],
-    ['allure-playwright',{outputFolder: 'my-allure-results'}]
+    ['html'],
+    ['allure-playwright']
   ],
 
   use: {
     headless: false,
-    channel: 'msedge',
-    screenshot: 'on-first-failure',
-    video: 'on',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
     navigationTimeout: 60000,
     actionTimeout: 60000,
     baseURL: "https://mfi360-uat.icraanalytics.co.in:8443",
-    
-    trace: 'on-first-retry',
+    trace: 'retain-on-failure',
   },
 
   projects: [
     {
       name: 'chromium',
-      use: { 
+      use: {
+        browserName: 'chromium',
+        channel: 'msedge',
         launchOptions: {
           args: ["--start-maximized"]
         },
@@ -38,17 +38,25 @@ export default defineConfig({
       },
       metadata: {
         username: "user@testing.com",
-        password: "Playwright@123"
+        password: "Charli@123"
       }
     },
-    // Uncomment below to enable Firefox or WebKit
     // {
     //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
-    // },
+    //   use: {
+    //     browserName: 'firefox',
+    //     ...devices['Desktop Firefox']
+    //   },
+    //   metadata: {
+    //     username: "user@testing.com",
+    //     password: "Charli@123"
+    //   }
+    //},
     // {
     //   name: 'webkit',
     //   use: { ...devices['Desktop Safari'] },
     // },
   ],
+
+  
 });

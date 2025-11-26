@@ -248,7 +248,7 @@ test("Verify that Risk O Meter & PRC report is generated correctly for selected 
 test("Verify that stress testing and liquidity analysis report is generated correctly for selected scheme and portfolio parameters", async() => {
     await advancedportfolioanalysis.open();
     await advancedportfolioanalysis.schemeSelection.searchScheme("HDFC Mid Cap Fund - Growth");
-    await advancedportfolioanalysis.schemeSelection.selectScheme("xHDFC Mid Cap Fund - Growth");
+    await advancedportfolioanalysis.schemeSelection.selectScheme("HDFC Mid Cap Fund - Growth");
     await advancedportfolioanalysis.switchTab("Stress Testing & Liquidity Analysis");
     await advancedportfolioanalysis.selectPortfolioType("Scheme Wise")
     await advancedportfolioanalysis.SelectPortfolioPeriod(["Jun 2025"]);

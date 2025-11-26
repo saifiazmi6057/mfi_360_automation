@@ -132,33 +132,39 @@ export class MultiplePorfolioOverlap extends BasePage {
        
     }
 
- async selectFundAndVerifyTable(fundName: string) {
+    //i need to add refresh/load the page here
+
+    async refreshPage() {
+        await this.page.reload();
+        await this.page.waitForLoadState('load');
+    }
+
+
+ 
+async selectFundAndVerifyTable(fundName: string) {
   const fundDropdown = this.page.locator("#cstmslct");
-  const table = this.page.locator('#smTble');
-  const tableRows = this.page.locator('#smTble tbody tr');
+  const table = this.page.locator("#smTble");
+  const tableRows = this.page.locator("#smTble tbody tr");
 
   console.log(`Selecting fund: ${fundName}`);
 
+  // Ensure dropdown is visible
   await expect(fundDropdown).toBeVisible({ timeout: 10000 });
   await this.highlight("#cstmslct");
-  await fundDropdown.selectOption({ label: fundName });
 
+  // Handle navigation if selectOption triggers reload
+  await Promise.all([
+    this.page.waitForLoadState("domcontentloaded"),
+    fundDropdown.selectOption({ label: fundName }),
+  ]);
 
-  console.log('Waiting for network to be idle...');
-  await this.page.waitForLoadState('networkidle', { timeout: 40000 });
-  await this.highlight('#smTble');
-  console.log('Verifying table visibility...');
-  await expect(table).toBeVisible({ timeout: 60000 });
+  console.log("Waiting for table to appear...");
+  await this.page.waitForSelector("#smTble", { timeout: 60000 });
+  await this.highlight("#smTble");
 
-
-
-  if (this.page.isClosed()) {
-    throw new Error("Page is already closed before waiting for table rows.");
-  }
-
+  // Wait for rows to load
   try {
-    await this.page.waitForSelector('#smTble tbody tr', { timeout: 60000 });
-
+    await this.page.waitForSelector("#smTble tbody tr", { timeout: 60000 });
   } catch (error) {
     if (this.page.isClosed()) {
       throw new Error("Page was closed during waitForSelector.");
@@ -183,7 +189,8 @@ export class MultiplePorfolioOverlap extends BasePage {
     const cellCount = await row.locator("td").count();
     console.log(`Row ${i + 1} has ${cellCount} cells`);
     expect(cellCount).toBeGreaterThan(1);
-  }}
+  }
+}
 
 
 async selectAllFundsAndDeleteWithConfirmation() {

@@ -1,0 +1,59 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Date
+Expected Attribute Name Portfolio Date
+Selected Output Column is: BSE Code
+Selected Output Column is: Company Code
+Selected Output Column is: Corpus Percent
+Selected Output Column is: Instrument
+Selected Output Column is: Market Value(Crs.)
+Selected Output Column is: Company Name
+Selected Output Column is: Nature of Instrument
+Selected Output Column is: No of Shares
+Selected Output Column is: Scheme Short Name
+Selected Output Column is: Company ISIN
+Selected Output Column is: Coupon Rate
+Selected Output Column is: Market Cap
+Selected Output Column is: Maturity Date
+Selected Output Column is: NSE Code
+Selected Output Column is: Portfolio Date
+Selected Output Column is: Rating Agency
+Selected Output Column is: Rating
+Selected Output Column is: Sector Name
+Clicked on Search Button
+Output Header Name:  BSE Code
+Selected Header Name:  BSE Code
+Output Header Name:  Company Code
+Selected Header Name:  Company Code
+Output Header Name:  Corpus Percent
+Selected Header Name:  Corpus Percent
+Output Header Name:  Instrument
+Selected Header Name:  Instrument
+Output Header Name:  Market Value(Crs.)
+Selected Header Name:  Market Value(Crs.)
+Output Header Name:  Company Name
+Selected Header Name:  Company Name
+Output Header Name:  Nature of Instrument
+Selected Header Name:  Nature of Instrument
+Output Header Name:  No of Shares
+Selected Header Name:  No of Shares
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name
+Output Header Name:  Company ISIN
+Selected Header Name:  Company ISIN
+Output Header Name:  Coupon Rate
+Selected Header Name:  Coupon Rate
+Output Header Name:  Market Cap
+Selected Header Name:  Market Cap
+Output Header Name:  Maturity Date
+Selected Header Name:  Maturity Date
+Output Header Name:  NSE Code
+Selected Header Name:  NSE Code
+Output Header Name:  Portfolio Date
+Selected Header Name:  Portfolio Date
+Output Header Name:  Rating Agency
+Selected Header Name:  Rating Agency
+Output Header Name:  Rating
+Selected Header Name:  Rating
+Output Header Name:  Sector Name
+Selected Header Name:  Sector Name

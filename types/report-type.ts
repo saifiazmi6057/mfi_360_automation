@@ -3,4 +3,6 @@ export enum ReportType {
     Rolling = "#lblRolling",
     FixedPeriodic = "#lblFixed",
     MultipleDate = "//input[@id='rdoBoth']/..",
+    Both ="#lblBoth",
+
 }

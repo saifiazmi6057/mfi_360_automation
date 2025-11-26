@@ -1,0 +1,20 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(FSM)
+Expected Attribute Name Portfolio Month(FSM)
+Selected Output Column is: Average Fund Size(Crs.)
+Selected Output Column is: Month End Fund Size(Crs.)
+Selected Output Column is: Portfolio Month(FSM)
+Selected Output Column is: MutualFund Name
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Average Fund Size(Crs.)
+Selected Header Name:  Average Fund Size(Crs.)
+Output Header Name:  Month End Fund Size(Crs.)
+Selected Header Name:  Month End Fund Size(Crs.)
+Output Header Name:  Portfolio Month(FSM)
+Selected Header Name:  Portfolio Month(FSM)
+Output Header Name:  MutualFund Name
+Selected Header Name:  MutualFund Name
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

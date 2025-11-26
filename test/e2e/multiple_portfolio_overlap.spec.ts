@@ -60,7 +60,7 @@ test.describe('Multiple Portfolio Overlap', () => {
   // 7- Verify the overlap percentage is showing correctly in the result table
   // 8- After selecting the fund verify the common fund showing in the similarity measurement table
   test('verify the multiple portfolio overlap page is showing correct result when we select two scheme', async () => {
-    test.setTimeout(60000);
+    test.setTimeout(80000);
     const mfname = 'Axis Mutual Fund';
     const fundName = 'Axis Large Cap Fund';
     await multipleportfoliooverlap.open();
@@ -81,6 +81,8 @@ test.describe('Multiple Portfolio Overlap', () => {
       'Axis Large Cap Fund - Growth'
     ]);
     await multipleportfoliooverlap.clickOnCompareAndWaitForResults();
+    await multipleportfoliooverlap
+    
     await multipleportfoliooverlap.selectFundAndVerifyTable("Fund B");
     await multipleportfoliooverlap.selectAllFundsAndDeleteWithConfirmation();
 

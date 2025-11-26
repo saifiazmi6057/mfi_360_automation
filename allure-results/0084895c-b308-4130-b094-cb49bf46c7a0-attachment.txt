@@ -1,0 +1,13 @@
+Clicked successfully.
+Selected Attribute Name Effective date
+Expected Attribute Name Effective date
+Selected Output Column is: Effective date
+Selected Output Column is: Exit Load
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Effective date
+Selected Header Name:  Effective date
+Output Header Name:  Exit Load
+Selected Header Name:  Exit Load
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

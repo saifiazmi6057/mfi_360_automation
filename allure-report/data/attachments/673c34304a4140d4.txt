@@ -1,0 +1,60 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name 1 Month
+
+Expected Attribute Name 1 Month
+Selected Output Column is: 1 Days
+Selected Output Column is: 3 Days
+Selected Output Column is: 1 Week
+Selected Output Column is: 2 Weeks
+Selected Output Column is: 1 Month
+Selected Output Column is: 2 Months
+Selected Output Column is: 3 Months
+Selected Output Column is: 6 Months
+Selected Output Column is: 1 Year
+Selected Output Column is: 2 Years
+Selected Output Column is: 3 Years
+Selected Output Column is: 5 Years
+Selected Output Column is: 10 Year
+Selected Output Column is: 15 Year
+Selected Output Column is: YTD
+Selected Output Column is: FYTD
+Selected Output Column is: Since Inception
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  1 Days
+Selected Header Name:  1 Days
+Output Header Name:  3 Days
+Selected Header Name:  3 Days
+Output Header Name:  1 Week
+Selected Header Name:  1 Week
+Output Header Name:  2 Weeks
+Selected Header Name:  2 Weeks
+Output Header Name:  1 Month
+Selected Header Name:  1 Month
+Output Header Name:  2 Months
+Selected Header Name:  2 Months
+Output Header Name:  3 Months
+Selected Header Name:  3 Months
+Output Header Name:  6 Months
+Selected Header Name:  6 Months
+Output Header Name:  1 Year
+Selected Header Name:  1 Year
+Output Header Name:  2 Years
+Selected Header Name:  2 Years
+Output Header Name:  3 Years
+Selected Header Name:  3 Years
+Output Header Name:  5 Years
+Selected Header Name:  5 Years
+Output Header Name:  10 Year
+Selected Header Name:  10 Year
+Output Header Name:  15 Year
+Selected Header Name:  15 Year
+Output Header Name:  YTD
+Selected Header Name:  YTD
+Output Header Name:  FYTD
+Selected Header Name:  FYTD
+Output Header Name:  Since Inception
+Selected Header Name:  Since Inception
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

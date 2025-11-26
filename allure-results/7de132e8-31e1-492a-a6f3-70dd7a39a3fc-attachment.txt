@@ -1,0 +1,23 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(MFI)
+Expected Attribute Name Portfolio Month(MFI)
+Selected Output Column is: Market Value(Crs.)
+Selected Output Column is: Portfolio Month(MFI)
+Selected Output Column is: No of Shares
+Selected Output Column is: Corpus Percent
+Selected Output Column is: Scheme Short Name
+Selected Output Column is: Sector Name
+Clicked on Search Button
+Output Header Name:  Market Value(Crs.)
+Selected Header Name:  Market Value(Crs.)
+Output Header Name:  Portfolio Month(MFI)
+Selected Header Name:  Portfolio Month(MFI)
+Output Header Name:  No of Shares
+Selected Header Name:  No of Shares
+Output Header Name:  Corpus Percent
+Selected Header Name:  Corpus Percent
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name
+Output Header Name:  Sector Name
+Selected Header Name:  Sector Name

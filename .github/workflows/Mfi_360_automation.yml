@@ -9,7 +9,7 @@ on:
 
 jobs:
   test:
-    runs-on: self-hosted  # ✅ Changed from windows-latest to self-hosted
+    runs-on: windows-latest   # ✅ Changed from windows-latest to self-hosted
 
     steps:
     - name: Checkout code

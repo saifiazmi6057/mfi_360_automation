@@ -1,0 +1,20 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(MD)
+Expected Attribute Name Portfolio Month(MD)
+Selected Output Column is: Modified Duration as Disclosed by AMC
+Selected Output Column is: Modified Duration(InDays)
+Selected Output Column is: Modified Duration(InYears)
+Selected Output Column is: Portfolio Month(MD)
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Modified Duration as Disclosed by AMC
+Selected Header Name:  Modified Duration as Disclosed by AMC
+Output Header Name:  Modified Duration(InDays)
+Selected Header Name:  Modified Duration(InDays)
+Output Header Name:  Modified Duration(InYears)
+Selected Header Name:  Modified Duration(InYears)
+Output Header Name:  Portfolio Month(MD)
+Selected Header Name:  Portfolio Month(MD)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

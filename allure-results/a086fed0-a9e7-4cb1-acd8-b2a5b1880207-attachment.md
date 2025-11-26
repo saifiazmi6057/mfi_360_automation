@@ -1,0 +1,1087 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e8]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /UserDashboard/Details
+        - img [ref=e11]
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16] [cursor=pointer]:
+            - link "Admin" [ref=e17]:
+              - /url: "#"
+              - img [ref=e18]
+              - text: 
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Performance" [ref=e20]:
+              - /url: "#"
+              - img [ref=e21]
+              - text: 
+          - listitem [ref=e22] [cursor=pointer]:
+            - link "Portfolio" [ref=e23]:
+              - /url: "#"
+              - img [ref=e24]
+              - text: 
+          - listitem [ref=e25] [cursor=pointer]:
+            - link "Industry" [ref=e26]:
+              - /url: "#"
+              - img [ref=e27]
+              - text: 
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Tools" [ref=e29]:
+              - /url: "#"
+              - img [ref=e30]
+              - text: 
+          - listitem [ref=e31] [cursor=pointer]:
+            - link "Utilities" [ref=e32]:
+              - /url: "#"
+              - img [ref=e33]
+              - text: 
+          - listitem [ref=e34] [cursor=pointer]:
+            - link "Fund Screener" [ref=e35]:
+              - /url: /AMC/FundScreener
+              - img [ref=e36]
+          - listitem [ref=e37] [cursor=pointer]:
+            - link "Advanced Fund Screener" [ref=e38]:
+              - /url: /AMC/FundScreenerAdvance
+              - img [ref=e39]
+        - text:        
+    - text: 
+    - generic [ref=e40]:
+      - navigation:
+        - generic [ref=e41]:
+          - generic [ref=e44] [cursor=pointer]: 
+          - generic [ref=e45]:
+            - text: 
+            - search [ref=e46]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - generic "My Tutorial Video" [ref=e50]:
+              - img [ref=e51]
+            - text:           
+          - link "0" [ref=e52] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e53]
+            - generic [ref=e54]: "0"
+          - listitem [ref=e55]:
+            - link [ref=e56] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e57]
+          - listitem [ref=e58]:
+            - generic "Change setting" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+          - listitem [ref=e61]:
+            - link "user" [ref=e62] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e63]
+    - main [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:      
+        - main [ref=e68]:
+          - generic [ref=e70]:
+            - heading "Advanced Portfolio Scanner" [level=3] [ref=e71]
+            - img "PDF" [ref=e74] [cursor=pointer]
+            - generic [ref=e76] [cursor=pointer]: 
+          - generic [ref=e77]:
+            - generic [ref=e78]:
+              - tablist [ref=e80]:
+                - generic [ref=e81] [cursor=pointer]:
+                  - generic [ref=e82]:
+                    - link "User & Investor Information ":
+                      - /url: "#advisorInfoSection"
+                      - generic [ref=e83]:
+                        - heading "User & Investor Information" [level=2] [ref=e84]
+                        - generic [ref=e85]: 
+                  - text: 
+              - tablist [ref=e86]:
+                - generic [ref=e88] [cursor=pointer]:
+                  - tab "Select Scheme " [ref=e89]:
+                    - link "Select Scheme " [ref=e90]:
+                      - /url: "#schemesSection"
+                      - generic [ref=e91]:
+                        - heading "Select Scheme" [level=2] [ref=e92]
+                        - generic [ref=e93]: 
+                  - text:          
+                - tablist [ref=e95]:
+                  - generic [ref=e96] [cursor=pointer]:
+                    - tab "Select Index " [ref=e97]:
+                      - link "Select Index ":
+                        - /url: "#IndexSection"
+                        - generic [ref=e98]:
+                          - heading "Select Index" [level=2] [ref=e99]
+                          - generic [ref=e100]: 
+                    - text:      
+                - generic [ref=e101]:
+                  - button "Show Report" [active] [ref=e102] [cursor=pointer]
+                  - button "Reset" [ref=e103] [cursor=pointer]
+              - generic [ref=e108]:
+                - generic [ref=e109]: "Report Date: 26-Nov-2025"
+                - generic [ref=e110]: "Underlying Portfolio as on: Oct-2025"
+              - generic [ref=e111]:
+                - generic [ref=e112]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]:
+                      - heading "AMC Allocation" [level=2] [ref=e116]
+                      - generic [ref=e117] [cursor=pointer]: 
+                    - img [ref=e121]:
+                      - generic "Chart context menu" [ref=e132] [cursor=pointer]
+                      - generic [ref=e135]:
+                        - generic [ref=e137]: HDFC Mutual Fund (40.00%)HDFC Mutual Fund (40.00%)
+                        - generic [ref=e139]: Franklin Templeton Mutual Fund (30.00%)Franklin Templeton Mutual Fund (30.00%)
+                        - generic [ref=e141]: Axis Mutual Fund (20.00%)Axis Mutual Fund (20.00%)
+                        - generic "Aditya Birla Sun Life Mutual Fund (10.00%)" [ref=e143]: Aditya Birla Sun LifeMutual Fund (10.00%)Aditya Birla Sun LifeMutual Fund (10.00%)
+                      - generic [ref=e144] [cursor=pointer]: "Source: MFI360 Explorer"
+                  - generic [ref=e146]:
+                    - generic [ref=e147]:
+                      - heading "Category Allocation - Current Month" [level=2] [ref=e148]
+                      - generic [ref=e149] [cursor=pointer]: 
+                    - img [ref=e153]:
+                      - generic [ref=e169] [cursor=pointer]: "Source: MFI360 Explorer"
+                - generic [ref=e172]:
+                  - generic [ref=e174]:
+                    - generic [ref=e175]:
+                      - heading "Asset Allocation" [level=2] [ref=e176]
+                      - generic [ref=e177] [cursor=pointer]: 
+                    - generic [ref=e178]:
+                      - img [ref=e181]:
+                        - generic "Chart context menu" [ref=e196] [cursor=pointer]
+                        - generic [ref=e199]: Current Month
+                        - generic [ref=e201] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - generic [ref=e205]:
+                        - img "Icon" [ref=e206]
+                        - paragraph [ref=e207]: Data not found
+                  - generic [ref=e209]:
+                    - generic [ref=e210]:
+                      - heading "Asset Allocation" [level=2] [ref=e211]
+                      - generic [ref=e212] [cursor=pointer]: 
+                    - generic [ref=e213]:
+                      - img [ref=e216]:
+                        - generic "Chart context menu" [ref=e231] [cursor=pointer]
+                        - generic [ref=e234]: Previous Month
+                        - generic [ref=e236] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - generic [ref=e240]:
+                        - img "Icon" [ref=e241]
+                        - paragraph [ref=e242]: Data not found
+                  - generic [ref=e244]:
+                    - generic [ref=e245]:
+                      - heading "Asset Allocation" [level=2] [ref=e246]
+                      - generic [ref=e247] [cursor=pointer]: 
+                    - img [ref=e251]:
+                      - generic "Chart context menu" [ref=e286] [cursor=pointer]
+                      - generic "Average for Last 12 Months" [ref=e289]: Average for Last 12Months
+                      - generic [ref=e290] [cursor=pointer]:
+                        - generic [ref=e295]: Debt:4.22%Debt:4.22%
+                        - generic "Equity:39.36%" [ref=e297]:
+                          - text: Eq…
+                          - text: 3…Eq…
+                          - text: 3…
+                        - generic "Others:56.42%" [ref=e299]:
+                          - text: Ot…
+                          - text: 56…Ot…
+                          - text: 56…
+                      - generic [ref=e303]:
+                        - generic [ref=e305] [cursor=pointer]: Debt
+                        - generic [ref=e308] [cursor=pointer]: Equity
+                        - generic [ref=e311] [cursor=pointer]: Others
+                      - generic [ref=e313] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - generic:
+                        - generic: "Equity : 39.36%"
+                - generic [ref=e316]:
+                  - generic [ref=e318]:
+                    - generic [ref=e319]:
+                      - heading "Market Capitalization" [level=2] [ref=e320]
+                      - generic [ref=e321] [cursor=pointer]: 
+                    - img [ref=e325]:
+                      - generic "Chart context menu" [ref=e366] [cursor=pointer]
+                      - generic [ref=e369]: Current Month
+                      - generic [ref=e370] [cursor=pointer]:
+                        - generic [ref=e376]: Mid Cap:2.09%Mid Cap:2.09%
+                        - generic [ref=e378]:
+                          - text: Small …
+                          - text: 2.08%Small …
+                          - text: 2.08%
+                        - generic "Large Cap:36.42%" [ref=e380]:
+                          - text: "La…:"
+                          - text: "La…:"
+                        - generic "Debt & Others:59.41%" [ref=e382]:
+                          - text: De…
+                          - text: 59.…De…
+                          - text: 59.…
+                      - generic [ref=e386]:
+                        - generic [ref=e388] [cursor=pointer]: Mid Cap
+                        - generic [ref=e391] [cursor=pointer]: Small Cap
+                        - generic [ref=e394] [cursor=pointer]: Large Cap
+                        - generic [ref=e397] [cursor=pointer]: Debt & Others
+                      - generic [ref=e399] [cursor=pointer]: "Source: MFI360 Explorer"
+                  - generic [ref=e403]:
+                    - generic [ref=e404]:
+                      - heading "Market Capitalization" [level=2] [ref=e405]
+                      - generic [ref=e406] [cursor=pointer]: 
+                    - img [ref=e410]:
+                      - generic "Chart context menu" [ref=e451] [cursor=pointer]
+                      - generic [ref=e454]: Previous Month
+                      - generic [ref=e455] [cursor=pointer]:
+                        - generic "Large Cap:40.24%" [ref=e461]:
+                          - text: Lar…
+                          - text: Lar…
+                        - generic [ref=e463]: Mid …:2.18%Mid …:2.18%
+                        - generic [ref=e465]: Small Cap:2.34%Small Cap:2.34%
+                        - generic "Debt & Others:55.24%" [ref=e467]:
+                          - text: De…
+                          - text: 55…De…
+                          - text: 55…
+                      - generic [ref=e471]:
+                        - generic [ref=e473] [cursor=pointer]: Large Cap
+                        - generic [ref=e476] [cursor=pointer]: Mid Cap
+                        - generic [ref=e479] [cursor=pointer]: Small Cap
+                        - generic [ref=e482] [cursor=pointer]: Debt & Others
+                      - generic [ref=e484] [cursor=pointer]: "Source: MFI360 Explorer"
+                  - generic [ref=e488]:
+                    - generic [ref=e489]:
+                      - heading "Market Capitalization" [level=2] [ref=e490]
+                      - generic [ref=e491] [cursor=pointer]: 
+                    - img [ref=e495]:
+                      - generic "Chart context menu" [ref=e536] [cursor=pointer]
+                      - generic "Average for Last 12 Months" [ref=e539]: Average for Last 12Months
+                      - generic [ref=e540] [cursor=pointer]:
+                        - generic "Large Cap:35.02%" [ref=e546]: Lar…:35.…Lar…:35.…
+                        - generic "Mid Cap:2.28%" [ref=e548]:
+                          - text: Mid…
+                          - text: 2.2…Mid…
+                          - text: 2.2…
+                        - generic [ref=e550]:
+                          - text: Small C…
+                          - text: 2.02%Small C…
+                          - text: 2.02%
+                        - generic "Debt & Others:60.68%" [ref=e552]:
+                          - text: "De…:"
+                          - text: "De…:"
+                      - generic [ref=e556]:
+                        - generic [ref=e558] [cursor=pointer]: Large Cap
+                        - generic [ref=e561] [cursor=pointer]: Mid Cap
+                        - generic [ref=e564] [cursor=pointer]: Small Cap
+                        - generic [ref=e567] [cursor=pointer]: Debt & Others
+                      - generic [ref=e569] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - generic:
+                        - generic: "Large Cap : 35.02%"
+              - generic [ref=e572]:
+                - generic [ref=e573]:
+                  - generic [ref=e575]:
+                    - generic [ref=e577]:
+                      - generic [ref=e578]:
+                        - heading "Sector Allocation" [level=2] [ref=e579]
+                        - heading "Current Month" [level=5] [ref=e580]
+                      - combobox [ref=e582]:
+                        - option "--Select--"
+                        - option "Basic Industry" [selected]
+                        - option "Industry"
+                        - option "Sector"
+                        - option "Macro Economic Sector"
+                      - generic [ref=e583]:
+                        - generic:
+                          - generic [ref=e584] [cursor=pointer]: 
+                          - link [ref=e585] [cursor=pointer]:
+                            - /url: "#"
+                            - img [ref=e586]
+                    - generic [ref=e588]:
+                      - table [ref=e589]:
+                        - rowgroup [ref=e590]:
+                          - row "Sector Name Allocation (%)" [ref=e591]:
+                            - cell "Sector Name" [ref=e592]
+                            - cell "Allocation (%)" [ref=e593]
+                        - rowgroup
+                      - generic [ref=e595]:
+                        - img "Icon" [ref=e596]
+                        - paragraph [ref=e597]: Data not found
+                  - generic [ref=e599]:
+                    - generic [ref=e600]:
+                      - heading "Sector Allocation" [level=2] [ref=e601]
+                      - heading "Previous Month" [level=5] [ref=e602]
+                      - generic:
+                        - generic [ref=e603] [cursor=pointer]: 
+                        - link [ref=e604] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e605]
+                    - generic [ref=e607]:
+                      - table [ref=e608]:
+                        - rowgroup [ref=e609]:
+                          - row "Sector Name Allocation (%)" [ref=e610]:
+                            - cell "Sector Name" [ref=e611]
+                            - cell "Allocation (%)" [ref=e612]
+                        - rowgroup
+                      - generic [ref=e614]:
+                        - img "Icon" [ref=e615]
+                        - paragraph [ref=e616]: Data not found
+                  - generic [ref=e618]:
+                    - generic [ref=e619]:
+                      - heading "Sector Allocation" [level=2] [ref=e620]
+                      - heading "Average for Last 12 Months" [level=5] [ref=e621]
+                      - generic:
+                        - generic [ref=e622] [cursor=pointer]: 
+                        - link [ref=e623] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e624]
+                    - table [ref=e627]:
+                      - rowgroup [ref=e628]:
+                        - row "Sector Name Allocation (%)" [ref=e629]:
+                          - cell "Sector Name" [ref=e630]
+                          - cell "Allocation (%)" [ref=e631]
+                      - rowgroup [ref=e632]:
+                        - row "Public Sector Bank 15.87" [ref=e633]:
+                          - cell "Public Sector Bank" [ref=e634]
+                          - cell "15.87" [ref=e635]
+                        - row "Private Sector Bank 14.92" [ref=e636]:
+                          - cell "Private Sector Bank" [ref=e637]
+                          - cell "14.92" [ref=e638]
+                        - row "Sovereign 11.60" [ref=e639]:
+                          - cell "Sovereign" [ref=e640]
+                          - cell "11.60" [ref=e641]
+                        - row "Non Banking Financial Company (NBFC) 7.51" [ref=e642]:
+                          - cell "Non Banking Financial Company (NBFC)" [ref=e643]
+                          - cell "7.51" [ref=e644]
+                        - row "Financial Institution 7.49" [ref=e645]:
+                          - cell "Financial Institution" [ref=e646]
+                          - cell "7.49" [ref=e647]
+                        - row "Stockbroking & Allied 4.35" [ref=e648]:
+                          - cell "Stockbroking & Allied" [ref=e649]
+                          - cell "4.35" [ref=e650]
+                        - row "Computers - Software & Consulting 4.26" [ref=e651]:
+                          - cell "Computers - Software & Consulting" [ref=e652]
+                          - cell "4.26" [ref=e653]
+                        - row "Refineries & Marketing 3.58" [ref=e654]:
+                          - cell "Refineries & Marketing" [ref=e655]
+                          - cell "3.58" [ref=e656]
+                        - row "Telecom - Cellular & Fixed line services 2.61" [ref=e657]:
+                          - cell "Telecom - Cellular & Fixed line services" [ref=e658]
+                          - cell "2.61" [ref=e659]
+                        - row "Passenger Cars & Utility Vehicles 2.56" [ref=e660]:
+                          - cell "Passenger Cars & Utility Vehicles" [ref=e661]
+                          - cell "2.56" [ref=e662]
+                    - generic [ref=e665]:
+                      - button "First" [ref=e666] [cursor=pointer]: <
+                      - button "Go to page 1" [ref=e667] [cursor=pointer]: "1"
+                      - button "Go to page 2" [ref=e668] [cursor=pointer]: "2"
+                      - button "Go to page 3" [ref=e669] [cursor=pointer]: "3"
+                      - button "Go to page 4" [ref=e670] [cursor=pointer]: "4"
+                      - button "Go to page 5" [ref=e671] [cursor=pointer]: "5"
+                      - button "Go to page 6" [ref=e672] [cursor=pointer]: "6"
+                      - button "Next" [ref=e673] [cursor=pointer]: …
+                      - button "Last" [ref=e674] [cursor=pointer]: ">"
+                - text: 
+                - generic [ref=e675]:
+                  - generic [ref=e677]:
+                    - generic [ref=e678]:
+                      - heading "Holding Analysis (Company)" [level=2] [ref=e679]
+                      - generic [ref=e680]:
+                        - generic [ref=e681]:
+                          - button "All" [ref=e682] [cursor=pointer]
+                          - button "Equity" [ref=e683] [cursor=pointer]
+                          - button "Debt" [ref=e684] [cursor=pointer]
+                          - button "Others" [ref=e685] [cursor=pointer]
+                        - generic [ref=e686] [cursor=pointer]: 
+                        - link [ref=e687] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e688]
+                    - table [ref=e692]:
+                      - rowgroup [ref=e693]:
+                        - row "Top Count Current Month (%) Previous Month (%) Average for Last 12 Months (%)" [ref=e694]:
+                          - cell "Top Count" [ref=e695]
+                          - cell "Current Month (%)" [ref=e696]
+                          - cell "Previous Month (%)" [ref=e697]
+                          - cell "Average for Last 12 Months (%)" [ref=e698]
+                      - rowgroup [ref=e699]:
+                        - row "Top 5 0.00 0.00 21.53" [ref=e700]:
+                          - cell "Top 5" [ref=e701]
+                          - cell "0.00" [ref=e702]
+                          - cell "0.00" [ref=e703]
+                          - cell "21.53" [ref=e704]
+                        - row "Top 10 0.00 0.00 36.64" [ref=e705]:
+                          - cell "Top 10" [ref=e706]
+                          - cell "0.00" [ref=e707]
+                          - cell "0.00" [ref=e708]
+                          - cell "36.64" [ref=e709]
+                        - row "Top 20 0.00 0.00 55.94" [ref=e710]:
+                          - cell "Top 20" [ref=e711]
+                          - cell "0.00" [ref=e712]
+                          - cell "0.00" [ref=e713]
+                          - cell "55.94" [ref=e714]
+                  - generic [ref=e716]:
+                    - generic [ref=e717]:
+                      - heading "Holding Analysis (Sector)" [level=2] [ref=e718]
+                      - generic [ref=e719]:
+                        - generic [ref=e720]:
+                          - button "All" [ref=e721] [cursor=pointer]
+                          - button "Equity" [ref=e722] [cursor=pointer]
+                          - button "Debt" [ref=e723] [cursor=pointer]
+                          - button "Others" [ref=e724] [cursor=pointer]
+                        - generic [ref=e725] [cursor=pointer]: 
+                        - link [ref=e726] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e727]
+                    - table [ref=e731]:
+                      - rowgroup [ref=e732]:
+                        - row "Top Count Current Month (%) Previous Month (%) Average for Last 12 Months (%)" [ref=e733]:
+                          - cell "Top Count" [ref=e734]
+                          - cell "Current Month (%)" [ref=e735]
+                          - cell "Previous Month (%)" [ref=e736]
+                          - cell "Average for Last 12 Months (%)" [ref=e737]
+                      - rowgroup [ref=e738]:
+                        - row "Top 5 0.00 0.00 47.60" [ref=e739]:
+                          - cell "Top 5" [ref=e740]
+                          - cell "0.00" [ref=e741]
+                          - cell "0.00" [ref=e742]
+                          - cell "47.60" [ref=e743]
+                        - row "Top 10 0.00 0.00 65.85" [ref=e744]:
+                          - cell "Top 10" [ref=e745]
+                          - cell "0.00" [ref=e746]
+                          - cell "0.00" [ref=e747]
+                          - cell "65.85" [ref=e748]
+                        - row "Top 20 0.00 0.00 84.21" [ref=e749]:
+                          - cell "Top 20" [ref=e750]
+                          - cell "0.00" [ref=e751]
+                          - cell "0.00" [ref=e752]
+                          - cell "84.21" [ref=e753]
+              - generic [ref=e754]:
+                - text:   
+                - generic [ref=e757]:
+                  - generic [ref=e758]:
+                    - heading "Maturity Profile - Current Month" [level=2] [ref=e759]
+                    - generic [ref=e760]:
+                      - generic [ref=e761]:
+                        - button "All" [ref=e762] [cursor=pointer]
+                        - button "Debt" [ref=e763] [cursor=pointer]
+                        - button "Others" [ref=e764] [cursor=pointer]
+                      - generic [ref=e765] [cursor=pointer]: 
+                  - img [ref=e769]:
+                    - generic [ref=e777]: Exposure in %
+                    - generic "Chart context menu" [ref=e784] [cursor=pointer]
+                    - generic [ref=e787]:
+                      - generic [ref=e788]: 1 Year
+                      - generic [ref=e789]: 1 - 2 Years
+                      - generic [ref=e790]: 3 - 4 Years
+                      - generic [ref=e791]: "> 4 Years"
+                    - generic [ref=e792]:
+                      - generic [ref=e793]: "0"
+                      - generic [ref=e794]: "5"
+                      - generic [ref=e795]: "10"
+                      - generic [ref=e796]: "15"
+                      - generic [ref=e797]: "20"
+                      - generic [ref=e798]: "25"
+                      - generic [ref=e799]: "30"
+                      - generic [ref=e800]: "35"
+                      - generic [ref=e801]: "40"
+                      - generic [ref=e802]: "45"
+                      - generic [ref=e803]: "50"
+                      - generic [ref=e804]: "55"
+                      - generic [ref=e805]: "60"
+                      - generic [ref=e806]: "65"
+                      - generic [ref=e807]: "70"
+                      - generic [ref=e808]: "75"
+                      - generic [ref=e809]: "80"
+                      - generic [ref=e810]: "85"
+                      - generic [ref=e811]: "90"
+                      - generic [ref=e812]: "95"
+                      - generic [ref=e813]: "100"
+                      - generic [ref=e814]: "105"
+                    - generic [ref=e815] [cursor=pointer]: "Source: MFI360 Explorer"
+                - generic [ref=e818]:
+                  - generic [ref=e819]:
+                    - heading "Average Maturity" [level=2] [ref=e820]
+                    - generic [ref=e821] [cursor=pointer]: 
+                  - generic [ref=e823]:
+                    - generic:
+                      - textbox [ref=e824]: 01 Mar 2017
+                      - textbox [ref=e825]: 01 Mar 2018
+                    - img [ref=e827]:
+                      - generic [ref=e836]: value
+                      - generic "Chart context menu" [ref=e855] [cursor=pointer]
+                      - generic [ref=e858]:
+                        - generic [ref=e859]: Dec '24
+                        - generic [ref=e860]: Jan '25
+                        - generic [ref=e861]: Feb '25
+                        - generic [ref=e862]: Mar '25
+                        - generic [ref=e863]: Apr '25
+                        - generic [ref=e864]: May '25
+                        - generic [ref=e865]: Jun '25
+                      - generic [ref=e866]:
+                        - generic [ref=e867]: Dec '24
+                        - generic [ref=e868]: Jan '25
+                        - generic [ref=e869]: Feb '25
+                        - generic [ref=e870]: Mar '25
+                        - generic [ref=e871]: Apr '25
+                        - generic [ref=e872]: May '25
+                        - generic [ref=e873]: Jun '25
+                      - generic [ref=e874]:
+                        - generic [ref=e875]: + 5.7
+                        - generic [ref=e876]: + 5.8
+                        - generic [ref=e877]: + 5.9
+                        - generic [ref=e878]: + 6
+                        - generic [ref=e879]: + 6.1
+                        - generic [ref=e880]: + 6.2
+                        - generic [ref=e881]: + 6.3
+                      - generic [ref=e882]:
+                        - generic [ref=e883]:
+                          - generic [ref=e886] [cursor=pointer]: 1 M
+                          - generic [ref=e889] [cursor=pointer]: 3 M
+                          - generic [ref=e892] [cursor=pointer]: 6 M
+                          - generic [ref=e895] [cursor=pointer]: YTD
+                          - generic [ref=e898] [cursor=pointer]: 1 Y
+                          - generic [ref=e901] [cursor=pointer]: All
+                        - generic [ref=e902]:
+                          - generic [ref=e904]: From
+                          - generic [ref=e907]: Nov 30, 2024
+                          - generic [ref=e909]: To
+                          - generic [ref=e912]: Jun 30, 2025
+                      - generic [ref=e918] [cursor=pointer]: Average Maturity (in years)
+                      - generic [ref=e924] [cursor=pointer]: "Source: MFI360 Explorer"
+                - generic [ref=e925]:
+                  - generic [ref=e927]:
+                    - progressbar [ref=e928]
+                    - generic [ref=e932]:
+                      - heading "Instrument Allocation - Top 20" [level=2] [ref=e933]
+                      - generic:
+                        - generic [ref=e934] [cursor=pointer]: 
+                        - link [ref=e935] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e936]
+                    - generic [ref=e937]:
+                      - table [ref=e940]:
+                        - rowgroup [ref=e941]:
+                          - row "Instruments Current Month (%) Previous Month (%) Average for Last 12 Months (%)" [ref=e942]:
+                            - cell "Instruments" [ref=e943]
+                            - cell "Current Month (%)" [ref=e944]
+                            - cell "Previous Month (%)" [ref=e945]
+                            - cell "Average for Last 12 Months (%)" [ref=e946]
+                        - rowgroup
+                      - generic [ref=e948]:
+                        - img "Icon" [ref=e949]
+                        - paragraph [ref=e950]: Data not found
+                  - generic [ref=e952]:
+                    - generic [ref=e953]:
+                      - heading "Instrument Allocation - Current Month" [level=2] [ref=e954]
+                      - generic [ref=e955] [cursor=pointer]: 
+                    - img [ref=e959]:
+                      - generic "Chart context menu" [ref=e974] [cursor=pointer]
+                      - generic [ref=e978] [cursor=pointer]: "Source: MFI360 Explorer"
+              - generic [ref=e981]:
+                - generic [ref=e984]:
+                  - generic [ref=e985]:
+                    - heading "Return Analysis" [level=2] [ref=e986]
+                    - generic [ref=e987] [cursor=pointer]: 
+                  - generic [ref=e989]:
+                    - generic:
+                      - textbox [ref=e990]: 23-11-2024
+                      - textbox [ref=e991]: 23-11-2025
+                    - img [ref=e993]:
+                      - generic [ref=e1002]: value
+                      - generic "Chart context menu" [ref=e1021] [cursor=pointer]
+                      - generic [ref=e1024]:
+                        - generic [ref=e1025]: Dec '24
+                        - generic [ref=e1026]: Jan '25
+                        - generic [ref=e1027]: Feb '25
+                        - generic [ref=e1028]: Mar '25
+                        - generic [ref=e1029]: Apr '25
+                        - generic [ref=e1030]: May '25
+                        - generic [ref=e1031]: Jun '25
+                        - generic [ref=e1032]: Jul '25
+                        - generic [ref=e1033]: Aug '25
+                        - generic [ref=e1034]: Sep '25
+                        - generic [ref=e1035]: Oct '25
+                        - generic [ref=e1036]: Nov '25
+                      - generic [ref=e1037]:
+                        - generic [ref=e1038]: Jan '25
+                        - generic [ref=e1039]: Mar '25
+                        - generic [ref=e1040]: May '25
+                        - generic [ref=e1041]: Jul '25
+                        - generic [ref=e1042]: Sep '25
+                        - generic [ref=e1043]: Nov '25
+                      - generic [ref=e1044]:
+                        - generic [ref=e1045]: 0%
+                        - generic [ref=e1046]: + 100%
+                        - generic [ref=e1047]: + 200%
+                        - generic [ref=e1048]: + 300%
+                        - generic [ref=e1049]: + 400%
+                        - generic [ref=e1050]: + 500%
+                      - generic [ref=e1051]:
+                        - generic [ref=e1052]:
+                          - generic [ref=e1055] [cursor=pointer]: 1 M
+                          - generic [ref=e1058] [cursor=pointer]: 3 M
+                          - generic [ref=e1061] [cursor=pointer]: 6 M
+                          - generic [ref=e1064] [cursor=pointer]: YTD
+                          - generic [ref=e1067] [cursor=pointer]: 1 Y
+                          - generic [ref=e1070] [cursor=pointer]: All
+                        - generic [ref=e1071]:
+                          - generic [ref=e1073]: From
+                          - generic [ref=e1076]: 23-11-2024
+                          - generic [ref=e1078]: To
+                          - generic [ref=e1081]: 23-11-2025
+                      - generic [ref=e1087] [cursor=pointer]: Aggregated Portfolio
+                      - generic [ref=e1093] [cursor=pointer]: "Source: MFI360 Explorer"
+                - generic [ref=e1094]:
+                  - generic [ref=e1096]:
+                    - generic [ref=e1097]:
+                      - heading "P2P Returns (In %)" [level=2] [ref=e1098]
+                      - generic:
+                        - generic [ref=e1099] [cursor=pointer]: 
+                        - link [ref=e1100] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e1101]
+                    - table [ref=e1103]:
+                      - rowgroup [ref=e1104]:
+                        - row "Particulars 1M 3M 6M 1Y 3Y 5Y 10Y" [ref=e1105]:
+                          - cell "Particulars" [ref=e1106]
+                          - cell "1M" [ref=e1107]
+                          - cell "3M" [ref=e1108]
+                          - cell "6M" [ref=e1109]
+                          - cell "1Y" [ref=e1110]
+                          - cell "3Y" [ref=e1111]
+                          - cell "5Y" [ref=e1112]
+                          - cell "10Y" [ref=e1113]
+                      - rowgroup [ref=e1114]:
+                        - row "Aditya Birla Sun Life Large Cap Fund - Reg - Growth 0.44 2.70 5.08 10.51 15.63 17.41 13.22" [ref=e1115]:
+                          - cell "Aditya Birla Sun Life Large Cap Fund - Reg - Growth" [ref=e1116]
+                          - cell "0.44" [ref=e1117]
+                          - cell "2.70" [ref=e1118]
+                          - cell "5.08" [ref=e1119]
+                          - cell "10.51" [ref=e1120]
+                          - cell "15.63" [ref=e1121]
+                          - cell "17.41" [ref=e1122]
+                          - cell "13.22" [ref=e1123]
+                        - row "Axis Liquid Fund - Growth 0.49 1.44 2.97 6.68 7.02 5.75 6.19" [ref=e1124]:
+                          - cell "Axis Liquid Fund - Growth" [ref=e1125]
+                          - cell "0.49" [ref=e1126]
+                          - cell "1.44" [ref=e1127]
+                          - cell "2.97" [ref=e1128]
+                          - cell "6.68" [ref=e1129]
+                          - cell "7.02" [ref=e1130]
+                          - cell "5.75" [ref=e1131]
+                          - cell "6.19" [ref=e1132]
+                        - row "Franklin India Large Cap Fund - Growth 1.63 2.58 6.23 9.70 15.25 16.41 11.92" [ref=e1133]:
+                          - cell "Franklin India Large Cap Fund - Growth" [ref=e1134]
+                          - cell "1.63" [ref=e1135]
+                          - cell "2.58" [ref=e1136]
+                          - cell "6.23" [ref=e1137]
+                          - cell "9.70" [ref=e1138]
+                          - cell "15.25" [ref=e1139]
+                          - cell "16.41" [ref=e1140]
+                          - cell "11.92" [ref=e1141]
+                        - row "HDFC Income Fund - Growth -0.12 1.34 -0.29 6.16 6.91 4.76 5.95" [ref=e1142]:
+                          - cell "HDFC Income Fund - Growth" [ref=e1143]
+                          - cell "-0.12" [ref=e1144]
+                          - cell "1.34" [ref=e1145]
+                          - cell "-0.29" [ref=e1146]
+                          - cell "6.16" [ref=e1147]
+                          - cell "6.91" [ref=e1148]
+                          - cell "4.76" [ref=e1149]
+                          - cell "5.95" [ref=e1150]
+                        - row "Overall Portfolio 0.58 1.87 2.86 7.76 10.30 9.72 8.51" [ref=e1151]:
+                          - cell "Overall Portfolio" [ref=e1152]
+                          - cell "0.58" [ref=e1153]
+                          - cell "1.87" [ref=e1154]
+                          - cell "2.86" [ref=e1155]
+                          - cell "7.76" [ref=e1156]
+                          - cell "10.30" [ref=e1157]
+                          - cell "9.72" [ref=e1158]
+                          - cell "8.51" [ref=e1159]
+                    - generic [ref=e1162]:
+                      - button "First" [ref=e1163] [cursor=pointer]: <
+                      - button "Go to page 1" [ref=e1164] [cursor=pointer]: "1"
+                      - button "Last" [ref=e1165] [cursor=pointer]: ">"
+                  - generic [ref=e1167]:
+                    - generic [ref=e1168]:
+                      - heading "Calendar Year Returns (In %)" [level=2] [ref=e1169]
+                      - generic:
+                        - generic [ref=e1170] [cursor=pointer]: 
+                        - link [ref=e1171] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e1172]
+                    - table [ref=e1174]:
+                      - rowgroup [ref=e1175]:
+                        - row "Particulars 2024 2023 2022 2021 2020" [ref=e1176]:
+                          - cell "Particulars" [ref=e1177]
+                          - cell "2024" [ref=e1178]
+                          - cell "2023" [ref=e1179]
+                          - cell "2022" [ref=e1180]
+                          - cell "2021" [ref=e1181]
+                          - cell "2020" [ref=e1182]
+                      - rowgroup [ref=e1183]:
+                        - row "Aditya Birla Sun Life Large Cap Fund - Reg - Growth 15.43 23.07 3.54 27.90 14.18" [ref=e1184]:
+                          - cell "Aditya Birla Sun Life Large Cap Fund - Reg - Growth" [ref=e1185]
+                          - cell "15.43" [ref=e1186]
+                          - cell "23.07" [ref=e1187]
+                          - cell "3.54" [ref=e1188]
+                          - cell "27.90" [ref=e1189]
+                          - cell "14.18" [ref=e1190]
+                        - row "Axis Liquid Fund - Growth 7.36 7.05 4.88 3.28 4.26" [ref=e1191]:
+                          - cell "Axis Liquid Fund - Growth" [ref=e1192]
+                          - cell "7.36" [ref=e1193]
+                          - cell "7.05" [ref=e1194]
+                          - cell "4.88" [ref=e1195]
+                          - cell "3.28" [ref=e1196]
+                          - cell "4.26" [ref=e1197]
+                        - row "Franklin India Large Cap Fund - Growth 16.07 21.66 -2.22 32.76 13.63" [ref=e1198]:
+                          - cell "Franklin India Large Cap Fund - Growth" [ref=e1199]
+                          - cell "16.07" [ref=e1200]
+                          - cell "21.66" [ref=e1201]
+                          - cell "-2.22" [ref=e1202]
+                          - cell "32.76" [ref=e1203]
+                          - cell "13.63" [ref=e1204]
+                        - row "HDFC Income Fund - Growth 8.91 6.08 0.91 2.14 9.25" [ref=e1205]:
+                          - cell "HDFC Income Fund - Growth" [ref=e1206]
+                          - cell "8.91" [ref=e1207]
+                          - cell "6.08" [ref=e1208]
+                          - cell "0.91" [ref=e1209]
+                          - cell "2.14" [ref=e1210]
+                          - cell "9.25" [ref=e1211]
+                        - row "Overall Portfolio 11.40 12.65 1.03 14.13 10.06" [ref=e1212]:
+                          - cell "Overall Portfolio" [ref=e1213]
+                          - cell "11.40" [ref=e1214]
+                          - cell "12.65" [ref=e1215]
+                          - cell "1.03" [ref=e1216]
+                          - cell "14.13" [ref=e1217]
+                          - cell "10.06" [ref=e1218]
+                    - generic [ref=e1221]:
+                      - button "First" [ref=e1222] [cursor=pointer]: <
+                      - button "Go to page 1" [ref=e1223] [cursor=pointer]: "1"
+                      - button "Last" [ref=e1224] [cursor=pointer]: ">"
+                  - generic [ref=e1226]:
+                    - generic [ref=e1227]:
+                      - heading "Lumpsum Performance (Growth of Rs. 10,000)" [level=2] [ref=e1228]
+                      - generic [ref=e1229] [cursor=pointer]: 
+                      - list [ref=e1230]:
+                        - listitem [ref=e1231] [cursor=pointer]:
+                          - link "Export to Excel" [ref=e1233]:
+                            - /url: "#"
+                            - img [ref=e1234]
+                    - generic [ref=e1236]:
+                      - table [ref=e1237]:
+                        - rowgroup [ref=e1238]:
+                          - row "Particulars 1 Year 3 Years 5 Years Since Inception Inception Date" [ref=e1239]:
+                            - cell "Particulars" [ref=e1240]
+                            - cell "1 Year" [ref=e1241]:
+                              - generic [ref=e1242]: 1 Year
+                            - cell "3 Years" [ref=e1243]:
+                              - generic [ref=e1244]: 3 Years
+                            - cell "5 Years" [ref=e1245]:
+                              - generic [ref=e1246]: 5 Years
+                            - cell "Since Inception" [ref=e1247]:
+                              - generic [ref=e1248]: Since Inception
+                            - cell "Inception Date" [ref=e1249]
+                          - row "Return (%) Amount (  ) Return (%) Amount (  ) Return (%) Amount (  ) Return (%) Amount (  )" [ref=e1250]:
+                            - cell "Return (%)" [ref=e1251]
+                            - cell "Amount (  )" [ref=e1252]:
+                              - generic [ref=e1253]:
+                                - text: Amount (
+                                - generic [ref=e1254]: 
+                                - text: )
+                            - cell "Return (%)" [ref=e1255]
+                            - cell "Amount (  )" [ref=e1256]:
+                              - generic [ref=e1257]:
+                                - text: Amount (
+                                - generic [ref=e1258]: 
+                                - text: )
+                            - cell "Return (%)" [ref=e1259]
+                            - cell "Amount (  )" [ref=e1260]:
+                              - generic [ref=e1261]:
+                                - text: Amount (
+                                - generic [ref=e1262]: 
+                                - text: )
+                            - cell "Return (%)" [ref=e1263]
+                            - cell "Amount (  )" [ref=e1264]:
+                              - generic [ref=e1265]:
+                                - text: Amount (
+                                - generic [ref=e1266]: 
+                                - text: )
+                        - rowgroup [ref=e1267]:
+                          - row "Aditya Birla Sun Life Large Cap Fund - Reg - Growth 7.26 10730.00 20.50 17507.00 22.17 27229.00 19.04 536741.00 30-Aug-2002" [ref=e1268]:
+                            - cell "Aditya Birla Sun Life Large Cap Fund - Reg - Growth" [ref=e1269]
+                            - cell "7.26" [ref=e1270]
+                            - cell "10730.00" [ref=e1271]
+                            - cell "20.50" [ref=e1272]
+                            - cell "17507.00" [ref=e1273]
+                            - cell "22.17" [ref=e1274]
+                            - cell "27229.00" [ref=e1275]
+                            - cell "19.04" [ref=e1276]
+                            - cell "536741.00" [ref=e1277]
+                            - cell "30-Aug-2002" [ref=e1278]
+                          - row "HDFC Income Fund - Growth 8.66 10871.00 7.67 12485.00 5.21 12894.00 7.36 58306.00 11-Sep-2000" [ref=e1279]:
+                            - cell "HDFC Income Fund - Growth" [ref=e1280]
+                            - cell "8.66" [ref=e1281]
+                            - cell "10871.00" [ref=e1282]
+                            - cell "7.67" [ref=e1283]
+                            - cell "12485.00" [ref=e1284]
+                            - cell "5.21" [ref=e1285]
+                            - cell "12894.00" [ref=e1286]
+                            - cell "7.36" [ref=e1287]
+                            - cell "58306.00" [ref=e1288]
+                            - cell "11-Sep-2000" [ref=e1289]
+                          - row "Franklin India Bluechip - Growth 7.75 10779.00 18.27 16550.00 20.63 25560.00 19.09 2497855.00 01-Dec-1993" [ref=e1290]:
+                            - cell "Franklin India Bluechip - Growth" [ref=e1291]
+                            - cell "7.75" [ref=e1292]
+                            - cell "10779.00" [ref=e1293]
+                            - cell "18.27" [ref=e1294]
+                            - cell "16550.00" [ref=e1295]
+                            - cell "20.63" [ref=e1296]
+                            - cell "25560.00" [ref=e1297]
+                            - cell "19.09" [ref=e1298]
+                            - cell "2497855.00" [ref=e1299]
+                            - cell "01-Dec-1993" [ref=e1300]
+                          - row "Axis Liquid Fund - Growth 7.21 10721.00 6.99 12250.00 5.54 13098.00 7.02 29075.00 09-Oct-2009" [ref=e1301]:
+                            - cell "Axis Liquid Fund - Growth" [ref=e1302]
+                            - cell "7.21" [ref=e1303]
+                            - cell "10721.00" [ref=e1304]
+                            - cell "6.99" [ref=e1305]
+                            - cell "12250.00" [ref=e1306]
+                            - cell "5.54" [ref=e1307]
+                            - cell "13098.00" [ref=e1308]
+                            - cell "7.02" [ref=e1309]
+                            - cell "29075.00" [ref=e1310]
+                            - cell "09-Oct-2009" [ref=e1311]
+                          - row "Overall Portfolio 7.96 10799.30 12.00 14159.70 11.60 18168.10 11.98 832168.00" [ref=e1312]:
+                            - cell "Overall Portfolio" [ref=e1313]
+                            - cell "7.96" [ref=e1314]
+                            - cell "10799.30" [ref=e1315]
+                            - cell "12.00" [ref=e1316]
+                            - cell "14159.70" [ref=e1317]
+                            - cell "11.60" [ref=e1318]
+                            - cell "18168.10" [ref=e1319]
+                            - cell "11.98" [ref=e1320]
+                            - cell "832168.00" [ref=e1321]
+                            - cell [ref=e1322]
+                      - heading "* Scheme and Index calculation based on last day of the portfolio month" [level=6] [ref=e1325]
+                      - 'heading "* Index Calculation: * Less than 1 year Simple Annualized returns, Greater than or Equal to 1 year Compound Annualized returns." [level=6] [ref=e1326]'
+                    - generic [ref=e1329]:
+                      - button "First" [ref=e1330] [cursor=pointer]: <
+                      - button "Go to page 1" [ref=e1331] [cursor=pointer]: "1"
+                      - button "Last" [ref=e1332] [cursor=pointer]: ">"
+                - generic [ref=e1335]:
+                  - generic [ref=e1336]:
+                    - heading "Risk Return Matrix" [level=2] [ref=e1337]
+                    - generic [ref=e1338] [cursor=pointer]: 
+                  - generic [ref=e1339]:
+                    - generic [ref=e1340]: Standard Deviation
+                    - img [ref=e1343]:
+                      - generic "Chart context menu" [ref=e1361] [cursor=pointer]
+                      - generic [ref=e1364]: Avg. Rolling Return
+                      - generic [ref=e1365]:
+                        - generic [ref=e1366]: "0.4"
+                        - generic [ref=e1367]: "0.5"
+                        - generic [ref=e1368]: "0.6"
+                        - generic [ref=e1369]: "0.7"
+                        - generic [ref=e1370]: "0.8"
+                        - generic [ref=e1371]: "0.9"
+                        - generic [ref=e1372]: "1"
+                        - generic [ref=e1373]: "1.1"
+                        - generic [ref=e1374]: "1.2"
+                        - generic [ref=e1375]: "1.3"
+                        - generic [ref=e1376]: "1.4"
+                        - generic [ref=e1377]: "1.5"
+                      - generic [ref=e1378]:
+                        - generic [ref=e1379]: "0"
+                        - generic [ref=e1380]: "2.5"
+                        - generic [ref=e1381]: "5"
+                        - generic [ref=e1382]: "7.5"
+                        - generic [ref=e1383]: "10"
+                        - generic [ref=e1384]: "12.5"
+                      - generic [ref=e1385]:
+                        - generic [ref=e1388]: Higher Risk Lower Returns
+                        - generic [ref=e1391]: Higher Risk Higher Returns
+                        - generic [ref=e1394]: Lower Risk Higher Returns
+                        - generic [ref=e1397]: Lower Risk Lower Returns
+                      - generic [ref=e1398] [cursor=pointer]: "Source: MFI360 Explorer"
+                  - button "Show Legend" [ref=e1400] [cursor=pointer]
+                  - 'heading "* Ratio types: standard deviation, risk free rate: 5.5, rolling frequency: 1 month, rolling period: 1 month for last 3 years." [level=6] [ref=e1403]'
+                  - heading "* Select section to zoom in." [level=6] [ref=e1404]
+                  - heading "* Standard Deviation is calculated using NAV" [level=6] [ref=e1405]
+                - generic [ref=e1408]:
+                  - generic [ref=e1409]:
+                    - heading "Statistical Comprehensive" [level=2] [ref=e1410]
+                    - generic:
+                      - generic [ref=e1411] [cursor=pointer]: 
+                      - link [ref=e1412] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1413]
+                  - table [ref=e1418]:
+                    - rowgroup [ref=e1419]:
+                      - row "Scheme Name Standard Deviation Sharpe Sortino Beta Alpha R-Squared" [ref=e1420]:
+                        - cell "Scheme Name" [ref=e1421]
+                        - cell "Standard Deviation" [ref=e1422]
+                        - cell "Sharpe" [ref=e1423]
+                        - cell "Sortino" [ref=e1424]
+                        - cell "Beta" [ref=e1425]
+                        - cell "Alpha" [ref=e1426]
+                        - cell "R-Squared" [ref=e1427]
+                    - rowgroup [ref=e1428]:
+                      - row "Aditya Birla Sun Life Large Cap Fund - Regular - Growth 9.6978 0.9786 0.5522 0.9308 0.1368 0.9626" [ref=e1429]:
+                        - cell "Aditya Birla Sun Life Large Cap Fund - Regular - Growth" [ref=e1430]
+                        - cell "9.6978" [ref=e1431]
+                        - cell "0.9786" [ref=e1432]
+                        - cell "0.5522" [ref=e1433]
+                        - cell "0.9308" [ref=e1434]
+                        - cell "0.1368" [ref=e1435]
+                        - cell "0.9626" [ref=e1436]
+                      - row "Axis Liquid Fund - Growth 0.2006 6.0885 0.3781 -- -- --" [ref=e1437]:
+                        - cell "Axis Liquid Fund - Growth" [ref=e1438]
+                        - cell "0.2006" [ref=e1439]
+                        - cell "6.0885" [ref=e1440]
+                        - cell "0.3781" [ref=e1441]
+                        - cell "--" [ref=e1442]
+                        - cell "--" [ref=e1443]
+                        - cell "--" [ref=e1444]
+                      - row "Franklin India Large Cap Fund - Growth 9.3832 0.9706 0.5581 0.8723 0.2101 0.8998" [ref=e1445]:
+                        - cell "Franklin India Large Cap Fund - Growth" [ref=e1446]
+                        - cell "9.3832" [ref=e1447]
+                        - cell "0.9706" [ref=e1448]
+                        - cell "0.5581" [ref=e1449]
+                        - cell "0.8723" [ref=e1450]
+                        - cell "0.2101" [ref=e1451]
+                        - cell "0.8998" [ref=e1452]
+                      - row "HDFC Income Fund - Growth 2.5614 0.4472 0.2665 -- -- --" [ref=e1453]:
+                        - cell "HDFC Income Fund - Growth" [ref=e1454]
+                        - cell "2.5614" [ref=e1455]
+                        - cell "0.4472" [ref=e1456]
+                        - cell "0.2665" [ref=e1457]
+                        - cell "--" [ref=e1458]
+                        - cell "--" [ref=e1459]
+                        - cell "--" [ref=e1460]
+                  - generic [ref=e1463]:
+                    - button "First" [ref=e1464] [cursor=pointer]: <
+                    - button "Go to page 1" [ref=e1465] [cursor=pointer]: "1"
+                    - button "Last" [ref=e1466] [cursor=pointer]: ">"
+                - generic [ref=e1467]:
+                  - generic [ref=e1469]:
+                    - generic [ref=e1470]:
+                      - heading "What's In" [level=2] [ref=e1471]
+                      - generic:
+                        - generic [ref=e1472] [cursor=pointer]: 
+                        - link [ref=e1473] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e1474]
+                    - generic [ref=e1475]:
+                      - table [ref=e1476]:
+                        - rowgroup [ref=e1477]:
+                          - row "Company Name ISIN Instrument Name Value (In Cr.)" [ref=e1478]:
+                            - cell "Company Name" [ref=e1479]
+                            - cell "ISIN" [ref=e1480]
+                            - cell "Instrument Name" [ref=e1481]
+                            - cell "Value (In Cr.)" [ref=e1482]:
+                              - text: Value
+                              - text: (In
+                              - generic [ref=e1483]: 
+                              - text: Cr.)
+                        - rowgroup
+                      - generic [ref=e1485]:
+                        - img "Icon" [ref=e1486]
+                        - paragraph [ref=e1487]: Data not found
+                  - generic [ref=e1489]:
+                    - generic [ref=e1490]:
+                      - heading "What's Out" [level=2] [ref=e1491]
+                      - generic:
+                        - generic [ref=e1492] [cursor=pointer]: 
+                        - link [ref=e1493] [cursor=pointer]:
+                          - /url: "#"
+                          - img [ref=e1494]
+                    - generic [ref=e1495]:
+                      - table [ref=e1496]:
+                        - rowgroup [ref=e1497]:
+                          - row "Company Name ISIN Instrument Name Value (In Cr.)" [ref=e1498]:
+                            - cell "Company Name" [ref=e1499]
+                            - cell "ISIN" [ref=e1500]
+                            - cell "Instrument Name" [ref=e1501]
+                            - cell "Value (In Cr.)" [ref=e1502]:
+                              - text: Value
+                              - text: (In
+                              - generic [ref=e1503]: 
+                              - text: Cr.)
+                        - rowgroup
+                      - generic [ref=e1505]:
+                        - img "Icon" [ref=e1506]
+                        - paragraph [ref=e1507]: Data not found
+                - generic [ref=e1510]:
+                  - generic [ref=e1511]:
+                    - heading "Correlation Matrix" [level=2] [ref=e1512]
+                    - generic [ref=e1513]:
+                      - list [ref=e1514]:
+                        - listitem [ref=e1515]: Very High
+                        - listitem [ref=e1516]
+                        - listitem [ref=e1517]
+                        - listitem [ref=e1518]
+                        - listitem [ref=e1519]
+                        - listitem [ref=e1520]: Very Low
+                      - generic [ref=e1521] [cursor=pointer]: 
+                      - link [ref=e1522] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1523]
+                  - generic [ref=e1525]:
+                    - table [ref=e1526]:
+                      - rowgroup [ref=e1527]:
+                        - row "Scheme Name Scheme A Scheme B Scheme C Scheme D" [ref=e1528]:
+                          - cell "Scheme Name" [ref=e1529]
+                          - cell [ref=e1530]
+                          - cell "Scheme A" [ref=e1531]
+                          - cell "Scheme B" [ref=e1532]
+                          - cell "Scheme C" [ref=e1533]
+                          - cell "Scheme D" [ref=e1534]
+                      - rowgroup [ref=e1535]:
+                        - row "Aditya Birla Sun Life Large Cap Fund - Regular - Growth Scheme A -- 0.64 0.99 0.16" [ref=e1536]:
+                          - cell "Aditya Birla Sun Life Large Cap Fund - Regular - Growth" [ref=e1537]
+                          - cell "Scheme A" [ref=e1538]
+                          - cell "--" [ref=e1539]
+                          - cell "0.64" [ref=e1540]
+                          - cell "0.99" [ref=e1541]
+                          - cell "0.16" [ref=e1542]
+                        - row "Axis Liquid Fund - Growth Scheme B 0.64 -- 0.05 0.04" [ref=e1543]:
+                          - cell "Axis Liquid Fund - Growth" [ref=e1544]
+                          - cell "Scheme B" [ref=e1545]
+                          - cell "0.64" [ref=e1546]
+                          - cell "--" [ref=e1547]
+                          - cell "0.05" [ref=e1548]
+                          - cell "0.04" [ref=e1549]
+                        - row "Franklin India Large Cap Fund - Growth Scheme C 0.99 0.05 -- 0.14" [ref=e1550]:
+                          - cell "Franklin India Large Cap Fund - Growth" [ref=e1551]
+                          - cell "Scheme C" [ref=e1552]
+                          - cell "0.99" [ref=e1553]
+                          - cell "0.05" [ref=e1554]
+                          - cell "--" [ref=e1555]
+                          - cell "0.14" [ref=e1556]
+                        - row "HDFC Income Fund - Growth Scheme D 0.16 0.04 0.14 --" [ref=e1557]:
+                          - cell "HDFC Income Fund - Growth" [ref=e1558]
+                          - cell "Scheme D" [ref=e1559]
+                          - cell "0.16" [ref=e1560]
+                          - cell "0.04" [ref=e1561]
+                          - cell "0.14" [ref=e1562]
+                          - cell "--" [ref=e1563]
+                    - text: "* Correlation between schemes is calculated using the NAV for last 1 year"
+                  - generic [ref=e1566]:
+                    - button "First" [ref=e1567] [cursor=pointer]: <
+                    - button "Go to page 1" [ref=e1568] [cursor=pointer]: "1"
+                    - button "Last" [ref=e1569] [cursor=pointer]: ">"
+                - generic [ref=e1572]:
+                  - generic [ref=e1573]:
+                    - heading "Portfolio Overlap Matrix" [level=2] [ref=e1574]
+                    - generic [ref=e1575]:
+                      - list [ref=e1576]:
+                        - listitem [ref=e1577]: Very High
+                        - listitem [ref=e1578]
+                        - listitem [ref=e1579]
+                        - listitem [ref=e1580]
+                        - listitem [ref=e1581]
+                        - listitem [ref=e1582]: Very Low
+                      - generic [ref=e1583] [cursor=pointer]: 
+                      - link [ref=e1584] [cursor=pointer]:
+                        - /url: "#"
+                        - img [ref=e1585]
+                  - generic [ref=e1587]:
+                    - table [ref=e1588]:
+                      - rowgroup [ref=e1589]:
+                        - row "Fund Name" [ref=e1590]:
+                          - cell "Fund Name" [ref=e1591]
+                          - cell [ref=e1592]
+                      - rowgroup
+                    - heading "* Only equity component of the equity and hybrid funds are considered for calculating the portfolio overlap" [level=6] [ref=e1593]
+                    - heading "* Portfolio overlap is calculated based on the percentage of common stock exposure between two funds for the current month" [level=6] [ref=e1594]
+            - text: 
+  - status [ref=e1595]: There are no matches available.
+```

@@ -16,3 +16,6 @@ export async function changeElementStyle(page: Page, selector: string, property:
 export async function setBorder(page: Page, selector: string) {
   await changeElementStyle(page, selector, "border", "3px dashed red");
 }
+
+
+

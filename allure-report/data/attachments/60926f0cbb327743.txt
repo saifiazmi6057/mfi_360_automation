@@ -1,0 +1,20 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(AAC)
+Expected Attribute Name Portfolio Month(AAC)
+Selected Output Column is: Country
+Selected Output Column is: Nature of Instrument
+Selected Output Column is: Portfolio Month(AAC)
+Selected Output Column is: Corpus Percent
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Country
+Selected Header Name:  Country
+Output Header Name:  Nature of Instrument
+Selected Header Name:  Nature of Instrument
+Output Header Name:  Portfolio Month(AAC)
+Selected Header Name:  Portfolio Month(AAC)
+Output Header Name:  Corpus Percent
+Selected Header Name:  Corpus Percent
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

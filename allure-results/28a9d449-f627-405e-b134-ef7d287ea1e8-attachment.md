@@ -1,0 +1,249 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - link [ref=e10] [cursor=pointer]:
+      - /url: /UserDashboard/Details
+      - img [ref=e11]
+    - generic [ref=e14]:
+      - list [ref=e15]:
+        - listitem [ref=e16] [cursor=pointer]:
+          - link "Admin" [ref=e17]:
+            - /url: "#"
+            - img [ref=e18]
+            - text: 
+        - listitem [ref=e19] [cursor=pointer]:
+          - link "Performance" [ref=e20]:
+            - /url: "#"
+            - img [ref=e21]
+            - text: 
+        - listitem [ref=e22] [cursor=pointer]:
+          - link "Portfolio" [ref=e23]:
+            - /url: "#"
+            - img [ref=e24]
+            - text: 
+        - listitem [ref=e25] [cursor=pointer]:
+          - link "Industry" [ref=e26]:
+            - /url: "#"
+            - img [ref=e27]
+            - text: 
+        - listitem [ref=e28] [cursor=pointer]:
+          - link "Tools" [ref=e29]:
+            - /url: "#"
+            - img [ref=e30]
+            - text: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - link "Utilities" [ref=e32]:
+            - /url: "#"
+            - img [ref=e33]
+            - text: 
+        - listitem [ref=e34] [cursor=pointer]:
+          - link "Fund Screener" [ref=e35]:
+            - /url: /AMC/FundScreener
+            - img [ref=e36]
+        - listitem [ref=e37] [cursor=pointer]:
+          - link "Advanced Fund Screener" [ref=e38]:
+            - /url: /AMC/FundScreenerAdvance
+            - img [ref=e39]
+      - text:        
+  - text: 
+  - generic [ref=e40]:
+    - navigation:
+      - generic [ref=e41]:
+        - generic [ref=e44] [cursor=pointer]: 
+        - generic [ref=e45]:
+          - text: 
+          - search [ref=e46]
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - generic "My Tutorial Video" [ref=e50]:
+            - img [ref=e51]
+          - text:           
+        - link "0" [ref=e52] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e53]
+          - generic [ref=e54]: "0"
+        - listitem [ref=e55]:
+          - link [ref=e56] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e57]
+        - listitem [ref=e58]:
+          - generic "Change setting" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+        - listitem [ref=e61]:
+          - link "user" [ref=e62] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e63]
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:      
+      - generic [ref=e70]:
+        - generic [ref=e72]:
+          - heading "Advanced Portfolio Analysis" [level=3] [ref=e73]
+          - generic [ref=e75] [cursor=pointer]: 
+        - generic [ref=e76]:
+          - generic:
+            - generic [ref=e78]:
+              - generic [ref=e79]:
+                - heading "Scheme Selection" [level=2] [ref=e80]
+                - generic [ref=e81] [cursor=pointer]: 
+              - generic [ref=e84]:
+                - generic [ref=e85]:
+                  - button [ref=e86] [cursor=pointer]: 
+                  - generic [ref=e87] [cursor=pointer]: 
+                  - combobox [ref=e88]:
+                    - option "Selected Schemes" [selected]
+                    - option "User Set"
+                    - option "My Watchlist"
+                    - option "Composite Schemes"
+                - textbox "Type Scheme Name..." [active] [ref=e90]: HDFC Mid Cap Fund - Growth
+                - table [ref=e92]:
+                  - rowgroup [ref=e93]:
+                    - row "Scheme Name (0)" [ref=e94]:
+                      - cell [ref=e95]:
+                        - generic [ref=e96]:
+                          - button [ref=e97] [cursor=pointer]
+                          - button
+                      - cell "Scheme Name (0)" [ref=e98]
+                  - rowgroup [ref=e99]:
+                    - row "HDFC Mid Cap Fund - Growth" [ref=e100]:
+                      - cell [ref=e101]:
+                        - checkbox [ref=e102]
+                      - cell "HDFC Mid Cap Fund - Growth" [ref=e104]:
+                        - link "HDFC Mid Cap Fund - Growth" [ref=e105] [cursor=pointer]:
+                          - /url: "#"
+            - generic [ref=e106]:
+              - tabpanel [ref=e107]:
+                - tablist [ref=e108]:
+                  - tab "Detailed Portfolio" [expanded] [ref=e109]
+                  - listitem [ref=e110]:
+                    - tab "New Entry/Exit" [ref=e111] [cursor=pointer]
+                  - listitem [ref=e112]:
+                    - tab "Quants" [ref=e113] [cursor=pointer]
+                  - listitem [ref=e114]:
+                    - tab "Market Cap" [ref=e115] [cursor=pointer]
+                  - listitem [ref=e116]:
+                    - tab "Trade Analysis" [ref=e117] [cursor=pointer]
+                  - listitem [ref=e118]:
+                    - tab "Portfolio Change" [ref=e119] [cursor=pointer]
+                  - listitem [ref=e120]:
+                    - tab "Search" [ref=e121] [cursor=pointer]
+                  - listitem [ref=e122]:
+                    - tab "Risk-O-Meter & PRC" [ref=e123] [cursor=pointer]
+                  - listitem [ref=e124]:
+                    - tab "Stress Testing & Liquidity Analysis" [ref=e125] [cursor=pointer]
+                - generic [ref=e126]:
+                  - tabpanel "Detailed Portfolio":
+                    - generic [ref=e127]:
+                      - generic [ref=e128]: Portfolio Frequency
+                      - generic [ref=e130]:
+                        - button "Monthly" [ref=e131] [cursor=pointer]
+                        - button "Fortnightly" [ref=e132] [cursor=pointer]
+                    - generic [ref=e134]:
+                      - generic [ref=e135]: Portfolio Periods
+                      - button "Select Portfolio Period" [ref=e140] [cursor=pointer]
+                    - generic [ref=e142]:
+                      - generic [ref=e143]: Portfolio Nature
+                      - generic [ref=e145]:
+                        - generic [ref=e146] [cursor=pointer]:
+                          - checkbox "Equity"
+                          - text: Equity
+                        - generic [ref=e147] [cursor=pointer]:
+                          - checkbox "Debt"
+                          - text: Debt
+                        - generic [ref=e148] [cursor=pointer]:
+                          - checkbox "Others"
+                          - text: Others
+                    - generic [ref=e150]:
+                      - generic [ref=e151]: Code Feature
+                      - generic [ref=e153]:
+                        - generic [ref=e154] [cursor=pointer]:
+                          - checkbox "ISIN Code"
+                          - text: ISIN Code
+                        - generic [ref=e155] [cursor=pointer]:
+                          - checkbox "BSE Code"
+                          - text: BSE Code
+                        - generic [ref=e156] [cursor=pointer]:
+                          - checkbox "NSE Code"
+                          - text: NSE Code
+                    - generic [ref=e158]:
+                      - generic [ref=e159]: Top Holding
+                      - combobox [ref=e161]:
+                        - option "Select" [selected]
+                        - option "1"
+                        - option "2"
+                        - option "3"
+                        - option "4"
+                        - option "5"
+                        - option "6"
+                        - option "7"
+                        - option "8"
+                        - option "9"
+                        - option "10"
+                    - generic [ref=e163]:
+                      - generic [ref=e164]: Market Value In
+                      - combobox [ref=e166]:
+                        - option "Crs." [selected]
+                        - option "Million"
+                        - option "Billion"
+                    - generic [ref=e168]:
+                      - generic [ref=e169]: Debt Details
+                      - combobox [ref=e171]:
+                        - option "All" [selected]
+                        - option "Coupon Rate"
+                        - option "Issuer Name"
+                        - option "Maturity Date"
+                    - generic [ref=e173]:
+                      - generic [ref=e174]: Market Cap
+                      - generic [ref=e176]:
+                        - generic [ref=e177] [cursor=pointer]:
+                          - checkbox "SEBI"
+                          - text: SEBI
+                        - generic [ref=e178] [cursor=pointer]:
+                          - checkbox "Custom"
+                          - text: Custom
+                    - generic [ref=e180]:
+                      - generic [ref=e181]: Fund Size
+                      - button "Monthly Fund Size" [ref=e184] [cursor=pointer]:
+                        - checkbox "Monthly Fund Size"
+                        - text: Monthly Fund Size
+                    - generic [ref=e186]:
+                      - generic [ref=e187]: Select Sector
+                      - combobox [ref=e189]:
+                        - option "Select"
+                        - option "MFI sector" [selected]
+                        - option "Customized Sector"
+                    - generic [ref=e191]:
+                      - generic [ref=e192]: Long Term Rating
+                      - combobox [ref=e194]:
+                        - option "Select" [selected]
+                        - option "Long Term Rating"
+                        - option "Long Term Conservative Rating"
+                    - generic [ref=e196]:
+                      - generic [ref=e197]: Group Company
+                      - combobox [ref=e199]:
+                        - option "Select" [selected]
+                        - option "Yes"
+                    - generic [ref=e204]:
+                      - checkbox "Instrument Set" [checked] [ref=e205]:
+                        - button [ref=e206] [cursor=pointer]
+                        - button "Instrument Set" [ref=e207] [cursor=pointer]
+                      - checkbox "Rating Set" [checked] [ref=e208]:
+                        - button [ref=e209] [cursor=pointer]
+                        - button "Rating Set" [ref=e210] [cursor=pointer]
+                    - generic [ref=e211]:
+                      - generic [ref=e213]: Single Tab Output
+                      - checkbox "Multiple Tab Output" [ref=e216] [cursor=pointer]:
+                        - generic [ref=e220]: Multiple Tab Output
+                      - generic [ref=e221]:
+                        - generic:
+                          - button "Reset" [ref=e222] [cursor=pointer]
+                          - button "Show Report" [ref=e223] [cursor=pointer]
+                  - text:         
+              - generic [ref=e224] [cursor=pointer]: 
+        - text: 
+        - generic:
+          - text: 
+          - generic:                                                                                                                                                                                                                                                                                                                        
+```

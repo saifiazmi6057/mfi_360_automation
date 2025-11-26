@@ -1,0 +1,4 @@
+[
+  { Username: 'saifiazmi@icraanalytics.com', Password: 'Test@123' },
+  { Username: 'user@icraanalytics.com', Password: 'Charli@123' }
+]

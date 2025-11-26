@@ -1,0 +1,69 @@
+
+🧩 Validating widget: "AMC Allocation"
+
+🧩 Validating widget: "Category Allocation - Current Month"
+
+🧩 Validating widget: "Asset Allocation-(Current Month)"
+
+🧩 Validating widget: "Asset Allocation-(Previous Month)"
+
+🧩 Validating widget: "Average for Last 12 Months"
+
+🧩 Validating widget: "Market Capitalization(Current Month)"
+
+🧩 Validating widget: "Market Capitalization(Previous Month)"
+
+🧩 Validating widget: "Average for Last 12 Months"
+
+🧩 Validating widget: "Sector Allocation(Current Month)"
+
+🧩 Validating widget: "Sector Allocation(Previous Month)"
+
+🧩 Validating widget: "Sector Allocation-(Average for Last 12 Months)"
+
+🧩 Validating widget: "Holding Analysis (Company)- Table"
+✅ Widget "Holding Analysis (Company)- Table" table is visible.
+
+🧩 Validating widget: "Holding Analysis (Sector)- Table"
+✅ Widget "Holding Analysis (Sector)- Table" is visible.
+
+🧩 Validating widget: "Maturity Profile - Current Month Graph Table"
+
+🧩 Validating widget: "Average Maturity"
+✅ Widget "Average Maturity" is visible.
+
+🧩 Validating widget: "Instrument Allocation - Top 20-Table"
+
+🧩 Validating widget: "Instrument Allocation - Current Month -Table"
+
+🧩 Validating widget: "Return Analysis Graph"
+✅ Widget "Return Analysis Graph" is visible.
+
+🧩 Validating widget: "P2P Returns (In %)"
+✅ Widget "P2P Returns (In %)" is visible.
+
+🧩 Validating widget: "Calendar Year Returns (In %)"
+✅ Widget "Calendar Year Returns (In %)" is visible.
+
+🧩 Validating widget: "Lumpsum Performance (Growth of Rs. 10,000)"
+✅ Widget "Lumpsum Performance (Growth of Rs. 10,000)" is visible.
+
+🧩 Validating widget: "Risk Return Matrix"
+✅ Widget "Risk Return Matrix" is visible.
+
+🧩 Validating widget: "Statistical Comprehensive"
+✅ Widget "Statistical Comprehensive" is visible.
+
+🧩 Validating widget: "What's In"
+✅ Widget "What's In" is visible.
+
+🧩 Validating widget: "What's Out"
+✅ Widget "What's Out" is visible.
+
+🧩 Validating widget: "Correlation Matrix"
+✅ Widget "Correlation Matrix" is visible.
+
+🧩 Validating widget: "Portfolio Overlap Matrix"
+✅ Widget "Portfolio Overlap Matrix" is visible.
+
+🎯 All expected widgets validated successfully.

@@ -1,0 +1,13 @@
+Selecting fund: Fund B
+Waiting for table to appear...
+Total rows found: 5
+Row 1 has 11 cells
+Row 2 has 11 cells
+Row 3 has 11 cells
+Row 4 has 11 cells
+Row 5 has 11 cells
+Total funds found: 2
+Selected fund 1
+Selected fund 2
+Clicked Delete button
+Confirmed deletion

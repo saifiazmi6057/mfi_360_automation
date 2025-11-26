@@ -1,0 +1,919 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e8]:
+      - link [ref=e10] [cursor=pointer]:
+        - /url: /UserDashboard/Details
+        - img [ref=e11]
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16] [cursor=pointer]:
+            - link "Admin" [ref=e17]:
+              - /url: "#"
+              - img [ref=e18]
+              - text: 
+          - listitem [ref=e19] [cursor=pointer]:
+            - link "Performance" [ref=e20]:
+              - /url: "#"
+              - img [ref=e21]
+              - text: 
+          - listitem [ref=e22] [cursor=pointer]:
+            - link "Portfolio" [ref=e23]:
+              - /url: "#"
+              - img [ref=e24]
+              - text: 
+          - listitem [ref=e25] [cursor=pointer]:
+            - link "Industry" [ref=e26]:
+              - /url: "#"
+              - img [ref=e27]
+              - text: 
+          - listitem [ref=e28] [cursor=pointer]:
+            - link "Tools" [ref=e29]:
+              - /url: "#"
+              - img [ref=e30]
+              - text: 
+          - listitem [ref=e31] [cursor=pointer]:
+            - link "Utilities" [ref=e32]:
+              - /url: "#"
+              - img [ref=e33]
+              - text: 
+          - listitem [ref=e34] [cursor=pointer]:
+            - link "Fund Screener" [ref=e35]:
+              - /url: /AMC/FundScreener
+              - img [ref=e36]
+          - listitem [ref=e37] [cursor=pointer]:
+            - link "Advanced Fund Screener" [ref=e38]:
+              - /url: /AMC/FundScreenerAdvance
+              - img [ref=e39]
+        - text:        
+    - text: 
+    - generic [ref=e40]:
+      - navigation:
+        - generic [ref=e41]:
+          - generic [ref=e44] [cursor=pointer]: 
+          - generic [ref=e45]:
+            - text: 
+            - search [ref=e46]
+        - list [ref=e48]:
+          - listitem [ref=e49]:
+            - generic "My Tutorial Video" [ref=e50]:
+              - img [ref=e51]
+            - text:           
+          - link "0" [ref=e52] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e53]
+            - generic [ref=e54]: "0"
+          - listitem [ref=e55]:
+            - link [ref=e56] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e57]
+          - listitem [ref=e58]:
+            - generic "Change setting" [ref=e59] [cursor=pointer]:
+              - img [ref=e60]
+          - listitem [ref=e61]:
+            - link "user" [ref=e62] [cursor=pointer]:
+              - /url: javascript:;
+              - img [ref=e63]
+    - main [ref=e64]:
+      - generic [ref=e65]:
+        - generic [ref=e66]:      
+        - main [ref=e69]:
+          - combobox "Search for Menu..." [ref=e77]
+          - generic [ref=e82]:
+            - link "Ageing Analysis" [ref=e85] [cursor=pointer]:
+              - /url: /AgingAnalysis/AgingAnalysisDetails
+              - generic [ref=e87]:
+                - img [ref=e89]
+                - heading "Ageing Analysis" [level=4] [ref=e90]
+            - link "NFO Update" [ref=e93] [cursor=pointer]:
+              - /url: /NFO/NFOMonitoring
+              - generic [ref=e95]:
+                - img [ref=e97]
+                - heading "NFO Update" [level=4] [ref=e98]
+            - link "Macros" [ref=e101] [cursor=pointer]:
+              - /url: /Industry/EconomicMonitor
+              - generic [ref=e103]:
+                - img [ref=e105]
+                - heading "Macros" [level=4] [ref=e106]
+            - link "Resources" [ref=e109] [cursor=pointer]:
+              - /url: /AMC/Publication
+              - generic [ref=e111]:
+                - img [ref=e113]
+                - heading "Resources" [level=4] [ref=e114]
+            - link "Industry Asset" [ref=e117] [cursor=pointer]:
+              - /url: /Industry/IndustryAsset
+              - generic [ref=e119]:
+                - img [ref=e121]
+                - heading "Industry Asset" [level=4] [ref=e122]
+            - link "Transaction Trends" [ref=e125] [cursor=pointer]:
+              - /url: /Industry/TransactionTrends
+              - generic [ref=e127]:
+                - img [ref=e129]
+                - heading "Transaction Trends" [level=4] [ref=e130]
+            - link "Scheme Name Change Details" [ref=e133] [cursor=pointer]:
+              - /url: /Industry/SchemeMergerReport
+              - generic [ref=e135]:
+                - img [ref=e137]
+                - heading "Scheme Name Change Details" [level=4] [ref=e138]
+            - link "SIP Calculator" [ref=e141] [cursor=pointer]:
+              - /url: /SIP/SIPCalculator
+              - generic [ref=e143]:
+                - img [ref=e145]
+                - heading "SIP Calculator" [level=4] [ref=e146]
+            - link "STP Calculator" [ref=e149] [cursor=pointer]:
+              - /url: /STP/STPCalculator
+              - generic [ref=e151]:
+                - img [ref=e153]
+                - heading "STP Calculator" [level=4] [ref=e154]
+            - link "SWP Calculator" [ref=e157] [cursor=pointer]:
+              - /url: /SWP/SWPCalculator
+              - generic [ref=e159]:
+                - img [ref=e161]
+                - heading "SWP Calculator" [level=4] [ref=e162]
+            - link "Retirement Calculator" [ref=e165] [cursor=pointer]:
+              - /url: /Retirement/RetirementCalculator
+              - generic [ref=e167]:
+                - img [ref=e169]
+                - heading "Retirement Calculator" [level=4] [ref=e170]
+            - link "Portfolio Scanner" [ref=e173] [cursor=pointer]:
+              - /url: /Analysis/PTScanner
+              - generic [ref=e175]:
+                - img [ref=e177]
+                - heading "Portfolio Scanner" [level=4] [ref=e178]
+            - link "Advanced Portfolio Scanner" [ref=e181] [cursor=pointer]:
+              - /url: /Analysis/PTScannerAdvance
+              - generic [ref=e183]:
+                - img [ref=e185]
+                - heading "Advanced Portfolio Scanner" [level=4] [ref=e186]
+            - link "Fund Size Change Over NAV" [ref=e189] [cursor=pointer]:
+              - /url: /Portfolio/FundSizechangeOverNav
+              - generic [ref=e191]:
+                - img [ref=e193]
+                - heading "Fund Size Change Over NAV" [level=4] [ref=e194]
+            - link "Report Builder" [ref=e197] [cursor=pointer]:
+              - /url: /Report/MFReportBuilder
+              - generic [ref=e199]:
+                - img [ref=e201]
+                - heading "Report Builder" [level=4] [ref=e202]
+            - link "Query Builder" [ref=e205] [cursor=pointer]:
+              - /url: /Report/QueryBuilder
+              - generic [ref=e207]:
+                - img [ref=e209]
+                - heading "Query Builder" [level=4] [ref=e210]
+            - link "Data Status" [ref=e213] [cursor=pointer]:
+              - /url: /Analysis/DataStatus
+              - generic [ref=e215]:
+                - img [ref=e217]
+                - heading "Data Status" [level=4] [ref=e218]
+            - link "Custom Report" [ref=e221] [cursor=pointer]:
+              - /url: /Report/CustomReport
+              - generic [ref=e223]:
+                - img [ref=e225]
+                - heading "Custom Report" [level=4] [ref=e226]
+            - link "Fund Dashboard" [ref=e229] [cursor=pointer]:
+              - /url: /FundDashboard/Index
+              - generic [ref=e231]:
+                - img [ref=e233]
+                - heading "Fund Dashboard" [level=4] [ref=e234]
+            - link "Return Analysis" [ref=e237] [cursor=pointer]:
+              - /url: /SchemePerformance/Index
+              - generic [ref=e239]:
+                - img [ref=e241]
+                - heading "Return Analysis" [level=4] [ref=e242]
+            - link "Advanced Return Analysis" [ref=e245] [cursor=pointer]:
+              - /url: /SchemePerformance/Advance
+              - generic [ref=e247]:
+                - img [ref=e249]
+                - heading "Advanced Return Analysis" [level=4] [ref=e250]
+            - link "Index Performance Analysis" [ref=e253] [cursor=pointer]:
+              - /url: /IndexPerformance/Analysis
+              - generic [ref=e255]:
+                - img [ref=e257]
+                - heading "Index Performance Analysis" [level=4] [ref=e258]
+            - link "Net Asset Value (NAV)" [ref=e261] [cursor=pointer]:
+              - /url: /NavIndex/Index
+              - generic [ref=e263]:
+                - img [ref=e265]
+                - heading "Net Asset Value (NAV)" [level=4] [ref=e266]
+            - link "Lumpsum Performance" [ref=e269] [cursor=pointer]:
+              - /url: /SchemePerformance/SebiPerformanceReport
+              - generic [ref=e271]:
+                - img [ref=e273]
+                - heading "Lumpsum Performance" [level=4] [ref=e274]
+            - link "Risk Return Matrix" [ref=e277] [cursor=pointer]:
+              - /url: /SchemePerformance/RiskReturnMatrix
+              - generic [ref=e279]:
+                - img [ref=e281]
+                - heading "Risk Return Matrix" [level=4] [ref=e282]
+            - link "Statistical Comprehensive" [ref=e285] [cursor=pointer]:
+              - /url: /SchemePerformance/StatisticalRatio
+              - generic [ref=e287]:
+                - img [ref=e289]
+                - heading "Statistical Comprehensive" [level=4] [ref=e290]
+            - link "Fund FactSheet" [ref=e293] [cursor=pointer]:
+              - /url: /FundDashboard/FactSheet
+              - generic [ref=e295]:
+                - img [ref=e297]
+                - heading "Fund FactSheet" [level=4] [ref=e298]
+            - link "ISIN LookUp" [ref=e301] [cursor=pointer]:
+              - /url: /Debt/ISINLookUp
+              - generic [ref=e303]:
+                - img [ref=e305]
+                - heading "ISIN LookUp" [level=4] [ref=e306]
+            - link "Data Centre" [ref=e309] [cursor=pointer]:
+              - /url: /NavIndex/Advance
+              - generic [ref=e311]:
+                - img [ref=e313]
+                - heading "Data Centre" [level=4] [ref=e314]
+            - link "Value of Investment" [ref=e317] [cursor=pointer]:
+              - /url: /Return/VOI
+              - generic [ref=e319]:
+                - img [ref=e321]
+                - heading "Value of Investment" [level=4] [ref=e322]
+            - link "Returns TRI Benchmarked" [ref=e325] [cursor=pointer]:
+              - /url: /SchemePerformance/ReturnTriIndex
+              - generic [ref=e327]:
+                - img [ref=e329]
+                - heading "Returns TRI Benchmarked" [level=4] [ref=e330]
+            - link "Asset Watch" [ref=e333] [cursor=pointer]:
+              - /url: /Portfolio/AumMonitor
+              - generic [ref=e335]:
+                - img [ref=e337]
+                - heading "Asset Watch" [level=4] [ref=e338]
+            - link "Geographic Distribution" [ref=e341] [cursor=pointer]:
+              - /url: /Industry/AverageAUM
+              - generic [ref=e343]:
+                - img [ref=e345]
+                - heading "Geographic Distribution" [level=4] [ref=e346]
+            - link "AMC Snapshot" [ref=e349] [cursor=pointer]:
+              - /url: /AMC/DashBoard
+              - generic [ref=e351]:
+                - img [ref=e353]
+                - heading "AMC Snapshot" [level=4] [ref=e354]
+            - link "AMC Financials" [ref=e357] [cursor=pointer]:
+              - /url: /AmcFinancial/Index
+              - generic [ref=e359]:
+                - img [ref=e361]
+                - heading "AMC Financials" [level=4] [ref=e362]
+            - link "Fund Manager Dashboard" [ref=e365] [cursor=pointer]:
+              - /url: /FundManager/DashBoard
+              - generic [ref=e367]:
+                - img [ref=e369]
+                - heading "Fund Manager Dashboard" [level=4] [ref=e370]
+            - link "Ageing Analysis" [ref=e373] [cursor=pointer]:
+              - /url: /AgingAnalysis/AgingAnalysisDetails
+              - generic [ref=e375]:
+                - img [ref=e377]
+                - heading "Ageing Analysis" [level=4] [ref=e378]
+            - link "NFO Update" [ref=e381] [cursor=pointer]:
+              - /url: /NFO/NFOMonitoring
+              - generic [ref=e383]:
+                - img [ref=e385]
+                - heading "NFO Update" [level=4] [ref=e386]
+            - link "Macros" [ref=e389] [cursor=pointer]:
+              - /url: /Industry/EconomicMonitor
+              - generic [ref=e391]:
+                - img [ref=e393]
+                - heading "Macros" [level=4] [ref=e394]
+            - link "Resources" [ref=e397] [cursor=pointer]:
+              - /url: /AMC/Publication
+              - generic [ref=e399]:
+                - img [ref=e401]
+                - heading "Resources" [level=4] [ref=e402]
+            - link "Industry Asset" [ref=e405] [cursor=pointer]:
+              - /url: /Industry/IndustryAsset
+              - generic [ref=e407]:
+                - img [ref=e409]
+                - heading "Industry Asset" [level=4] [ref=e410]
+            - link "Transaction Trends" [ref=e413] [cursor=pointer]:
+              - /url: /Industry/TransactionTrends
+              - generic [ref=e415]:
+                - img [ref=e417]
+                - heading "Transaction Trends" [level=4] [ref=e418]
+            - link "Scheme Name Change Details" [ref=e421] [cursor=pointer]:
+              - /url: /Industry/SchemeMergerReport
+              - generic [ref=e423]:
+                - img [ref=e425]
+                - heading "Scheme Name Change Details" [level=4] [ref=e426]
+            - link "SIP Calculator" [ref=e429] [cursor=pointer]:
+              - /url: /SIP/SIPCalculator
+              - generic [ref=e431]:
+                - img [ref=e433]
+                - heading "SIP Calculator" [level=4] [ref=e434]
+            - link "STP Calculator" [ref=e437] [cursor=pointer]:
+              - /url: /STP/STPCalculator
+              - generic [ref=e439]:
+                - img [ref=e441]
+                - heading "STP Calculator" [level=4] [ref=e442]
+            - link "SWP Calculator" [ref=e445] [cursor=pointer]:
+              - /url: /SWP/SWPCalculator
+              - generic [ref=e447]:
+                - img [ref=e449]
+                - heading "SWP Calculator" [level=4] [ref=e450]
+            - link "Retirement Calculator" [ref=e453] [cursor=pointer]:
+              - /url: /Retirement/RetirementCalculator
+              - generic [ref=e455]:
+                - img [ref=e457]
+                - heading "Retirement Calculator" [level=4] [ref=e458]
+            - link "Portfolio Scanner" [ref=e461] [cursor=pointer]:
+              - /url: /Analysis/PTScanner
+              - generic [ref=e463]:
+                - img [ref=e465]
+                - heading "Portfolio Scanner" [level=4] [ref=e466]
+            - link "Advanced Portfolio Scanner" [ref=e469] [cursor=pointer]:
+              - /url: /Analysis/PTScannerAdvance
+              - generic [ref=e471]:
+                - img [ref=e473]
+                - heading "Advanced Portfolio Scanner" [level=4] [ref=e474]
+            - link "Fund Size Change Over NAV" [ref=e477] [cursor=pointer]:
+              - /url: /Portfolio/FundSizechangeOverNav
+              - generic [ref=e479]:
+                - img [ref=e481]
+                - heading "Fund Size Change Over NAV" [level=4] [ref=e482]
+            - link "Report Builder" [ref=e485] [cursor=pointer]:
+              - /url: /Report/MFReportBuilder
+              - generic [ref=e487]:
+                - img [ref=e489]
+                - heading "Report Builder" [level=4] [ref=e490]
+            - link "Query Builder" [ref=e493] [cursor=pointer]:
+              - /url: /Report/QueryBuilder
+              - generic [ref=e495]:
+                - img [ref=e497]
+                - heading "Query Builder" [level=4] [ref=e498]
+            - link "Data Status" [ref=e501] [cursor=pointer]:
+              - /url: /Analysis/DataStatus
+              - generic [ref=e503]:
+                - img [ref=e505]
+                - heading "Data Status" [level=4] [ref=e506]
+            - link "Custom Report" [ref=e509] [cursor=pointer]:
+              - /url: /Report/CustomReport
+              - generic [ref=e511]:
+                - img [ref=e513]
+                - heading "Custom Report" [level=4] [ref=e514]
+            - link "Fund Dashboard" [ref=e517] [cursor=pointer]:
+              - /url: /FundDashboard/Index
+              - generic [ref=e519]:
+                - img [ref=e521]
+                - heading "Fund Dashboard" [level=4] [ref=e522]
+            - link "Return Analysis" [ref=e525] [cursor=pointer]:
+              - /url: /SchemePerformance/Index
+              - generic [ref=e527]:
+                - img [ref=e529]
+                - heading "Return Analysis" [level=4] [ref=e530]
+            - link "Advanced Return Analysis" [ref=e533] [cursor=pointer]:
+              - /url: /SchemePerformance/Advance
+              - generic [ref=e535]:
+                - img [ref=e537]
+                - heading "Advanced Return Analysis" [level=4] [ref=e538]
+            - link "Index Performance Analysis" [ref=e541] [cursor=pointer]:
+              - /url: /IndexPerformance/Analysis
+              - generic [ref=e543]:
+                - img [ref=e545]
+                - heading "Index Performance Analysis" [level=4] [ref=e546]
+            - link "Net Asset Value (NAV)" [ref=e549] [cursor=pointer]:
+              - /url: /NavIndex/Index
+              - generic [ref=e551]:
+                - img [ref=e553]
+                - heading "Net Asset Value (NAV)" [level=4] [ref=e554]
+            - link "Lumpsum Performance" [ref=e557] [cursor=pointer]:
+              - /url: /SchemePerformance/SebiPerformanceReport
+              - generic [ref=e559]:
+                - img [ref=e561]
+                - heading "Lumpsum Performance" [level=4] [ref=e562]
+            - link "Risk Return Matrix" [ref=e565] [cursor=pointer]:
+              - /url: /SchemePerformance/RiskReturnMatrix
+              - generic [ref=e567]:
+                - img [ref=e569]
+                - heading "Risk Return Matrix" [level=4] [ref=e570]
+            - link "Statistical Comprehensive" [ref=e573] [cursor=pointer]:
+              - /url: /SchemePerformance/StatisticalRatio
+              - generic [ref=e575]:
+                - img [ref=e577]
+                - heading "Statistical Comprehensive" [level=4] [ref=e578]
+            - link "Fund FactSheet" [ref=e581] [cursor=pointer]:
+              - /url: /FundDashboard/FactSheet
+              - generic [ref=e583]:
+                - img [ref=e585]
+                - heading "Fund FactSheet" [level=4] [ref=e586]
+            - link "ISIN LookUp" [ref=e589] [cursor=pointer]:
+              - /url: /Debt/ISINLookUp
+              - generic [ref=e591]:
+                - img [ref=e593]
+                - heading "ISIN LookUp" [level=4] [ref=e594]
+            - link "Data Centre" [ref=e597] [cursor=pointer]:
+              - /url: /NavIndex/Advance
+              - generic [ref=e599]:
+                - img [ref=e601]
+                - heading "Data Centre" [level=4] [ref=e602]
+            - link "Value of Investment" [ref=e605] [cursor=pointer]:
+              - /url: /Return/VOI
+              - generic [ref=e607]:
+                - img [ref=e609]
+                - heading "Value of Investment" [level=4] [ref=e610]
+            - link "Returns TRI Benchmarked" [ref=e613] [cursor=pointer]:
+              - /url: /SchemePerformance/ReturnTriIndex
+              - generic [ref=e615]:
+                - img [ref=e617]
+                - heading "Returns TRI Benchmarked" [level=4] [ref=e618]
+            - link "Asset Watch" [ref=e621] [cursor=pointer]:
+              - /url: /Portfolio/AumMonitor
+              - generic [ref=e623]:
+                - img [ref=e625]
+                - heading "Asset Watch" [level=4] [ref=e626]
+            - link "Geographic Distribution" [ref=e629] [cursor=pointer]:
+              - /url: /Industry/AverageAUM
+              - generic [ref=e631]:
+                - img [ref=e633]
+                - heading "Geographic Distribution" [level=4] [ref=e634]
+            - link "AMC Snapshot" [ref=e637] [cursor=pointer]:
+              - /url: /AMC/DashBoard
+              - generic [ref=e639]:
+                - img [ref=e641]
+                - heading "AMC Snapshot" [level=4] [ref=e642]
+            - link "AMC Financials" [ref=e645] [cursor=pointer]:
+              - /url: /AmcFinancial/Index
+              - generic [ref=e647]:
+                - img [ref=e649]
+                - heading "AMC Financials" [level=4] [ref=e650]
+            - link "Fund Manager Dashboard" [ref=e653] [cursor=pointer]:
+              - /url: /FundManager/DashBoard
+              - generic [ref=e655]:
+                - img [ref=e657]
+                - heading "Fund Manager Dashboard" [level=4] [ref=e658]
+          - generic [ref=e659]:
+            - generic [ref=e661]:
+              - generic [ref=e662]:
+                - heading "Category Performance" [level=2] [ref=e663]
+                - generic [ref=e664] [cursor=pointer]: 
+              - generic [ref=e665]:
+                - table [ref=e669]:
+                  - rowgroup [ref=e670]:
+                    - row "3M 7D 7Y" [ref=e671]:
+                      - cell [ref=e672]
+                      - cell "3M" [ref=e673]:
+                        - button [ref=e674] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e675] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D" [disabled]
+                          - option "15D"
+                          - option "3M" [selected]
+                          - option "6M"
+                          - option "1Y"
+                          - option "3Y"
+                          - option "5Y"
+                          - option "7Y" [disabled]
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                      - cell "7D" [ref=e676]:
+                        - button [ref=e677] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e678] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D" [selected]
+                          - option "15D"
+                          - option "3M" [disabled]
+                          - option "6M"
+                          - option "1Y"
+                          - option "3Y"
+                          - option "5Y"
+                          - option "7Y" [disabled]
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                      - cell "7Y" [ref=e679]:
+                        - button [ref=e680] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e681] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D" [disabled]
+                          - option "15D"
+                          - option "3M" [disabled]
+                          - option "6M"
+                          - option "1Y"
+                          - option "3Y"
+                          - option "5Y"
+                          - option "7Y" [selected]
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                  - rowgroup [ref=e682]:
+                    - row "Other - ETFs - Gold 23.18 -1.86 20.65" [ref=e683]:
+                      - button "Other - ETFs - Gold" [ref=e684] [cursor=pointer]
+                      - cell "23.18" [ref=e685]
+                      - cell "-1.86" [ref=e686]
+                      - cell "20.65" [ref=e687]
+                    - row "Other - FoF - Domestic 9.32 -1.03 14.09" [ref=e688]:
+                      - button "Other - FoF - Domestic" [ref=e689] [cursor=pointer]
+                      - cell "9.32" [ref=e690]
+                      - cell "-1.03" [ref=e691]
+                      - cell "14.09" [ref=e692]
+                    - row "Other - FoF - Overseas 6.51 -1.78 11.61" [ref=e693]:
+                      - button "Other - FoF - Overseas" [ref=e694] [cursor=pointer]
+                      - cell "6.51" [ref=e695]
+                      - cell "-1.78" [ref=e696]
+                      - cell "11.61" [ref=e697]
+                    - row "Hybrid - Multi Asset Allocation 5.73 -0.34 15.80" [ref=e698]:
+                      - button "Hybrid - Multi Asset Allocation" [ref=e699] [cursor=pointer]
+                      - cell "5.73" [ref=e700]
+                      - cell "-0.34" [ref=e701]
+                      - cell "15.80" [ref=e702]
+                    - row "Other - ETFs - Others 5.51 -0.50 14.75" [ref=e703]:
+                      - button "Other - ETFs - Others" [ref=e704] [cursor=pointer]
+                      - cell "5.51" [ref=e705]
+                      - cell "-0.50" [ref=e706]
+                      - cell "14.75" [ref=e707]
+                    - row "Debt - Credit Risk Fund 1.88 0.11 6.07" [ref=e708]:
+                      - button "Debt - Credit Risk Fund" [ref=e709] [cursor=pointer]
+                      - cell "1.88" [ref=e710]
+                      - cell "0.11" [ref=e711]
+                      - cell "6.07" [ref=e712]
+                    - row "Equity - Large Cap Fund 2.53 0.17 14.29" [ref=e713]:
+                      - button "Equity - Large Cap Fund" [ref=e714] [cursor=pointer]
+                      - cell "2.53" [ref=e715]
+                      - cell "0.17" [ref=e716]
+                      - cell "14.29" [ref=e717]
+                    - row "Equity - Sectoral 2.22 -0.39 17.28" [ref=e718]:
+                      - button "Equity - Sectoral" [ref=e719] [cursor=pointer]
+                      - cell "2.22" [ref=e720]
+                      - cell "-0.39" [ref=e721]
+                      - cell "17.28" [ref=e722]
+                    - row "Debt - Medium Duration Fund 1.81 0.10 6.42" [ref=e723]:
+                      - button "Debt - Medium Duration Fund" [ref=e724] [cursor=pointer]
+                      - cell "1.81" [ref=e725]
+                      - cell "0.10" [ref=e726]
+                      - cell "6.42" [ref=e727]
+                    - row "Debt - Corporate Bond Fund 1.69 0.08 7.09" [ref=e728]:
+                      - button "Debt - Corporate Bond Fund" [ref=e729] [cursor=pointer]
+                      - cell "1.69" [ref=e730]
+                      - cell "0.08" [ref=e731]
+                      - cell "7.09" [ref=e732]
+                    - row "Equity - Large & Mid Cap Fund 1.95 -0.32 16.97" [ref=e733]:
+                      - button "Equity - Large & Mid Cap Fund" [ref=e734] [cursor=pointer]
+                      - cell "1.95" [ref=e735]
+                      - cell "-0.32" [ref=e736]
+                      - cell "16.97" [ref=e737]
+                    - row "Debt - Short Duration Fund 1.59 0.08 6.57" [ref=e738]:
+                      - button "Debt - Short Duration Fund" [ref=e739] [cursor=pointer]
+                      - cell "1.59" [ref=e740]
+                      - cell "0.08" [ref=e741]
+                      - cell "6.57" [ref=e742]
+                    - row "Debt - Floater Fund 1.66 0.10 6.90" [ref=e743]:
+                      - button "Debt - Floater Fund" [ref=e744] [cursor=pointer]
+                      - cell "1.66" [ref=e745]
+                      - cell "0.10" [ref=e746]
+                      - cell "6.90" [ref=e747]
+                    - row "Hybrid - Aggressive Hybrid Fund 1.98 -0.10 13.54" [ref=e748]:
+                      - button "Hybrid - Aggressive Hybrid Fund" [ref=e749] [cursor=pointer]
+                      - cell "1.98" [ref=e750]
+                      - cell "-0.10" [ref=e751]
+                      - cell "13.54" [ref=e752]
+                    - row "Debt - Gilt Fund with 10 year constant duration 1.62 0.06 7.79" [ref=e753]:
+                      - button "Debt - Gilt Fund with 10 year constant duration" [ref=e754] [cursor=pointer]
+                      - cell "1.62" [ref=e755]
+                      - cell "0.06" [ref=e756]
+                      - cell "7.79" [ref=e757]
+                    - row "Debt - Banking and PSU Fund 1.66 0.07 7.09" [ref=e758]:
+                      - button "Debt - Banking and PSU Fund" [ref=e759] [cursor=pointer]
+                      - cell "1.66" [ref=e760]
+                      - cell "0.07" [ref=e761]
+                      - cell "7.09" [ref=e762]
+                    - row "Other - Index Funds 2.39 -0.22 14.22" [ref=e763]:
+                      - button "Other - Index Funds" [ref=e764] [cursor=pointer]
+                      - cell "2.39" [ref=e765]
+                      - cell "-0.22" [ref=e766]
+                      - cell "14.22" [ref=e767]
+                    - row "Hybrid - Equity Savings 1.89 0.12 8.90" [ref=e768]:
+                      - button "Hybrid - Equity Savings" [ref=e769] [cursor=pointer]
+                      - cell "1.89" [ref=e770]
+                      - cell "0.12" [ref=e771]
+                      - cell "8.90" [ref=e772]
+                    - row "Hybrid - Balanced Hybrid Fund 2.15 -0.20 --" [ref=e773]:
+                      - button "Hybrid - Balanced Hybrid Fund" [ref=e774] [cursor=pointer]
+                      - cell "2.15" [ref=e775]
+                      - cell "-0.20" [ref=e776]
+                      - cell "--" [ref=e777]
+                    - row "Debt - Low Duration Fund 1.50 0.11 6.05" [ref=e778]:
+                      - button "Debt - Low Duration Fund" [ref=e779] [cursor=pointer]
+                      - cell "1.50" [ref=e780]
+                      - cell "0.11" [ref=e781]
+                      - cell "6.05" [ref=e782]
+                    - row "Debt - Money Market Fund 1.45 0.11 6.33" [ref=e783]:
+                      - button "Debt - Money Market Fund" [ref=e784] [cursor=pointer]
+                      - cell "1.45" [ref=e785]
+                      - cell "0.11" [ref=e786]
+                      - cell "6.33" [ref=e787]
+                    - row "Solution Oriented - Childrens Fund 2.00 -0.20 12.34" [ref=e788]:
+                      - button "Solution Oriented - Childrens Fund" [ref=e789] [cursor=pointer]
+                      - cell "2.00" [ref=e790]
+                      - cell "-0.20" [ref=e791]
+                      - cell "12.34" [ref=e792]
+                    - row "Equity - Focused Fund 2.07 -0.13 15.32" [ref=e793]:
+                      - button "Equity - Focused Fund" [ref=e794] [cursor=pointer]
+                      - cell "2.07" [ref=e795]
+                      - cell "-0.13" [ref=e796]
+                      - cell "15.32" [ref=e797]
+                    - row "Equity - Contra Fund 2.45 0.19 18.81" [ref=e798]:
+                      - button "Equity - Contra Fund" [ref=e799] [cursor=pointer]
+                      - cell "2.45" [ref=e800]
+                      - cell "0.19" [ref=e801]
+                      - cell "18.81" [ref=e802]
+                    - row "Solution Oriented - Retirement Fund 1.68 -0.11 11.42" [ref=e803]:
+                      - button "Solution Oriented - Retirement Fund" [ref=e804] [cursor=pointer]
+                      - cell "1.68" [ref=e805]
+                      - cell "-0.11" [ref=e806]
+                      - cell "11.42" [ref=e807]
+                    - row "Hybrid - Dynamic Asset Allocation or Balanced Advantage 2.02 -0.03 10.88" [ref=e808]:
+                      - button "Hybrid - Dynamic Asset Allocation or Balanced Advantage" [ref=e809] [cursor=pointer]
+                      - cell "2.02" [ref=e810]
+                      - cell "-0.03" [ref=e811]
+                      - cell "10.88" [ref=e812]
+                    - row "Hybrid - Conservative Hybrid Fund 1.64 0.07 8.20" [ref=e813]:
+                      - button "Hybrid - Conservative Hybrid Fund" [ref=e814] [cursor=pointer]
+                      - cell "1.64" [ref=e815]
+                      - cell "0.07" [ref=e816]
+                      - cell "8.20" [ref=e817]
+                    - row "Equity - Thematic 1.80 -0.44 16.63" [ref=e818]:
+                      - button "Equity - Thematic" [ref=e819] [cursor=pointer]
+                      - cell "1.80" [ref=e820]
+                      - cell "-0.44" [ref=e821]
+                      - cell "16.63" [ref=e822]
+                    - row "Debt - Ultra Short Duration Fund 1.42 0.10 5.82" [ref=e823]:
+                      - button "Debt - Ultra Short Duration Fund" [ref=e824] [cursor=pointer]
+                      - cell "1.42" [ref=e825]
+                      - cell "0.10" [ref=e826]
+                      - cell "5.82" [ref=e827]
+                    - row "Equity - Flexi Cap Fund 1.86 -0.20 15.59" [ref=e828]:
+                      - button "Equity - Flexi Cap Fund" [ref=e829] [cursor=pointer]
+                      - cell "1.86" [ref=e830]
+                      - cell "-0.20" [ref=e831]
+                      - cell "15.59" [ref=e832]
+                    - row "Equity - Value Fund 3.12 -0.20 16.36" [ref=e833]:
+                      - button "Equity - Value Fund" [ref=e834] [cursor=pointer]
+                      - cell "3.12" [ref=e835]
+                      - cell "-0.20" [ref=e836]
+                      - cell "16.36" [ref=e837]
+                    - row "Equity - Mid Cap Fund 1.24 -0.60 19.40" [ref=e838]:
+                      - button "Equity - Mid Cap Fund" [ref=e839] [cursor=pointer]
+                      - cell "1.24" [ref=e840]
+                      - cell "-0.60" [ref=e841]
+                      - cell "19.40" [ref=e842]
+                    - row "Equity - ELSS 1.75 -0.20 15.63" [ref=e843]:
+                      - button "Equity - ELSS" [ref=e844] [cursor=pointer]
+                      - cell "1.75" [ref=e845]
+                      - cell "-0.20" [ref=e846]
+                      - cell "15.63" [ref=e847]
+                    - row "Debt - Liquid Fund 1.42 0.11 5.64" [ref=e848]:
+                      - button "Debt - Liquid Fund" [ref=e849] [cursor=pointer]
+                      - cell "1.42" [ref=e850]
+                      - cell "0.11" [ref=e851]
+                      - cell "5.64" [ref=e852]
+                    - row "Equity - Multi Cap Fund 1.47 -0.57 17.87" [ref=e853]:
+                      - button "Equity - Multi Cap Fund" [ref=e854] [cursor=pointer]
+                      - cell "1.47" [ref=e855]
+                      - cell "-0.57" [ref=e856]
+                      - cell "17.87" [ref=e857]
+                    - row "Debt - FMP 1.41 0.11 5.58" [ref=e858]:
+                      - button "Debt - FMP" [ref=e859] [cursor=pointer]
+                      - cell "1.41" [ref=e860]
+                      - cell "0.11" [ref=e861]
+                      - cell "5.58" [ref=e862]
+                    - row "Debt - Medium to Long Duration Fund 1.35 0.07 6.33" [ref=e863]:
+                      - button "Debt - Medium to Long Duration Fund" [ref=e864] [cursor=pointer]
+                      - cell "1.35" [ref=e865]
+                      - cell "0.07" [ref=e866]
+                      - cell "6.33" [ref=e867]
+                    - row "Hybrid - Arbitrage Fund 1.39 0.17 5.42" [ref=e868]:
+                      - button "Hybrid - Arbitrage Fund" [ref=e869] [cursor=pointer]
+                      - cell "1.39" [ref=e870]
+                      - cell "0.17" [ref=e871]
+                      - cell "5.42" [ref=e872]
+                    - row "Debt - Dynamic Bond 1.39 0.10 6.66" [ref=e873]:
+                      - button "Debt - Dynamic Bond" [ref=e874] [cursor=pointer]
+                      - cell "1.39" [ref=e875]
+                      - cell "0.10" [ref=e876]
+                      - cell "6.66" [ref=e877]
+                    - row "Equity - Dividend Yield Fund 3.04 -0.02 17.21" [ref=e878]:
+                      - button "Equity - Dividend Yield Fund" [ref=e879] [cursor=pointer]
+                      - cell "3.04" [ref=e880]
+                      - cell "-0.02" [ref=e881]
+                      - cell "17.21" [ref=e882]
+                    - row "Debt - Overnight Fund 1.33 0.10 5.08" [ref=e883]:
+                      - button "Debt - Overnight Fund" [ref=e884] [cursor=pointer]
+                      - cell "1.33" [ref=e885]
+                      - cell "0.10" [ref=e886]
+                      - cell "5.08" [ref=e887]
+                    - row "Debt - Gilt Fund 1.11 0.12 6.92" [ref=e888]:
+                      - button "Debt - Gilt Fund" [ref=e889] [cursor=pointer]
+                      - cell "1.11" [ref=e890]
+                      - cell "0.12" [ref=e891]
+                      - cell "6.92" [ref=e892]
+                    - row "Debt - Long Duration Fund 1.26 0.17 7.56" [ref=e893]:
+                      - button "Debt - Long Duration Fund" [ref=e894] [cursor=pointer]
+                      - cell "1.26" [ref=e895]
+                      - cell "0.17" [ref=e896]
+                      - cell "7.56" [ref=e897]
+                    - row "Equity - Small cap Fund -0.49 -1.54 20.16" [ref=e898]:
+                      - button "Equity - Small cap Fund" [ref=e899] [cursor=pointer]
+                      - cell "-0.49" [ref=e900]
+                      - cell "-1.54" [ref=e901]
+                      - cell "20.16" [ref=e902]
+                - 'heading "Note: The table contains mutual fund category average based on selected period." [level=6] [ref=e903]'
+            - generic [ref=e905]:
+              - generic [ref=e906]:
+                - heading "Other ETFs - Gold - Top Performing Funds" [level=2] [ref=e907]:
+                  - link "Other ETFs - Gold - Top Performing Funds" [ref=e908] [cursor=pointer]:
+                    - /url: "#"
+                - generic [ref=e909] [cursor=pointer]: 
+              - generic [ref=e910]:
+                - table [ref=e914]:
+                  - rowgroup [ref=e915]:
+                    - row "Other - ETFs - Gold 1Y 3Y 5Y" [ref=e916]:
+                      - cell "Other - ETFs - Gold" [ref=e917]
+                      - cell "1Y" [ref=e918]:
+                        - button [ref=e919] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e920] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D"
+                          - option "15D"
+                          - option "3M"
+                          - option "6M"
+                          - option "1Y" [selected]
+                          - option "3Y" [disabled]
+                          - option "5Y" [disabled]
+                          - option "7Y"
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                      - cell "3Y" [ref=e921]:
+                        - button [ref=e922] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e923] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D"
+                          - option "15D"
+                          - option "3M"
+                          - option "6M"
+                          - option "1Y" [disabled]
+                          - option "3Y" [selected]
+                          - option "5Y" [disabled]
+                          - option "7Y"
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                      - cell "5Y" [ref=e924]:
+                        - button [ref=e925] [cursor=pointer]: 
+                        - text: 
+                        - combobox [ref=e926] [cursor=pointer]:
+                          - option "1D"
+                          - option "7D"
+                          - option "15D"
+                          - option "3M"
+                          - option "6M"
+                          - option "1Y" [disabled]
+                          - option "3Y" [disabled]
+                          - option "5Y" [selected]
+                          - option "7Y"
+                          - option "10Y"
+                          - option "15Y"
+                          - option "20Y"
+                  - rowgroup [ref=e927]:
+                    - row "HDFC Gold ETF PDF 58.53 31.14 18.45" [ref=e928]:
+                      - cell "HDFC Gold ETF PDF" [ref=e929]:
+                        - link "HDFC Gold ETF" [ref=e930] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/3617
+                          - text: HDFC Gold ETF
+                          - generic [ref=e931]: 
+                        - img "PDF" [ref=e933] [cursor=pointer]
+                      - cell "58.53" [ref=e934]
+                      - cell "31.14" [ref=e935]
+                      - cell "18.45" [ref=e936]
+                    - row "ICICI Prudential Gold ETF PDF 58.29 31.26 18.54" [ref=e937]:
+                      - cell "ICICI Prudential Gold ETF PDF" [ref=e938]:
+                        - link "ICICI Prudential Gold ETF" [ref=e939] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/3620
+                          - text: ICICI Prudential Gold ETF
+                          - generic [ref=e940]: 
+                        - img "PDF" [ref=e942] [cursor=pointer]
+                      - cell "58.29" [ref=e943]
+                      - cell "31.26" [ref=e944]
+                      - cell "18.54" [ref=e945]
+                    - row "Aditya Birla Sun Life Gold ETF PDF 58.25 31.20 18.51" [ref=e946]:
+                      - cell "Aditya Birla Sun Life Gold ETF PDF" [ref=e947]:
+                        - link "Aditya Birla Sun Life Gold ETF" [ref=e948] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/4253
+                          - text: Aditya Birla Sun Life Gold ETF
+                          - generic [ref=e949]: 
+                        - img "PDF" [ref=e951] [cursor=pointer]
+                      - cell "58.25" [ref=e952]
+                      - cell "31.20" [ref=e953]
+                      - cell "18.51" [ref=e954]
+                    - row "Axis Gold ETF PDF 58.11 31.18 18.56" [ref=e955]:
+                      - cell "Axis Gold ETF PDF" [ref=e956]:
+                        - link "Axis Gold ETF" [ref=e957] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/3794
+                          - text: Axis Gold ETF
+                          - generic [ref=e958]: 
+                        - img "PDF" [ref=e960] [cursor=pointer]
+                      - cell "58.11" [ref=e961]
+                      - cell "31.18" [ref=e962]
+                      - cell "18.56" [ref=e963]
+                    - row "Tata Gold Exchange Traded Fund PDF 58.04 -- --" [ref=e964]:
+                      - cell "Tata Gold Exchange Traded Fund PDF" [ref=e965]:
+                        - link "Tata Gold Exchange Traded Fund" [ref=e966] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/30735
+                          - text: Tata Gold Exchange Traded Fund
+                          - generic [ref=e967]: 
+                        - img "PDF" [ref=e969] [cursor=pointer]
+                      - cell "58.04" [ref=e970]
+                      - cell "--" [ref=e971]
+                      - cell "--" [ref=e972]
+                    - row "Kotak Gold ETF PDF 58.01 31.16 18.48" [ref=e973]:
+                      - cell "Kotak Gold ETF PDF" [ref=e974]:
+                        - link "Kotak Gold ETF" [ref=e975] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/2082
+                          - text: Kotak Gold ETF
+                          - generic [ref=e976]: 
+                        - img "PDF" [ref=e978] [cursor=pointer]
+                      - cell "58.01" [ref=e979]
+                      - cell "31.16" [ref=e980]
+                      - cell "18.48" [ref=e981]
+                    - row "LIC MF Gold Exchange Traded Fund PDF 57.99 31.49 18.79" [ref=e982]:
+                      - cell "LIC MF Gold Exchange Traded Fund PDF" [ref=e983]:
+                        - link "LIC MF Gold Exchange Traded Fund" [ref=e984] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/4638
+                          - text: LIC MF Gold Exchange Traded Fund
+                          - generic [ref=e985]: 
+                        - img "PDF" [ref=e987] [cursor=pointer]
+                      - cell "57.99" [ref=e988]
+                      - cell "31.49" [ref=e989]
+                      - cell "18.79" [ref=e990]
+                    - row "DSP Gold ETF PDF 57.96 -- --" [ref=e991]:
+                      - cell "DSP Gold ETF PDF" [ref=e992]:
+                        - link "DSP Gold ETF" [ref=e993] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/30614
+                          - text: DSP Gold ETF
+                          - generic [ref=e994]: 
+                        - img "PDF" [ref=e996] [cursor=pointer]
+                      - cell "57.96" [ref=e997]
+                      - cell "--" [ref=e998]
+                      - cell "--" [ref=e999]
+                    - row "SBI Gold ETF PDF 57.93 31.02 18.40" [ref=e1000]:
+                      - cell "SBI Gold ETF PDF" [ref=e1001]:
+                        - link "SBI Gold ETF" [ref=e1002] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/3002
+                          - text: SBI Gold ETF
+                          - generic [ref=e1003]: 
+                        - img "PDF" [ref=e1005] [cursor=pointer]
+                      - cell "57.93" [ref=e1006]
+                      - cell "31.02" [ref=e1007]
+                      - cell "18.40" [ref=e1008]
+                    - row "Mirae Asset Gold ETF PDF 57.91 -- --" [ref=e1009]:
+                      - cell "Mirae Asset Gold ETF PDF" [ref=e1010]:
+                        - link "Mirae Asset Gold ETF" [ref=e1011] [cursor=pointer]:
+                          - /url: /FundDashboard/Index/30534
+                          - text: Mirae Asset Gold ETF
+                          - generic [ref=e1012]: 
+                        - img "PDF" [ref=e1014] [cursor=pointer]
+                      - cell "57.91" [ref=e1015]
+                      - cell "--" [ref=e1016]
+                      - cell "--" [ref=e1017]
+                - generic [ref=e1018]:
+                  - 'heading "Note: Returns less than or equal to 1 year are absolute and returns more than 1 year are compound annualized." [level=6] [ref=e1019]'
+                  - link "Show More" [ref=e1020] [cursor=pointer]:
+                    - /url: /UserDashboard/FundPerformanceDetails?NatureId=5&SubNatureId=48&Name=Other - ETFs - Gold
+          - generic [ref=e1021]:
+            - link "Performance Profile Picture Analyse scheme performance. Compare with benchmarks and peers" [ref=e1023] [cursor=pointer]:
+              - /url: /UserDashboard/DashBoard?Name=Performance
+              - generic [ref=e1026]:
+                - heading "Performance" [level=4] [ref=e1028]
+                - generic [ref=e1029]:
+                  - img "Profile Picture" [ref=e1030]
+                  - generic [ref=e1031]: Analyse scheme performance. Compare with benchmarks and peers
+            - link "Portfolio Profile Picture Extract and analyse portfolio data across schemes and frequencies" [ref=e1033] [cursor=pointer]:
+              - /url: /UserDashboard/DashBoard?Name=Portfolio
+              - generic [ref=e1036]:
+                - heading "Portfolio" [level=4] [ref=e1038]
+                - generic [ref=e1039]:
+                  - img "Profile Picture" [ref=e1040]
+                  - generic [ref=e1041]: Extract and analyse portfolio data across schemes and frequencies
+            - link "Industry Profile Picture Remain up to date with industry data, AUM, T15/B15 data, transaction trends and do more" [ref=e1043] [cursor=pointer]:
+              - /url: /UserDashboard/DashBoard?Name=Industry
+              - generic [ref=e1046]:
+                - heading "Industry" [level=4] [ref=e1048]
+                - generic [ref=e1049]:
+                  - img "Profile Picture" [ref=e1050]
+                  - generic [ref=e1051]: Remain up to date with industry data, AUM, T15/B15 data, transaction trends and do more
+            - link "Tools Profile Picture SIP calculator, SWP calculator, STP calculator and more" [ref=e1053] [cursor=pointer]:
+              - /url: /UserDashboard/DashBoard?Name=Tools
+              - generic [ref=e1056]:
+                - heading "Tools" [level=4] [ref=e1058]
+                - generic [ref=e1059]:
+                  - img "Profile Picture" [ref=e1060]
+                  - generic [ref=e1061]: SIP calculator, SWP calculator, STP calculator and more
+  - status [ref=e1062]
+```

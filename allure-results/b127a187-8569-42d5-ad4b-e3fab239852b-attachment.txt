@@ -1,0 +1,23 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(CUSTOM)
+Expected Attribute Name Portfolio Month(CUSTOM)
+Selected Output Column is: Corpus Percent
+Selected Output Column is: Portfolio Month(CUSTOM)
+Selected Output Column is: Market Value(Crs.)
+Selected Output Column is: Scheme Short Name
+Selected Output Column is: Sector Name
+Selected Output Column is: No of Shares
+Clicked on Search Button
+Output Header Name:  Corpus Percent
+Selected Header Name:  Corpus Percent
+Output Header Name:  Portfolio Month(CUSTOM)
+Selected Header Name:  Portfolio Month(CUSTOM)
+Output Header Name:  Market Value(Crs.)
+Selected Header Name:  Market Value(Crs.)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name
+Output Header Name:  Sector Name
+Selected Header Name:  Sector Name
+Output Header Name:  No of Shares
+Selected Header Name:  No of Shares

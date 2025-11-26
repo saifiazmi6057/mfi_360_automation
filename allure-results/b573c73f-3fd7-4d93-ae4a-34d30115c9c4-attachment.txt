@@ -1,0 +1,14 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Portfolio Month(Corpus)
+Expected Attribute Name Portfolio Month(Corpus)
+Selected Output Column is: Corpus(Crs.)
+Selected Output Column is: Portfolio Month(Corpus)
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Corpus(Crs.)
+Selected Header Name:  Corpus(Crs.)
+Output Header Name:  Portfolio Month(Corpus)
+Selected Header Name:  Portfolio Month(Corpus)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

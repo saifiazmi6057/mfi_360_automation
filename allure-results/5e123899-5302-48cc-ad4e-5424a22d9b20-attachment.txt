@@ -1,0 +1,14 @@
+🚫 No locator found for "AMC Allocation". Check widgetIdMap or structure.
+🚫 No locator found for "Category Allocation - Current Month". Check widgetIdMap or structure.
+🚫 No locator found for "Asset Allocation-(Current Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Asset Allocation-(Previous Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Average for Last 12 Months". Check widgetIdMap or structure.
+🚫 No locator found for "Market Capitalization(Current Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Market Capitalization(Previous Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Average for Last 12 Months". Check widgetIdMap or structure.
+🚫 No locator found for "Sector Allocation(Current Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Sector Allocation(Previous Month)". Check widgetIdMap or structure.
+🚫 No locator found for "Sector Allocation-(Average for Last 12 Months)". Check widgetIdMap or structure.
+🚫 No locator found for "Maturity Profile - Current Month Graph Table". Check widgetIdMap or structure.
+🚫 No locator found for "Instrument Allocation - Top 20-Table". Check widgetIdMap or structure.
+🚫 No locator found for "Instrument Allocation - Current Month -Table". Check widgetIdMap or structure.

@@ -1,0 +1,25 @@
+Clicked successfully.
+Selected Attribute Name NAV Date
+Expected Attribute Name NAV Date
+Selected Output Column is: Bonus Corporate
+Selected Output Column is: Bonus Individual
+Selected Output Column is: Dividend Corporate
+Selected Output Column is: Is Dividend
+Selected Output Column is: Dividend Individual
+Selected Output Column is: NAV(Rs.)
+Selected Output Column is: NAV Date
+Clicked on Search Button
+Output Header Name:  Bonus Corporate
+Selected Header Name:  Bonus Corporate
+Output Header Name:  Bonus Individual
+Selected Header Name:  Bonus Individual
+Output Header Name:  Dividend Corporate
+Selected Header Name:  Dividend Corporate
+Output Header Name:  Is Dividend
+Selected Header Name:  Is Dividend
+Output Header Name:  Dividend Individual
+Selected Header Name:  Dividend Individual
+Output Header Name:  NAV(Rs.)
+Selected Header Name:  NAV(Rs.)
+Output Header Name:  NAV Date
+Selected Header Name:  NAV Date

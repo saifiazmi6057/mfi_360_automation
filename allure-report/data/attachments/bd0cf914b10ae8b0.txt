@@ -1,0 +1,94 @@
+Clicked successfully.
+Selected Attribute Name Issue Date
+Expected Attribute Name Issue Date
+Selected Output Column is: Additional Investment
+Selected Output Column is: AMC Code
+Selected Output Column is: AMC Name
+Selected Output Column is: AMFI Code
+Selected Output Column is: Available for Investment
+Selected Output Column is: Face Value
+Selected Output Column is: Fund Manager
+Selected Output Column is: Incremental Investment
+Selected Output Column is: Index Name
+Selected Output Column is: SIP
+Selected Output Column is: ISIN (Payout/Growth)
+Selected Output Column is: ISIN (Reinvest)
+Selected Output Column is: Issue Date
+Selected Output Column is: Launch Date
+Selected Output Column is: Launch Price
+Selected Output Column is: Minimum Investment
+Selected Output Column is: Nature
+Selected Output Column is: NFO Close Date
+Selected Output Column is: Investment Option
+Selected Output Column is: Parent Scheme
+Selected Output Column is: Previous Name
+Selected Output Column is: RTA Code(Payout)
+Selected Output Column is: RTA Code(Reinvest)
+Selected Output Column is: Scheme Short Name
+Selected Output Column is: Scheme Code
+Selected Output Column is: Scheme Name
+Selected Output Column is: Sector Classification
+Selected Output Column is: Special Category
+Selected Output Column is: Structure
+Selected Output Column is: Sub Nature
+Clicked on Search Button
+Output Header Name:  Additional Investment
+Selected Header Name:  Additional Investment
+Output Header Name:  AMC Code
+Selected Header Name:  AMC Code
+Output Header Name:  AMC Name
+Selected Header Name:  AMC Name
+Output Header Name:  AMFI Code
+Selected Header Name:  AMFI Code
+Output Header Name:  Available for Investment
+Selected Header Name:  Available for Investment
+Output Header Name:  Face Value
+Selected Header Name:  Face Value
+Output Header Name:  Fund Manager
+Selected Header Name:  Fund Manager
+Output Header Name:  Incremental Investment
+Selected Header Name:  Incremental Investment
+Output Header Name:  Index Name
+Selected Header Name:  Index Name
+Output Header Name:  SIP
+Selected Header Name:  SIP
+Output Header Name:  ISIN (Payout/Growth)
+Selected Header Name:  ISIN (Payout/Growth)
+Output Header Name:  ISIN (Reinvest)
+Selected Header Name:  ISIN (Reinvest)
+Output Header Name:  Issue Date
+Selected Header Name:  Issue Date
+Output Header Name:  Launch Date
+Selected Header Name:  Launch Date
+Output Header Name:  Launch Price
+Selected Header Name:  Launch Price
+Output Header Name:  Minimum Investment
+Selected Header Name:  Minimum Investment
+Output Header Name:  Nature
+Selected Header Name:  Nature
+Output Header Name:  NFO Close Date
+Selected Header Name:  NFO Close Date
+Output Header Name:  Investment Option
+Selected Header Name:  Investment Option
+Output Header Name:  Parent Scheme
+Selected Header Name:  Parent Scheme
+Output Header Name:  Previous Name
+Selected Header Name:  Previous Name
+Output Header Name:  RTA Code(Payout)
+Selected Header Name:  RTA Code(Payout)
+Output Header Name:  RTA Code(Reinvest)
+Selected Header Name:  RTA Code(Reinvest)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name
+Output Header Name:  Scheme Code
+Selected Header Name:  Scheme Code
+Output Header Name:  Scheme Name
+Selected Header Name:  Scheme Name
+Output Header Name:  Sector Classification
+Selected Header Name:  Sector Classification
+Output Header Name:  Special Category
+Selected Header Name:  Special Category
+Output Header Name:  Structure
+Selected Header Name:  Structure
+Output Header Name:  Sub Nature
+Selected Header Name:  Sub Nature

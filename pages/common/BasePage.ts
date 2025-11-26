@@ -32,4 +32,5 @@ export abstract class BasePage {
         await this.page.waitForSelector(this.showReportSelector, { state: 'visible' });
         await this.page.click(this.showReportSelector);
     }
+    
 }

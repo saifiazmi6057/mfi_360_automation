@@ -1,0 +1,49 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e6]:
+    - generic [ref=e9]:
+      - img [ref=e11]
+      - separator [ref=e12]
+      - heading [level=3] [ref=e13]: A powerful cloud-based research and analysis tool for the fund advisors
+      - img [ref=e14]
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e20]: 
+        - generic [ref=e21]:
+          - paragraph [ref=e23]: User Log in
+          - generic [ref=e24]:
+            - generic [ref=e25]: 
+            - textbox [ref=e26]:
+              - /placeholder: User ID
+          - generic [ref=e27]:
+            - generic [ref=e28]: 
+            - textbox [ref=e29]:
+              - /placeholder: ●●●●●
+          - button [ref=e30] [cursor=pointer]: LOGIN
+          - generic [ref=e31]:
+            - button [ref=e33] [cursor=pointer]: Forgot Password?
+            - link [ref=e35] [cursor=pointer]:
+              - /url: https://icrainsights.com/Home/StartYourTrial
+              - text: Sign Up
+        - text: 
+      - paragraph [ref=e36]
+      - list [ref=e38]:
+        - listitem [ref=e39]:
+          - link [ref=e40] [cursor=pointer]:
+            - /url: "#"
+            - text: Privacy & Cookie policy
+        - listitem [ref=e41]: ICRA Insight.com® and MFI 360.com® © ICRA Analytics Limited. All Rights Reserved
+      - table [ref=e42]:
+        - rowgroup [ref=e43]:
+          - row [ref=e44]:
+            - cell [ref=e45]
+  - dialog "MFI360 Explorer ..." [ref=e49]:
+    - generic [ref=e50]:
+      - heading "MFI360 Explorer" [level=3] [ref=e52]
+      - generic [ref=e54]:
+        - generic [ref=e56]: i
+        - text: Invalid Credential
+    - button "OK" [active] [ref=e58] [cursor=pointer]
+```

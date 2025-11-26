@@ -1,0 +1,14 @@
+Clicked successfully.
+Filled successfully.
+Selected Attribute Name Effective date(ER)
+Expected Attribute Name Effective date(ER)
+Selected Output Column is: Expense Ratio
+Selected Output Column is: Effective date(ER)
+Selected Output Column is: Scheme Short Name
+Clicked on Search Button
+Output Header Name:  Expense Ratio
+Selected Header Name:  Expense Ratio
+Output Header Name:  Effective date(ER)
+Selected Header Name:  Effective date(ER)
+Output Header Name:  Scheme Short Name
+Selected Header Name:  Scheme Short Name

@@ -1,0 +1,21 @@
+No locator found for "AMC Allocation". Check widgetIdMap.
+No locator found for "AMC Allocation". Check widgetIdMap.
+No locator found for "Category Allocation - Current Month". Check widgetIdMap.
+No locator found for "Asset Allocation-(Current Month)". Check widgetIdMap.
+No locator found for "Asset Allocation-(Previous Month)". Check widgetIdMap.
+No locator found for "Average for Last 12 Months". Check widgetIdMap.
+No locator found for "Market Capitalization(Current Month)". Check widgetIdMap.
+No locator found for "Market Capitalization(Previous Month)". Check widgetIdMap.
+No locator found for "Average for Last 12 Months". Check widgetIdMap.
+No locator found for "Sector Allocation(Current Month)". Check widgetIdMap.
+No locator found for "Sector Allocation(Previous Month)". Check widgetIdMap.
+No locator found for "Sector Allocation-(Average for Last 12 Months)". Check widgetIdMap.
+No locator found for "Holding Analysis (Sector)- Table". Check widgetIdMap.
+No locator found for "Instrument Allocation - Top 20-Table". Check widgetIdMap.
+No locator found for "P2P Returns (In %)". Check widgetIdMap.
+No locator found for "Calendar Year Returns (In %)". Check widgetIdMap.
+No locator found for "Lumpsum Performance (Growth of Rs. 10,000)". Check widgetIdMap.
+No locator found for "What's In". Check widgetIdMap.
+No locator found for "What's Out". Check widgetIdMap.
+No locator found for "Correlation Matrix". Check widgetIdMap.
+No locator found for "Portfolio Overlap Matrix". Check widgetIdMap.

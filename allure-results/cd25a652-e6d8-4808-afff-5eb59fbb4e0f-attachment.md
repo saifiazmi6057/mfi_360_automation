@@ -1,0 +1,787 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e8]:
+    - link [ref=e10] [cursor=pointer]:
+      - /url: /UserDashboard/Details
+      - img [ref=e11]
+    - generic [ref=e14]:
+      - list [ref=e15]:
+        - listitem [ref=e16] [cursor=pointer]:
+          - link "Admin" [ref=e17]:
+            - /url: "#"
+            - img [ref=e18]
+            - text: 
+        - listitem [ref=e19] [cursor=pointer]:
+          - link "Performance" [ref=e20]:
+            - /url: "#"
+            - img [ref=e21]
+            - text: 
+        - listitem [ref=e22] [cursor=pointer]:
+          - link "Portfolio" [ref=e23]:
+            - /url: "#"
+            - img [ref=e24]
+            - text: 
+        - listitem [ref=e25] [cursor=pointer]:
+          - link "Industry" [ref=e26]:
+            - /url: "#"
+            - img [ref=e27]
+            - text: 
+        - listitem [ref=e28] [cursor=pointer]:
+          - link "Tools" [ref=e29]:
+            - /url: "#"
+            - img [ref=e30]
+            - text: 
+        - listitem [ref=e31] [cursor=pointer]:
+          - link "Utilities" [ref=e32]:
+            - /url: "#"
+            - img [ref=e33]
+            - text: 
+        - listitem [ref=e34] [cursor=pointer]:
+          - link "Fund Screener" [ref=e35]:
+            - /url: /AMC/FundScreener
+            - img [ref=e36]
+        - listitem [ref=e37] [cursor=pointer]:
+          - link "Advanced Fund Screener" [ref=e38]:
+            - /url: /AMC/FundScreenerAdvance
+            - img [ref=e39]
+      - text:        
+  - text: 
+  - generic [ref=e40]:
+    - navigation:
+      - generic [ref=e41]:
+        - generic [ref=e44] [cursor=pointer]: 
+        - generic [ref=e45]:
+          - text: 
+          - search [ref=e46]
+      - list [ref=e48]:
+        - listitem [ref=e49]:
+          - generic "My Tutorial Video" [ref=e50]:
+            - img [ref=e51]
+        - link "0" [ref=e52] [cursor=pointer]:
+          - /url: javascript:;
+          - img [ref=e53]
+          - generic [ref=e54]: "0"
+        - listitem [ref=e55]:
+          - link [ref=e56] [cursor=pointer]:
+            - /url: "#"
+            - img [ref=e57]
+        - listitem [ref=e58]:
+          - generic "Change setting" [ref=e59] [cursor=pointer]:
+            - img [ref=e60]
+        - listitem [ref=e61]:
+          - link "user" [ref=e62] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e63]
+  - main [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:      
+      - main [ref=e69]:
+        - generic [ref=e71]:
+          - heading "Fund Dashboard" [level=3] [ref=e72]
+          - img "PDF" [ref=e74] [cursor=pointer]
+          - generic [ref=e76] [cursor=pointer]: 
+        - list [ref=e78]:
+          - listitem [ref=e79]:
+            - generic [ref=e81]:
+              - generic:
+                - combobox [ref=e83]:
+                  - option "Select Mutual Fund"
+                  - option "360 ONE Mutual Fund"
+                  - option "Aditya Birla Sun Life Mutual Fund" [selected]
+                  - option "Axis Mutual Fund"
+                  - option "Bajaj Finserv Mutual Fund"
+                  - option "Bandhan Mutual Fund"
+                  - option "Bank of India Mutual Fund"
+                  - option "Baroda BNP Paribas Mutual Fund"
+                  - option "Canara Robeco Mutual Fund"
+                  - option "Capitalmind Mutual Fund"
+                  - option "Choice Mutual Fund"
+                  - option "DSP Mutual Fund"
+                  - option "Edelweiss Mutual Fund"
+                  - option "Franklin Templeton Mutual Fund"
+                  - option "Groww Mutual Fund"
+                  - option "HDFC Mutual Fund"
+                  - option "Helios Mutual Fund"
+                  - option "HSBC Mutual Fund"
+                  - option "ICICI Prudential Mutual Fund"
+                  - option "IIFCL Mutual Fund"
+                  - option "IL & FS Mutual Fund"
+                  - option "Invesco Mutual Fund"
+                  - option "ITI Mutual Fund"
+                  - option "Jio BlackRock Mutual Fund"
+                  - option "JM Financial Mutual Fund"
+                  - option "Kotak Mahindra Mutual Fund"
+                  - option "LIC Mutual Fund"
+                  - option "Mahindra Manulife Mutual Fund"
+                  - option "Mirae Asset Mutual Fund"
+                  - option "Motilal Oswal Mutual Fund"
+                  - option "Navi Mutual Fund"
+                  - option "Nippon India Mutual Fund"
+                  - option "NJ Mutual Fund"
+                  - option "Old Bridge Mutual Fund"
+                  - option "PGIM India Mutual Fund"
+                  - option "PPFAS Mutual Fund"
+                  - option "Quant Mutual Fund"
+                  - option "Quantum Mutual Fund"
+                  - option "Samco Mutual Fund"
+                  - option "SBI Mutual Fund"
+                  - option "Shriram Mutual Fund"
+                  - option "Sundaram Mutual Fund"
+                  - option "Tata Mutual Fund"
+                  - option "Taurus Mutual Fund"
+                  - option "TEST AMC"
+                  - option "The Wealth Company Mutual Fund"
+                  - option "Trust Mutual Fund"
+                  - option "Unifi Mutual Fund"
+                  - option "Union Mutual Fund"
+                  - option "UTI Mutual Fund"
+                  - option "WhiteOak Capital Mutual Fund"
+                  - option "Zerodha Mutual Fund"
+                - combobox [ref=e85]:
+                  - option "Select Category"
+                  - option "Debt" [selected]
+                  - option "Equity"
+                  - option "Hybrid"
+                  - option "Other"
+                  - option "Solution Oriented"
+                - combobox [ref=e87]:
+                  - option "Select Sub Category"
+                  - option "Banking and PSU Fund"
+                  - option "Corporate Bond Fund"
+                  - option "Credit Risk Fund"
+                  - option "Dynamic Bond"
+                  - option "Floater Fund" [selected]
+                  - option "FMP"
+                  - option "Gilt Fund"
+                  - option "Gilt Fund with 10 year constant duration"
+                  - option "Liquid Fund"
+                  - option "Long Duration Fund"
+                  - option "Low Duration Fund"
+                  - option "Medium Duration Fund"
+                  - option "Medium to Long Duration Fund"
+                  - option "Money Market Fund"
+                  - option "Others"
+                  - option "Overnight Fund"
+                  - option "Short Duration Fund"
+                  - option "Ultra Short Duration Fund"
+                - combobox [ref=e89]:
+                  - option "Select Fund"
+                  - option "Aditya Birla Sun Life Floating Rate Fund" [selected]
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "Details" [level=2] [ref=e92]
+            - list [ref=e93]:
+              - listitem [ref=e94] [cursor=pointer]:
+                - generic [ref=e96]: 
+          - text:            
+        - generic [ref=e100]:
+          - generic [ref=e101] [cursor=pointer]: 
+          - tabpanel [ref=e102]:
+            - tablist [ref=e103]:
+              - tab "Fund Snapshot" [ref=e104] [cursor=pointer]
+              - tab "Returns" [ref=e105] [cursor=pointer]
+              - tab "Statistical Ratios" [ref=e106] [cursor=pointer]
+              - tab "Portfolio" [expanded] [active] [ref=e107]
+              - tab "Others" [ref=e108] [cursor=pointer]
+            - generic:
+              - text:    
+              - tabpanel:
+                - generic:
+                  - generic:
+                    - combobox [ref=e111]:
+                      - option "Oct - 2025" [selected]
+                      - option "Sep - 2025"
+                      - option "Aug - 2025"
+                      - option "Jul - 2025"
+                      - option "Jun - 2025"
+                      - option "May - 2025"
+                    - generic [ref=e112]:
+                      - generic [ref=e114]:
+                        - generic [ref=e115]:
+                          - heading "Top 10 Holdings" [level=2] [ref=e116]
+                          - generic [ref=e117] [cursor=pointer]: 
+                          - list [ref=e118]:
+                            - listitem [ref=e119] [cursor=pointer]:
+                              - button "Export to Excel" [ref=e120]:
+                                - link "Export to Excel" [ref=e121]:
+                                  - /url: "#"
+                                  - img [ref=e122]
+                        - generic [ref=e123]:
+                          - table [ref=e124]:
+                            - rowgroup [ref=e125]:
+                              - row "Company Name Asset Type Allocation (In %)" [ref=e126]:
+                                - cell "Company Name" [ref=e127]
+                                - cell "Asset Type" [ref=e128]
+                                - cell "Allocation (In %)" [ref=e129]
+                            - rowgroup [ref=e130]:
+                              - row "7.33 GOI Sep 22 2033 (IN0020200120) Debt 5.70" [ref=e131]:
+                                - cell "7.33 GOI Sep 22 2033 (IN0020200120)" [ref=e132]
+                                - cell "Debt" [ref=e133]
+                                - cell "5.70" [ref=e134]
+                              - row "7.48 National Bank For Agriculture & Rural Development (Nabard) Sep 15 2028 (INE261F08EO7) Debt 2.64" [ref=e135]:
+                                - cell "7.48 National Bank For Agriculture & Rural Development (Nabard) Sep 15 2028 (INE261F08EO7)" [ref=e136]
+                                - cell "Debt" [ref=e137]
+                                - cell "2.64" [ref=e138]
+                              - row "7.2 Knowledge Realty Trust Sep 26 2028 (INE1JAR07010) Debt 2.29" [ref=e139]:
+                                - cell "7.2 Knowledge Realty Trust Sep 26 2028 (INE1JAR07010)" [ref=e140]
+                                - cell "Debt" [ref=e141]
+                                - cell "2.29" [ref=e142]
+                              - row "HDFC Bank Ltd.(INE040A16GS5) Others 2.23" [ref=e143]:
+                                - cell "HDFC Bank Ltd.(INE040A16GS5)" [ref=e144]
+                                - cell "Others" [ref=e145]
+                                - cell "2.23" [ref=e146]
+                              - row "7.7 National Bank For Agriculture & Rural Development (Nabard) Sep 30 2027 (INE261F08EI9) Debt 2.13" [ref=e147]:
+                                - cell "7.7 National Bank For Agriculture & Rural Development (Nabard) Sep 30 2027 (INE261F08EI9)" [ref=e148]
+                                - cell "Debt" [ref=e149]
+                                - cell "2.13" [ref=e150]
+                          - generic [ref=e153]:
+                            - button "First" [ref=e154] [cursor=pointer]: <
+                            - button "Go to page 1" [ref=e155] [cursor=pointer]: "1"
+                            - button "Go to page 2" [ref=e156] [cursor=pointer]: "2"
+                            - button "Last" [ref=e157] [cursor=pointer]: ">"
+                      - generic [ref=e159]:
+                        - generic [ref=e160]:
+                          - heading "Top 5 Sectors" [level=2] [ref=e161]
+                          - generic [ref=e162] [cursor=pointer]: 
+                          - list [ref=e163]:
+                            - listitem [ref=e164] [cursor=pointer]:
+                              - button "Export to Excel" [ref=e165]:
+                                - link "Export to Excel" [ref=e166]:
+                                  - /url: "#"
+                                  - img [ref=e167]
+                        - table [ref=e169]:
+                          - rowgroup [ref=e170]:
+                            - row "Sector Name Allocation (In %)" [ref=e171]:
+                              - cell "Sector Name" [ref=e172]
+                              - cell "Allocation (In %)" [ref=e173]
+                          - rowgroup [ref=e174]:
+                            - row "Financial Institution 33.49" [ref=e175]:
+                              - cell "Financial Institution" [ref=e176]:
+                                - link "Financial Institution" [ref=e178] [cursor=pointer]:
+                                  - /url: /SectorHolding/Dashboard?Sector=Financial Institution&SectorLevel=Basic_Industry&SetName=
+                              - cell "33.49" [ref=e179]
+                            - row "Housing Finance Company 12.61" [ref=e180]:
+                              - cell "Housing Finance Company" [ref=e181]:
+                                - link "Housing Finance Company" [ref=e183] [cursor=pointer]:
+                                  - /url: /SectorHolding/Dashboard?Sector=Housing Finance Company&SectorLevel=Basic_Industry&SetName=
+                              - cell "12.61" [ref=e184]
+                            - row "Non Banking Financial Company (NBFC) 11.96" [ref=e185]:
+                              - cell "Non Banking Financial Company (NBFC)" [ref=e186]:
+                                - link "Non Banking Financial Company (NBFC)" [ref=e188] [cursor=pointer]:
+                                  - /url: /SectorHolding/Dashboard?Sector=Non Banking Financial Company (NBFC)&SectorLevel=Basic_Industry&SetName=
+                              - cell "11.96" [ref=e189]
+                            - row "Sovereign 11.78" [ref=e190]:
+                              - cell "Sovereign" [ref=e191]:
+                                - link "Sovereign" [ref=e193] [cursor=pointer]:
+                                  - /url: /SectorHolding/Dashboard?Sector=Sovereign&SectorLevel=Basic_Industry&SetName=
+                              - cell "11.78" [ref=e194]
+                            - row "Private Sector Bank 6.71" [ref=e195]:
+                              - cell "Private Sector Bank" [ref=e196]:
+                                - link "Private Sector Bank" [ref=e198] [cursor=pointer]:
+                                  - /url: /SectorHolding/Dashboard?Sector=Private Sector Bank&SectorLevel=Basic_Industry&SetName=
+                              - cell "6.71" [ref=e199]
+                    - generic [ref=e200]:
+                      - text: 
+                      - generic [ref=e202]:
+                        - generic [ref=e203]:
+                          - heading "Instrument Allocation" [level=2] [ref=e204]
+                          - generic [ref=e205] [cursor=pointer]: 
+                        - img [ref=e209]:
+                          - generic "Chart context menu" [ref=e286] [cursor=pointer]
+                          - generic [ref=e292]:
+                            - generic [ref=e294] [cursor=pointer]: ABS
+                            - generic [ref=e297] [cursor=pointer]: AIF - Class A2
+                            - generic [ref=e300] [cursor=pointer]: Bond
+                            - generic [ref=e303] [cursor=pointer]: CD
+                            - generic [ref=e306] [cursor=pointer]: CP
+                            - generic [ref=e309] [cursor=pointer]: Gilt
+                            - generic [ref=e312] [cursor=pointer]: IRS
+                            - generic [ref=e315] [cursor=pointer]: Money Market
+                            - generic [ref=e318] [cursor=pointer]: Net Receivables/(Payables)
+                            - generic [ref=e321] [cursor=pointer]: SDL
+                            - generic [ref=e324] [cursor=pointer]: Undisclosed - Others
+                            - generic [ref=e327] [cursor=pointer]: ZCB
+                          - generic [ref=e329] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - text: 
+                      - generic [ref=e333]:
+                        - generic [ref=e334]:
+                          - heading "Average Maturity" [level=2] [ref=e335]
+                          - generic [ref=e336] [cursor=pointer]: 
+                        - img [ref=e340]:
+                          - generic [ref=e348]: Average Maturity (in Days)
+                          - generic "Chart context menu" [ref=e354] [cursor=pointer]
+                          - generic [ref=e357]:
+                            - generic [ref=e358]: Oct 2025
+                            - generic [ref=e359]: Sep 2025
+                            - generic [ref=e360]: Aug 2025
+                          - generic [ref=e361]:
+                            - generic [ref=e362]: "0"
+                            - generic [ref=e363]: "100"
+                            - generic [ref=e364]: "200"
+                            - generic [ref=e365]: "300"
+                            - generic [ref=e366]: "400"
+                            - generic [ref=e367]: "500"
+                            - generic [ref=e368]: "600"
+                            - generic [ref=e369]: "700"
+                            - generic [ref=e370]: "800"
+                          - generic [ref=e371] [cursor=pointer]: "Source: MFI360 Explorer"
+                    - generic [ref=e372]:
+                      - generic [ref=e374]:
+                        - generic [ref=e375]:
+                          - generic [ref=e376] [cursor=pointer]: 
+                          - heading "Rating Allocation" [level=2] [ref=e377]
+                        - img [ref=e381]:
+                          - generic [ref=e411] [cursor=pointer]: "Source: MFI360 Explorer"
+                      - generic [ref=e415]:
+                        - generic [ref=e416]:
+                          - generic [ref=e417] [cursor=pointer]: 
+                          - heading "Rating Allocation Details" [level=2] [ref=e420]
+                          - list [ref=e423]:
+                            - listitem [ref=e424] [cursor=pointer]:
+                              - button [ref=e425]:
+                                - img [ref=e426]
+                        - generic [ref=e428]:
+                          - table [ref=e429]:
+                            - rowgroup [ref=e430]:
+                              - row "Rating Set Company Name Allocation (%)" [ref=e431]:
+                                - cell "Rating Set" [ref=e432]
+                                - cell "Company Name" [ref=e433]
+                                - cell "Allocation (%)" [ref=e434]
+                            - rowgroup [ref=e435]:
+                              - row "Sovereign 7.33 GOI Sep 22 2033 17.13" [ref=e436]:
+                                - cell "Sovereign" [ref=e437]
+                                - cell "7.33 GOI Sep 22 2033" [ref=e438]
+                                - cell "17.13" [ref=e439]
+                              - row "AAA & Eq HDFC Bank Ltd. 6.7" [ref=e440]:
+                                - cell "AAA & Eq" [ref=e441]
+                                - cell "HDFC Bank Ltd." [ref=e442]
+                                - cell "6.7" [ref=e443]
+                              - row "AAA & Eq Union Bank Of India 4.4" [ref=e444]:
+                                - cell "AAA & Eq" [ref=e445]
+                                - cell "Union Bank Of India" [ref=e446]
+                                - cell "4.4" [ref=e447]
+                              - row "AAA & Eq Axis Bank Ltd. 4.31" [ref=e448]:
+                                - cell "AAA & Eq" [ref=e449]
+                                - cell "Axis Bank Ltd." [ref=e450]
+                                - cell "4.31" [ref=e451]
+                              - row "AAA & Eq Small Industries Development Bank Of India 4.3" [ref=e452]:
+                                - cell "AAA & Eq" [ref=e453]
+                                - cell "Small Industries Development Bank Of India" [ref=e454]
+                                - cell "4.3" [ref=e455]
+                              - row "AAA & Eq Export Import Bank Of India 3.35" [ref=e456]:
+                                - cell "AAA & Eq" [ref=e457]
+                                - cell "Export Import Bank Of India" [ref=e458]
+                                - cell "3.35" [ref=e459]
+                              - row "AAA & Eq Radhakrishna Securitization Trust 3.28" [ref=e460]:
+                                - cell "AAA & Eq" [ref=e461]
+                                - cell "Radhakrishna Securitization Trust" [ref=e462]
+                                - cell "3.28" [ref=e463]
+                              - row "AAA & Eq Small Industries Development Bank Of India 2.79" [ref=e464]:
+                                - cell "AAA & Eq" [ref=e465]
+                                - cell "Small Industries Development Bank Of India" [ref=e466]
+                                - cell "2.79" [ref=e467]
+                              - row "Sovereign 7.02 GOI Jun 18 2031 2.59" [ref=e468]:
+                                - cell "Sovereign" [ref=e469]
+                                - cell "7.02 GOI Jun 18 2031" [ref=e470]
+                                - cell "2.59" [ref=e471]
+                              - row "Sovereign 6.28 GOI Jul 14 2032 2.5" [ref=e472]:
+                                - cell "Sovereign" [ref=e473]
+                                - cell "6.28 GOI Jul 14 2032" [ref=e474]
+                                - cell "2.5" [ref=e475]
+                          - generic [ref=e478]:
+                            - button "First" [ref=e479] [cursor=pointer]: <
+                            - button "Go to page 1" [ref=e480] [cursor=pointer]: "1"
+                            - button "Go to page 2" [ref=e481] [cursor=pointer]: "2"
+                            - button "Go to page 3" [ref=e482] [cursor=pointer]: "3"
+                            - button "Go to page 4" [ref=e483] [cursor=pointer]: "4"
+                            - button "Go to page 5" [ref=e484] [cursor=pointer]: "5"
+                            - button "Go to page 6" [ref=e485] [cursor=pointer]: "6"
+                            - button "Next" [ref=e486] [cursor=pointer]: …
+                            - button "Last" [ref=e487] [cursor=pointer]: ">"
+                    - generic [ref=e488]:
+                      - generic [ref=e490]:
+                        - generic [ref=e491]:
+                          - heading "What's In" [level=2] [ref=e492]
+                          - generic [ref=e493] [cursor=pointer]: 
+                          - list [ref=e494]:
+                            - listitem [ref=e495] [cursor=pointer]:
+                              - button "Export to Excel" [ref=e496]:
+                                - link "Export to Excel" [ref=e497]:
+                                  - /url: "#"
+                                  - img [ref=e498]
+                        - generic [ref=e499]:
+                          - table [ref=e501]:
+                            - rowgroup [ref=e502]:
+                              - row "Company Name ISIN Code Portfolio Nature Net Asset (In %) Market Value (In Cr.)" [ref=e503]:
+                                - cell "Company Name" [ref=e504]
+                                - cell "ISIN Code" [ref=e505]
+                                - cell "Portfolio Nature" [ref=e506]
+                                - cell "Net Asset (In %)" [ref=e507]:
+                                  - text: Net Asset
+                                  - text: (In %)
+                                - cell "Market Value (In Cr.)" [ref=e508]:
+                                  - text: Market Value
+                                  - text: (In
+                                  - generic [ref=e509]: 
+                                  - text: Cr.)
+                            - rowgroup [ref=e510]:
+                              - row "Axis Bank Ltd. INE238AD6BJ6 Others 1.44 188.37" [ref=e511]:
+                                - cell "Axis Bank Ltd." [ref=e512]
+                                - cell "INE238AD6BJ6" [ref=e513]
+                                - cell "Others" [ref=e514]
+                                - cell "1.44" [ref=e515]
+                                - cell "188.37" [ref=e516]
+                              - row "Small Industries Development Bank Of India INE556F16BO9 Others 1.43 187.94" [ref=e517]:
+                                - cell "Small Industries Development Bank Of India" [ref=e518]
+                                - cell "INE556F16BO9" [ref=e519]
+                                - cell "Others" [ref=e520]
+                                - cell "1.43" [ref=e521]
+                                - cell "187.94" [ref=e522]
+                              - row "7.55 Poonawalla Fincorp Ltd. (Erstwhile Magma Fincorp Ltd.) Mar 25 2027 INE511C07946 Debt 1.14 149.87" [ref=e523]:
+                                - cell "7.55 Poonawalla Fincorp Ltd. (Erstwhile Magma Fincorp Ltd.) Mar 25 2027" [ref=e524]
+                                - cell "INE511C07946" [ref=e525]
+                                - cell "Debt" [ref=e526]
+                                - cell "1.14" [ref=e527]
+                                - cell "149.87" [ref=e528]
+                              - row "7.35 Bharti Telecom Ltd. Oct 15 2027 INE403D08272 Debt 0.87 114.13" [ref=e529]:
+                                - cell "7.35 Bharti Telecom Ltd. Oct 15 2027" [ref=e530]
+                                - cell "INE403D08272" [ref=e531]
+                                - cell "Debt" [ref=e532]
+                                - cell "0.87" [ref=e533]
+                                - cell "114.13" [ref=e534]
+                              - row "7.53 National Bank For Agriculture & Rural Development (Nabard) Mar 24 2028 INE261F08EM1 Debt 0.78 101.85" [ref=e535]:
+                                - cell "7.53 National Bank For Agriculture & Rural Development (Nabard) Mar 24 2028" [ref=e536]
+                                - cell "INE261F08EM1" [ref=e537]
+                                - cell "Debt" [ref=e538]
+                                - cell "0.78" [ref=e539]
+                                - cell "101.85" [ref=e540]
+                              - row "Standard Chartered Capital Ltd. (Erstwhile Standard Chartered Investments & Loans (India) Ltd.) (251D) INE403G14TP6 Others 0.73 95.89" [ref=e541]:
+                                - cell "Standard Chartered Capital Ltd. (Erstwhile Standard Chartered Investments & Loans (India) Ltd.) (251D)" [ref=e542]
+                                - cell "INE403G14TP6" [ref=e543]
+                                - cell "Others" [ref=e544]
+                                - cell "0.73" [ref=e545]
+                                - cell "95.89" [ref=e546]
+                              - row "Kotak Mahindra Bank Ltd. INE237AD6075 Others 0.72 95.00" [ref=e547]:
+                                - cell "Kotak Mahindra Bank Ltd." [ref=e548]
+                                - cell "INE237AD6075" [ref=e549]
+                                - cell "Others" [ref=e550]
+                                - cell "0.72" [ref=e551]
+                                - cell "95.00" [ref=e552]
+                              - row "Small Industries Development Bank Of India INE556F16BL5 Others 0.72 94.20" [ref=e553]:
+                                - cell "Small Industries Development Bank Of India" [ref=e554]
+                                - cell "INE556F16BL5" [ref=e555]
+                                - cell "Others" [ref=e556]
+                                - cell "0.72" [ref=e557]
+                                - cell "94.20" [ref=e558]
+                              - row "6.37 REC Ltd. Mar 31 2027 INE020B08FX4 Debt 0.38 49.86" [ref=e559]:
+                                - cell "6.37 REC Ltd. Mar 31 2027" [ref=e560]
+                                - cell "INE020B08FX4" [ref=e561]
+                                - cell "Debt" [ref=e562]
+                                - cell "0.38" [ref=e563]
+                                - cell "49.86" [ref=e564]
+                              - row "HDFC Bank Ltd. INE040A16HT1 Others 0.37 48.22" [ref=e565]:
+                                - cell "HDFC Bank Ltd." [ref=e566]
+                                - cell "INE040A16HT1" [ref=e567]
+                                - cell "Others" [ref=e568]
+                                - cell "0.37" [ref=e569]
+                                - cell "48.22" [ref=e570]
+                          - generic [ref=e573]:
+                            - button "First" [ref=e574] [cursor=pointer]: <
+                            - button "Go to page 1" [ref=e575] [cursor=pointer]: "1"
+                            - button "Go to page 2" [ref=e576] [cursor=pointer]: "2"
+                            - button "Go to page 3" [ref=e577] [cursor=pointer]: "3"
+                            - button "Go to page 4" [ref=e578] [cursor=pointer]: "4"
+                            - button "Go to page 5" [ref=e579] [cursor=pointer]: "5"
+                            - button "Go to page 6" [ref=e580] [cursor=pointer]: "6"
+                            - button "Last" [ref=e581] [cursor=pointer]: ">"
+                      - generic [ref=e583]:
+                        - generic [ref=e584]:
+                          - heading "What's Out" [level=2] [ref=e585]
+                          - generic [ref=e586] [cursor=pointer]: 
+                          - list [ref=e587]:
+                            - listitem [ref=e588] [cursor=pointer]:
+                              - button "Export to Excel" [ref=e589]:
+                                - link "Export to Excel" [ref=e590]:
+                                  - /url: "#"
+                                  - img [ref=e591]
+                        - generic [ref=e592]:
+                          - table [ref=e594]:
+                            - rowgroup [ref=e595]:
+                              - row "Company Name ISIN Code Portfolio Nature Net Asset (In %) Market Value (In Cr.)" [ref=e596]:
+                                - cell "Company Name" [ref=e597]
+                                - cell "ISIN Code" [ref=e598]
+                                - cell "Portfolio Nature" [ref=e599]
+                                - cell "Net Asset (In %)" [ref=e600]:
+                                  - text: Net Asset
+                                  - text: (In %)
+                                - cell "Market Value (In Cr.)" [ref=e601]:
+                                  - text: Market Value
+                                  - text: (In
+                                  - generic [ref=e602]: 
+                                  - text: Cr.)
+                            - rowgroup [ref=e603]:
+                              - row "Small Industries Development Bank Of India INE556F16BE0 Others 1.27 170.25" [ref=e604]:
+                                - cell "Small Industries Development Bank Of India" [ref=e605]
+                                - cell "INE556F16BE0" [ref=e606]
+                                - cell "Others" [ref=e607]
+                                - cell "1.27" [ref=e608]
+                                - cell "170.25" [ref=e609]
+                              - row "7.75 Small Industries Development Bank Of India Oct 27 2025 INE556F08KD0 Debt 1.12 150.17" [ref=e610]:
+                                - cell "7.75 Small Industries Development Bank Of India Oct 27 2025" [ref=e611]
+                                - cell "INE556F08KD0" [ref=e612]
+                                - cell "Debt" [ref=e613]
+                                - cell "1.12" [ref=e614]
+                                - cell "150.17" [ref=e615]
+                              - row "Export Import Bank Of India INE514E16CI1 Others 1.10 147.92" [ref=e616]:
+                                - cell "Export Import Bank Of India" [ref=e617]
+                                - cell "INE514E16CI1" [ref=e618]
+                                - cell "Others" [ref=e619]
+                                - cell "1.10" [ref=e620]
+                                - cell "147.92" [ref=e621]
+                              - row "L&T Finance Ltd.(Erstwhile L&T Finance Holding Ltd.) (364D) INE498L14ED4 Others 0.71 95.55" [ref=e622]:
+                                - cell "L&T Finance Ltd.(Erstwhile L&T Finance Holding Ltd.) (364D)" [ref=e623]
+                                - cell "INE498L14ED4" [ref=e624]
+                                - cell "Others" [ref=e625]
+                                - cell "0.71" [ref=e626]
+                                - cell "95.55" [ref=e627]
+                              - row "7.5 National Bank For Agriculture & Rural Development (Nabard) Aug 31 2026 INE261F08EA6 Debt 0.60 80.54" [ref=e628]:
+                                - cell "7.5 National Bank For Agriculture & Rural Development (Nabard) Aug 31 2026" [ref=e629]
+                                - cell "INE261F08EA6" [ref=e630]
+                                - cell "Debt" [ref=e631]
+                                - cell "0.60" [ref=e632]
+                                - cell "80.54" [ref=e633]
+                              - row "7.07 Bajaj Finance Ltd. Sep 21 2028 INE296A07TN6 Debt 0.56 74.76" [ref=e634]:
+                                - cell "7.07 Bajaj Finance Ltd. Sep 21 2028" [ref=e635]
+                                - cell "INE296A07TN6" [ref=e636]
+                                - cell "Debt" [ref=e637]
+                                - cell "0.56" [ref=e638]
+                                - cell "74.76" [ref=e639]
+                              - row "7.6 Kotak Mahindra Prime Ltd. May 19 2028 INE916DA7SZ3 Debt 0.38 50.44" [ref=e640]:
+                                - cell "7.6 Kotak Mahindra Prime Ltd. May 19 2028" [ref=e641]
+                                - cell "INE916DA7SZ3" [ref=e642]
+                                - cell "Debt" [ref=e643]
+                                - cell "0.38" [ref=e644]
+                                - cell "50.44" [ref=e645]
+                              - row "Punjab National Bank INE160A16QT8 Others 0.37 49.19" [ref=e646]:
+                                - cell "Punjab National Bank" [ref=e647]
+                                - cell "INE160A16QT8" [ref=e648]
+                                - cell "Others" [ref=e649]
+                                - cell "0.37" [ref=e650]
+                                - cell "49.19" [ref=e651]
+                              - row "Axis Bank Ltd. INE238AD6AE9 Others 0.37 49.19" [ref=e652]:
+                                - cell "Axis Bank Ltd." [ref=e653]
+                                - cell "INE238AD6AE9" [ref=e654]
+                                - cell "Others" [ref=e655]
+                                - cell "0.37" [ref=e656]
+                                - cell "49.19" [ref=e657]
+                              - row "HDFC Bank Ltd. INE040A16HM6 Others 0.36 48.71" [ref=e658]:
+                                - cell "HDFC Bank Ltd." [ref=e659]
+                                - cell "INE040A16HM6" [ref=e660]
+                                - cell "Others" [ref=e661]
+                                - cell "0.36" [ref=e662]
+                                - cell "48.71" [ref=e663]
+                          - generic [ref=e666]:
+                            - button "First" [ref=e667] [cursor=pointer]: <
+                            - button "Go to page 1" [ref=e668] [cursor=pointer]: "1"
+                            - button "Go to page 2" [ref=e669] [cursor=pointer]: "2"
+                            - button "Go to page 3" [ref=e670] [cursor=pointer]: "3"
+                            - button "Go to page 4" [ref=e671] [cursor=pointer]: "4"
+                            - button "Go to page 5" [ref=e672] [cursor=pointer]: "5"
+                            - button "Go to page 6" [ref=e673] [cursor=pointer]: "6"
+                            - button "Next" [ref=e674] [cursor=pointer]: …
+                            - button "Last" [ref=e675] [cursor=pointer]: ">"
+                    - generic [ref=e677]:
+                      - generic [ref=e678]:
+                        - heading "Detailed Portfolio" [level=2] [ref=e679]
+                        - generic [ref=e680] [cursor=pointer]: 
+                        - list [ref=e681]:
+                          - listitem [ref=e682] [cursor=pointer]:
+                            - link "Export to Excel" [ref=e684]:
+                              - /url: "#"
+                              - img [ref=e685]
+                      - generic [ref=e686]:
+                        - table [ref=e688]:
+                          - rowgroup [ref=e689]:
+                            - row "Company Name Sector Name ISIN Code BSE Code NSE Code Instrument Rating Rating Agency Name Quantity Market Value (In Cr.) % of Net Assets Market Cap Coupon Rate Maturity Date" [ref=e690]:
+                              - cell "Company Name" [ref=e691]
+                              - cell "Sector Name" [ref=e692]
+                              - cell "ISIN Code" [ref=e693]
+                              - cell "BSE Code" [ref=e694]
+                              - cell "NSE Code" [ref=e695]
+                              - cell "Instrument" [ref=e696]
+                              - cell "Rating" [ref=e697]
+                              - cell "Rating Agency Name" [ref=e698]
+                              - cell "Quantity" [ref=e699]
+                              - cell "Market Value (In Cr.)" [ref=e700]:
+                                - text: Market Value
+                                - text: (In
+                                - generic [ref=e701]: 
+                                - text: Cr.)
+                              - cell "% of Net Assets" [ref=e702]
+                              - cell "Market Cap" [ref=e703]
+                              - cell "Coupon Rate" [ref=e704]
+                              - cell "Maturity Date" [ref=e705]
+                          - rowgroup [ref=e706]:
+                            - row "7.33 GOI Sep 22 2033 Sovereign IN0020200120 -- -- Gilt Sovereign -- 72308500 748.69 5.70 -- 7.33 22-Sep-2033" [ref=e707]:
+                              - cell "7.33 GOI Sep 22 2033" [ref=e708]
+                              - cell "Sovereign" [ref=e709]
+                              - cell "IN0020200120" [ref=e710]
+                              - cell "--" [ref=e711]
+                              - cell "--" [ref=e712]
+                              - cell "Gilt" [ref=e713]
+                              - cell "Sovereign" [ref=e714]
+                              - cell "--" [ref=e715]
+                              - cell "72308500" [ref=e716]
+                              - cell "748.69" [ref=e717]
+                              - cell "5.70" [ref=e718]
+                              - cell "--" [ref=e719]
+                              - cell "7.33" [ref=e720]
+                              - cell "22-Sep-2033" [ref=e721]
+                            - row "7.48 National Bank For Agriculture & Rural Development (Nabard) Sep 15 2028 Financial Institution INE261F08EO7 -- -- Bond AAA CRISIL 34000 346.26 2.64 -- 7.48 15-Sep-2028" [ref=e722]:
+                              - cell "7.48 National Bank For Agriculture & Rural Development (Nabard) Sep 15 2028" [ref=e723]
+                              - cell "Financial Institution" [ref=e724]
+                              - cell "INE261F08EO7" [ref=e725]
+                              - cell "--" [ref=e726]
+                              - cell "--" [ref=e727]
+                              - cell "Bond" [ref=e728]
+                              - cell "AAA" [ref=e729]
+                              - cell "CRISIL" [ref=e730]
+                              - cell "34000" [ref=e731]
+                              - cell "346.26" [ref=e732]
+                              - cell "2.64" [ref=e733]
+                              - cell "--" [ref=e734]
+                              - cell "7.48" [ref=e735]
+                              - cell "15-Sep-2028" [ref=e736]
+                            - row "7.2 Knowledge Realty Trust Sep 26 2028 Real Estate Investment Trusts (REITs) INE1JAR07010 -- KRT Bond AAA CRISIL 30000 300.50 2.29 -- 7.20 26-Sep-2028" [ref=e737]:
+                              - cell "7.2 Knowledge Realty Trust Sep 26 2028" [ref=e738]
+                              - cell "Real Estate Investment Trusts (REITs)" [ref=e739]
+                              - cell "INE1JAR07010" [ref=e740]
+                              - cell "--" [ref=e741]
+                              - cell "KRT" [ref=e742]
+                              - cell "Bond" [ref=e743]
+                              - cell "AAA" [ref=e744]
+                              - cell "CRISIL" [ref=e745]
+                              - cell "30000" [ref=e746]
+                              - cell "300.50" [ref=e747]
+                              - cell "2.29" [ref=e748]
+                              - cell "--" [ref=e749]
+                              - cell "7.20" [ref=e750]
+                              - cell "26-Sep-2028" [ref=e751]
+                            - row "HDFC Bank Ltd. Private Sector Bank INE040A16GS5 500180 HDFCBANK CD A1+ ICRA 6000 293.01 2.23 -- 0.00 24-Mar-2026" [ref=e752]:
+                              - cell "HDFC Bank Ltd." [ref=e753]
+                              - cell "Private Sector Bank" [ref=e754]
+                              - cell "INE040A16GS5" [ref=e755]
+                              - cell "500180" [ref=e756]
+                              - cell "HDFCBANK" [ref=e757]
+                              - cell "CD" [ref=e758]
+                              - cell "A1+" [ref=e759]
+                              - cell "ICRA" [ref=e760]
+                              - cell "6000" [ref=e761]
+                              - cell "293.01" [ref=e762]
+                              - cell "2.23" [ref=e763]
+                              - cell "--" [ref=e764]
+                              - cell "0.00" [ref=e765]
+                              - cell "24-Mar-2026" [ref=e766]
+                            - row "7.7 National Bank For Agriculture & Rural Development (Nabard) Sep 30 2027 Financial Institution INE261F08EI9 -- -- Bond AAA ICRA 27500 280.02 2.13 -- 7.70 30-Sep-2027" [ref=e767]:
+                              - cell "7.7 National Bank For Agriculture & Rural Development (Nabard) Sep 30 2027" [ref=e768]
+                              - cell "Financial Institution" [ref=e769]
+                              - cell "INE261F08EI9" [ref=e770]
+                              - cell "--" [ref=e771]
+                              - cell "--" [ref=e772]
+                              - cell "Bond" [ref=e773]
+                              - cell "AAA" [ref=e774]
+                              - cell "ICRA" [ref=e775]
+                              - cell "27500" [ref=e776]
+                              - cell "280.02" [ref=e777]
+                              - cell "2.13" [ref=e778]
+                              - cell "--" [ref=e779]
+                              - cell "7.70" [ref=e780]
+                              - cell "30-Sep-2027" [ref=e781]
+                            - row "8.1 Bajaj Housing Finance Ltd. Jul 8 2027 Housing Finance Company INE377Y07482 544252 BAJAJHFL Bond AAA CRISIL 24500 249.44 1.90 -- 8.10 08-Jul-2027" [ref=e782]:
+                              - cell "8.1 Bajaj Housing Finance Ltd. Jul 8 2027" [ref=e783]
+                              - cell "Housing Finance Company" [ref=e784]
+                              - cell "INE377Y07482" [ref=e785]
+                              - cell "544252" [ref=e786]
+                              - cell "BAJAJHFL" [ref=e787]
+                              - cell "Bond" [ref=e788]
+                              - cell "AAA" [ref=e789]
+                              - cell "CRISIL" [ref=e790]
+                              - cell "24500" [ref=e791]
+                              - cell "249.44" [ref=e792]
+                              - cell "1.90" [ref=e793]
+                              - cell "--" [ref=e794]
+                              - cell "8.10" [ref=e795]
+                              - cell "08-Jul-2027" [ref=e796]
+                            - row "7.55 REC Ltd. Oct 31 2026 Financial Institution INE020B08FH7 532955 RECLTD Bond AAA ICRA 22500 227.06 1.73 -- 7.55 31-Oct-2026" [ref=e797]:
+                              - cell "7.55 REC Ltd. Oct 31 2026" [ref=e798]
+                              - cell "Financial Institution" [ref=e799]
+                              - cell "INE020B08FH7" [ref=e800]
+                              - cell "532955" [ref=e801]
+                              - cell "RECLTD" [ref=e802]
+                              - cell "Bond" [ref=e803]
+                              - cell "AAA" [ref=e804]
+                              - cell "ICRA" [ref=e805]
+                              - cell "22500" [ref=e806]
+                              - cell "227.06" [ref=e807]
+                              - cell "1.73" [ref=e808]
+                              - cell "--" [ref=e809]
+                              - cell "7.55" [ref=e810]
+                              - cell "31-Oct-2026" [ref=e811]
+                            - row "7.21 Embassy Office Parks Reit Mar 17 2028 Real Estate Investment Trusts (REITs) INE041007167 542602 EMBASSY Bond AAA CRISIL 22600 226.81 1.73 -- 7.21 17-Mar-2028" [ref=e812]:
+                              - cell "7.21 Embassy Office Parks Reit Mar 17 2028" [ref=e813]
+                              - cell "Real Estate Investment Trusts (REITs)" [ref=e814]
+                              - cell "INE041007167" [ref=e815]
+                              - cell "542602" [ref=e816]
+                              - cell "EMBASSY" [ref=e817]
+                              - cell "Bond" [ref=e818]
+                              - cell "AAA" [ref=e819]
+                              - cell "CRISIL" [ref=e820]
+                              - cell "22600" [ref=e821]
+                              - cell "226.81" [ref=e822]
+                              - cell "1.73" [ref=e823]
+                              - cell "--" [ref=e824]
+                              - cell "7.21" [ref=e825]
+                              - cell "17-Mar-2028" [ref=e826]
+                            - row "Net Receivables/(Payable) Current Assets -- -- -- Net Receivables/(Payables) -- -- -- 225.92 1.72 -- 0.00 --" [ref=e827]:
+                              - cell "Net Receivables/(Payable)" [ref=e828]
+                              - cell "Current Assets" [ref=e829]
+                              - cell "--" [ref=e830]
+                              - cell "--" [ref=e831]
+                              - cell "--" [ref=e832]
+                              - cell "Net Receivables/(Payables)" [ref=e833]
+                              - cell "--" [ref=e834]
+                              - cell "--" [ref=e835]
+                              - cell "--" [ref=e836]
+                              - cell "225.92" [ref=e837]
+                              - cell "1.72" [ref=e838]
+                              - cell "--" [ref=e839]
+                              - cell "0.00" [ref=e840]
+                              - cell "--" [ref=e841]
+                            - row "7.44 REC Ltd. Apr 30 2026 Financial Institution INE020B08EL2 532955 RECLTD Bond AAA ICRA 22500 225.91 1.72 -- 7.44 30-Apr-2026" [ref=e842]:
+                              - cell "7.44 REC Ltd. Apr 30 2026" [ref=e843]
+                              - cell "Financial Institution" [ref=e844]
+                              - cell "INE020B08EL2" [ref=e845]
+                              - cell "532955" [ref=e846]
+                              - cell "RECLTD" [ref=e847]
+                              - cell "Bond" [ref=e848]
+                              - cell "AAA" [ref=e849]
+                              - cell "ICRA" [ref=e850]
+                              - cell "22500" [ref=e851]
+                              - cell "225.91" [ref=e852]
+                              - cell "1.72" [ref=e853]
+                              - cell "--" [ref=e854]
+                              - cell "7.44" [ref=e855]
+                              - cell "30-Apr-2026" [ref=e856]
+                        - generic [ref=e859]:
+                          - button "First" [ref=e860] [cursor=pointer]: <
+                          - button "Go to page 1" [ref=e861] [cursor=pointer]: "1"
+                          - button "Go to page 2" [ref=e862] [cursor=pointer]: "2"
+                          - button "Go to page 3" [ref=e863] [cursor=pointer]: "3"
+                          - button "Go to page 4" [ref=e864] [cursor=pointer]: "4"
+                          - button "Go to page 5" [ref=e865] [cursor=pointer]: "5"
+                          - button "Go to page 6" [ref=e866] [cursor=pointer]: "6"
+                          - button "Next" [ref=e867] [cursor=pointer]: …
+                          - button "Last" [ref=e868] [cursor=pointer]: ">"
+```
