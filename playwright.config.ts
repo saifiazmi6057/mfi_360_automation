@@ -21,7 +21,7 @@ export default defineConfig({
     video: 'retain-on-failure',
     navigationTimeout: 60000,
     actionTimeout: 60000,
-    baseURL: "https://mfi360-uat.icraanalytics.co.in:8443",
+    baseURL: process.env.BASE_URL || 'https://mfi360-uat.icraanalytics.co.in:8443',
     trace: 'retain-on-failure',
   },
 
@@ -37,6 +37,7 @@ export default defineConfig({
         viewport: null
       },
       metadata: {
+        baseUrl: process.env.BASE_URL || 'https://mfi360-uat.icraanalytics.co.in:8443',
         username: "user@testing.com",
         password: "Charli@123"
       }
@@ -60,3 +61,4 @@ export default defineConfig({
 
   
 });
+
