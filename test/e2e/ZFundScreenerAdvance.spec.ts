@@ -153,6 +153,22 @@ test.beforeAll(async ({browser}, testInfo)=> {
         await advancefundscreener.clickAddButton();
         await advancefundscreener.clickSubmitButton();
         await advancefundscreener.verifyResult();
-    })
+       
+
+    });
       
+    // //test-4
+    // test("@last Resest fund scanner page", async() => {
+    //     test.setTimeout(60000);
+    //     await advancefundscreener.open();
+    //     await advancefundscreener.verifyAdvanceFundScreenerPage();
+    //     await advancefundscreener.clickRedArrow();
+    //     await advancefundscreener.mywatchlist();
+    //     await advancefundscreener.selectUserSet();
+    //     await advancefundscreener.selectUserset1();
+    //     await advancefundscreener.selectUsersetfromDropdown();
+       
+    //     await advancefundscreener.clickonGreenArrow();
+/// })
+
 

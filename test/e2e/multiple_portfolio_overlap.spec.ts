@@ -80,8 +80,11 @@ test.describe('Multiple Portfolio Overlap', () => {
       'HDFC Liquid Fund - Growth',
       'Axis Large Cap Fund - Growth'
     ]);
+      await multipleportfoliooverlap.reloadpage();
+
     await multipleportfoliooverlap.clickOnCompareAndWaitForResults();
-    await multipleportfoliooverlap
+  
+  
     
     await multipleportfoliooverlap.selectFundAndVerifyTable("Fund B");
     await multipleportfoliooverlap.selectAllFundsAndDeleteWithConfirmation();

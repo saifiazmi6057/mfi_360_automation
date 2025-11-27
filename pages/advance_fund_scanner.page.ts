@@ -241,6 +241,33 @@ async clickAddButton(){
     await optionLocator.waitFor({ state: 'visible', timeout: 5000 });
     await optionLocator.click();
 }
+//step-1 click on red arrow
+//step-2 Navigate to the User Set / My Watch List and select "user set" from the dropdown of User Set / My Watch List 
+// step-3 After selection of the userset ,there is userset dropdown comesup 
+// step-4 Select the "test1-2" from the userset dropdown
+// setep -5 click on Green Arrow
+
+async mywatchlist(){
+    await this.page.locator("//select[@ng-model='SelectedId']").click();
+
+}
+
+async selectUserSet() {
+
+    await this.page.selectOption("//select[@ng-model='SelectedId']", "User Set");
+   // await this.page.locator("//option[normalize-space()='User Set']").click();
+
+}
+
+async selectUserset1(){
+    await this.page.locator("//button[normalize-space()='All User Set']").click();
+}
+async selectUsersetfromDropdown(){
+    await this.page.locator("//span[contains(text(),'test1-2')]").click();
+    await this.page.mouse.click(0, 0);
+    await this.page.waitForLoadState();
+ }
+
 }
 
 

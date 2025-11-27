@@ -219,5 +219,9 @@ async selectAllFundsAndDeleteWithConfirmation() {
 
 
 }
+async reloadpage() {
+  await this.page.reload();
+  await this.page.waitForLoadState('load');
 
+}
 }
